@@ -1,4 +1,4 @@
-package uk.ac.ebi.ddi.mw.extws.mw.utils;
+package uk.ac.ebi.ddi.massive.extws.massive.utils;
 
 /**
  * @author Yasset Perez-Riverol ypriverol

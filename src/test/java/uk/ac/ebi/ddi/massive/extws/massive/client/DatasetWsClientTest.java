@@ -9,6 +9,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.test.context.ContextConfiguration;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 import uk.ac.ebi.ddi.massive.extws.massive.config.MassiveWsConfigProd;
+import uk.ac.ebi.ddi.massive.extws.massive.model.DatasetDetail;
 import uk.ac.ebi.ddi.massive.extws.massive.model.DatasetList;
 
 import static org.junit.Assert.*;
@@ -43,6 +44,10 @@ public class DatasetWsClientTest {
 
     @Test
     public void testGetDataset() throws Exception {
+
+        DatasetDetail dataset = datasetWsClient.getDataset("9e98a8d3fd404615bdd064d75463f3c3");
+
+        System.out.println(dataset.toString());
 
     }
 }

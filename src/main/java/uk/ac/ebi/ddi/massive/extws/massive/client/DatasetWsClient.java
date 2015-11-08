@@ -5,8 +5,7 @@ import org.slf4j.LoggerFactory;
 
 import uk.ac.ebi.ddi.massive.extws.massive.config.AbstractMassiveWsConfig;
 import uk.ac.ebi.ddi.massive.extws.massive.model.*;
-
-import java.util.Map;
+import uk.ac.ebi.ddi.massive.extws.massive.utils.CustomHttpMessageConverter;
 
 
 /**
@@ -49,6 +48,7 @@ public class DatasetWsClient extends MassiveClient {
      * @return the DatasetDetail
      */
     public DatasetDetail getDataset(String task){
+        this.restTemplate.getMessageConverters().add(new CustomHttpMessageConverter());
         String url = String.format("%s://%s/MassiveServlet?task=%s&function=massiveinformation",
                 config.getProtocol(), config.getHostName(), task);
         //Todo: Needs to be removed in the future, this is for debugging

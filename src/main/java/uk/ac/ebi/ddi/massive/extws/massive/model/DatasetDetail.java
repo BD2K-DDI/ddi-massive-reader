@@ -3,13 +3,14 @@ package uk.ac.ebi.ddi.massive.extws.massive.model;
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import com.fasterxml.jackson.annotation.JsonProperty;
 
+import java.util.Arrays;
+
 /**
  * @author Yasset Perez-Riverol (ypriverol@gmail.com)
  * @date 06/11/15
  */
 
 @JsonIgnoreProperties(ignoreUnknown = true)
-
 public class DatasetDetail extends AbstractDataset{
 
     @JsonProperty("description")
@@ -131,5 +132,22 @@ public class DatasetDetail extends AbstractDataset{
 
     public void setFtp(String ftp) {
         this.ftp = ftp;
+    }
+
+    @Override
+    public String toString() {
+        return "DatasetDetail{" +
+                "description='" + description + '\'' +
+                ", id='" + id + '\'' +
+                ", publications=" + Arrays.toString(publications) +
+                ", pxAccession='" + pxAccession + '\'' +
+                ", converted='" + converted + '\'' +
+                ", subscriptions='" + subscriptions + '\'' +
+                ", fileSize='" + fileSize + '\'' +
+                ", hasAccess='" + hasAccess + '\'' +
+                ", fileCount='" + fileCount + '\'' +
+                ", keywords='" + keywords + '\'' +
+                ", ftp='" + ftp + '\'' +
+                '}';
     }
 }
