@@ -32,7 +32,8 @@ public class ReaderMWProject {
      * EBE exporter.
      * @return Project object model
      */
-    public static Project readProject(DatasetDetail dataset) throws Exception {
+    public static Project readProject(DatasetDetail dataset, List<Specie> species) throws Exception {
+
         Project proj = new Project();
 
         proj.setAccession(dataset.getId());
@@ -45,7 +46,7 @@ public class ReaderMWProject {
 
         proj.setInstrument(transformInstrument(dataset.getInstrument()));
 
-        proj.setSpecie(transformSpecies(dataset.getSpecies()));
+        proj.setSpecies(species);
 
         proj.setSubmitter(transformSubmitter(dataset.getPrincipalInvestigator()));
 
@@ -71,13 +72,28 @@ public class ReaderMWProject {
         return null;
     }
 
+
     private static Specie transformSpecies(String species) {
         return null;
     }
 
+    /**
+     * This function converts an Instrument String to a list of different Instruments, also it trim every
+     * Instrument to remove the corresponding whitespace at the end of the String.
+     * @param instrument
+     * @return
+     */
     private static Set<Instrument> transformInstrument(String instrument) {
-        return null;
+        Set<Instrument> instruments = new HashSet<>();
+        if(instrument != null && !instrument.isEmpty()){
+            String[] instrumentArray = instrument.split(Constants.MASSIVE_SEPARATOR);
+            for(String instrumentTrimed: instrumentArray)
+                instruments.add(new Instrument(null, instrumentTrimed.trim()));
+        }
+        return instruments;
     }
+
+
 
 
 }

@@ -23,6 +23,7 @@ public class DatasetWsClient extends MassiveClient {
      */
     public DatasetWsClient(AbstractMassiveWsConfig config) {
         super(config);
+        this.restTemplate.getMessageConverters().add(new CustomHttpMessageConverter());
 
     }
 
@@ -33,8 +34,7 @@ public class DatasetWsClient extends MassiveClient {
      * @return the DatasetDetail
      */
     public DatasetDetail getDataset(String task){
-        this.restTemplate.getMessageConverters().add(new CustomHttpMessageConverter());
-        this.restTemplate.getMessageConverters().add(new CharsetPostProcessor());
+
         String url = String.format("%s://%s/MassiveServlet?task=%s&function=massiveinformation",
                 config.getProtocol(), config.getHostName(), task);
         //Todo: Needs to be removed in the future, this is for debugging

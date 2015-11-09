@@ -4,6 +4,7 @@ import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import com.fasterxml.jackson.annotation.JsonProperty;
 
 import java.util.Arrays;
+import java.util.List;
 
 /**
  * @author Yasset Perez-Riverol (ypriverol@gmail.com)
@@ -45,6 +46,10 @@ public class DatasetDetail extends AbstractDataset{
 
     @JsonProperty("ftp")
     String ftp;
+
+    private List<String> taxonomy;
+
+    private int fileSizeKB = 0;
 
     public String getDescription() {
         return description;
@@ -134,6 +139,22 @@ public class DatasetDetail extends AbstractDataset{
         this.ftp = ftp;
     }
 
+    public void setTaxonomy(List<String> taxonomy) {
+        this.taxonomy = taxonomy;
+    }
+
+    public List<String> getTaxonomy() {
+        return taxonomy;
+    }
+
+    public int getFileSizeKB() {
+        return fileSizeKB;
+    }
+
+    public void setFileSizeKB(int fileSizeKB) {
+        this.fileSizeKB = fileSizeKB;
+    }
+
     @Override
     public String toString() {
         return "DatasetDetail{" +
@@ -150,4 +171,6 @@ public class DatasetDetail extends AbstractDataset{
                 ", ftp='" + ftp + '\'' +
                 '}';
     }
+
+
 }

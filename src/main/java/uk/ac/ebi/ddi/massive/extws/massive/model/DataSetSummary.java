@@ -27,10 +27,10 @@ public class DataSetSummary extends AbstractDataset{
     String createdMills;
 
     @JsonProperty("fileCount")
-    String fileCount;
+    Integer fileCount;
 
     @JsonProperty("fileSizeKB")
-    String fileSize;
+    Long fileSize;
 
     @JsonProperty("status")
     String status;
@@ -84,19 +84,19 @@ public class DataSetSummary extends AbstractDataset{
         this.createdMills = createdMills;
     }
 
-    public String getFileCount() {
+    public Integer getFileCount() {
         return fileCount;
     }
 
-    public void setFileCount(String fileCount) {
+    public void setFileCount(Integer fileCount) {
         this.fileCount = fileCount;
     }
 
-    public String getFileSize() {
+    public Long getFileSize() {
         return fileSize;
     }
 
-    public void setFileSize(String fileSize) {
+    public void setFileSize(Long fileSize) {
         this.fileSize = fileSize;
     }
 

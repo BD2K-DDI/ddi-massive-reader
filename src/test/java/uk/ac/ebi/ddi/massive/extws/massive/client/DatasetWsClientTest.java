@@ -36,7 +36,7 @@ public class DatasetWsClientTest {
     @Test
     public void testGetDataset() throws Exception {
 
-        DatasetDetail dataset = datasetWsClient.getDataset("9e98a8d3fd404615bdd064d75463f3c3");
+        DatasetDetail dataset = datasetWsClient.getDataset("e6ef1e57368e4282a4b33a15ae94ebbc");
 
         System.out.println(dataset.toString());
 

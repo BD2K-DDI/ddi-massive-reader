@@ -35,5 +35,6 @@ public class Constants {
     public static final String SRM_KEYWORD              = "SRM";
     public static final String PXURL                    = "http://proteomecentral.proteomexchange.org/cgi/GetDataset?ID=";
 
+    public static final String MASSIVE_SEPARATOR        = " \\| ";
 
 }
