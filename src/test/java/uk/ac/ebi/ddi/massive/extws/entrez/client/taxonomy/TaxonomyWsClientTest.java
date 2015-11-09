@@ -1,0 +1,25 @@
+package uk.ac.ebi.ddi.massive.extws.entrez.client.taxonomy;
+
+import org.junit.After;
+import org.junit.Before;
+import org.junit.Test;
+
+import static org.junit.Assert.*;
+
+public class TaxonomyWsClientTest {
+
+    @Before
+    public void setUp() throws Exception {
+
+    }
+
+    @After
+    public void tearDown() throws Exception {
+
+    }
+
+    @Test
+    public void testGetNCBITax() throws Exception {
+
+    }
+}
