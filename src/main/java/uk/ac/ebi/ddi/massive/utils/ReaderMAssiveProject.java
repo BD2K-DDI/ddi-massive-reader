@@ -74,7 +74,7 @@ public class ReaderMassiveProject {
         if(modification != null && !modification.isEmpty()){
             String[] modArray = modification.split(Constants.MASSIVE_SEPARATOR);
             for(String mod: modArray){
-                if(!mod.toLowerCase().contains("PRIDE:0000398".toLowerCase())){
+                if(!mod.toLowerCase().contains("PRIDE:0000398".toLowerCase()) && (mod.split("\"").length >=2)){
                     String name = mod.split("\"")[1];
                     modifications.add(new CvParam(null,name,null,null));
                 }
