@@ -56,7 +56,26 @@ public class ReaderMWProject {
 
         proj.setDataProcessingProtocol(transformDataProcessing(dataset));
 
+        proj.setProjectTags(transformKeywords(dataset.getKeywords()));
+
         return proj;
+    }
+
+    /**
+     * This function transform alist of keywords from Massive to a list of omicsDI tags
+     * also remove the whitespeace and the end of each word.
+     * @param keywords String with keywords from massive
+     * @return List of String Tags
+     */
+    private static List<String> transformKeywords(String keywords) {
+        List<String> resultKeys = new ArrayList<>();
+        if(keywords != null && !keywords.isEmpty()){
+            String[] instrumentArray = keywords.split(Constants.MASSIVE_SEPARATOR);
+            for(String key: instrumentArray)
+                resultKeys.add(key.trim());
+
+        }
+        return resultKeys;
     }
 
     private static List<String> transformDataProcessing(DatasetDetail dataset) {
@@ -68,12 +87,20 @@ public class ReaderMWProject {
 
     }
 
+    /**
+     * Convert the String date to a Date.
+     * @param created String date
+     * @return Date
+     */
     private static Date transformDate(String created) {
-        return null;
-    }
-
-
-    private static Specie transformSpecies(String species) {
+        if(created != null && !created.isEmpty()){
+            DateFormat df1 = new SimpleDateFormat("yyyy-MM-dd'T'HH:mm:ss.SSSZ");
+            try {
+                return df1.parse(created);
+            } catch (ParseException e) {
+                e.printStackTrace();
+            }
+        }
         return null;
     }
 

@@ -18,7 +18,7 @@ public class Project {
 
     private String projectDescription;
 
-    private List<Specie> specie;
+    private List<Specie> species;
 
     private Date submissionDate;
 
@@ -66,8 +66,8 @@ public class Project {
         return projectDescription;
     }
 
-    public List<Specie> getSpecie() {
-        return specie;
+    public List<Specie> getSpecies() {
+        return species;
     }
 
     public Date getSubmissionDate() {
@@ -107,7 +107,7 @@ public class Project {
     }
 
     public void setSpecies(List<Specie> species) {
-        this.specie = specie;
+        this.species = species;
     }
 
     public void setSubmissionDate(Date submissionDate) {

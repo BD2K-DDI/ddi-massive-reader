@@ -6,6 +6,7 @@ import org.w3c.dom.Document;
 import org.w3c.dom.Element;
 import uk.ac.ebi.ddi.massive.model.Instrument;
 import uk.ac.ebi.ddi.massive.model.Project;
+import uk.ac.ebi.ddi.massive.model.Specie;
 
 
 import javax.xml.parsers.DocumentBuilder;
@@ -123,23 +124,17 @@ public class WriterEBeyeXML {
             Element crossReferences = document.createElement("cross_references");
             entry.appendChild(crossReferences);
 
-            if (project.getSpecie() != null && project.getSpecie().getTaxId() != null) {
-                Element refSpecies = document.createElement("ref");
-                refSpecies.setAttribute("dbkey", project.getSpecie().getTaxId());
-                refSpecies.setAttribute("dbname", "TAXONOMY");
-                crossReferences.appendChild(refSpecies);
-            }
+            if (project.getSpecies() != null && !project.getSpecies().isEmpty()) {
+                for(Specie specie: project.getSpecies()){
+                    if(specie.getTaxId() != null && !specie.getTaxId().isEmpty()){
+                        Element refSpecies = document.createElement("ref");
+                        refSpecies.setAttribute("dbkey", specie.getTaxId());
+                        refSpecies.setAttribute("dbname", "TAXONOMY");
+                        crossReferences.appendChild(refSpecies);
+                    }
+                }
 
-//            if (project !=null && project.getMetaboligths() != null && project.getMetaboligths().size() > 0 ) {
-//                for (Metabolite met : project.getMetaboligths()) {
-//                    if(met != null && met.getChebi() != null){
-//                        Element refMet = document.createElement("ref");
-//                        refMet.setAttribute("dbkey", met.getChebi());
-//                        refMet.setAttribute("dbname", "ChEBI");
-//                        crossReferences.appendChild(refMet);
-//                    }
-//                }
-//            }
+            }
 
             Element dates = document.createElement("dates");
             entry.appendChild(dates);
@@ -217,12 +212,17 @@ public class WriterEBeyeXML {
                 }
             }
 
-            //Add information about the species
-            if (project.getSpecie()!=null && project.getSpecie().getName() != null) {
-                Element refSpecies = document.createElement("field");
-                refSpecies.setAttribute("name", "species");
-                refSpecies.appendChild(document.createTextNode(project.getSpecie().getName()));
-                additionalFields.appendChild(refSpecies);
+            //We add all the species to the
+            if (project.getSpecies()!=null && !project.getSpecies().isEmpty()) {
+                for(Specie specie: project.getSpecies()){
+                    if(specie.getName() != null && !specie.getName().isEmpty() && specie.getTaxId() == null){
+                        Element refSpecies = document.createElement("field");
+                        refSpecies.setAttribute("name", "species");
+                        refSpecies.appendChild(document.createTextNode(specie.getName()));
+                        additionalFields.appendChild(refSpecies);
+                    }
+                }
+
             } else {
                 Element refSpecies = document.createElement("field");
                 refSpecies.setAttribute("name", "species");
@@ -256,33 +256,6 @@ public class WriterEBeyeXML {
                 }
             }
 
-            /**
-             * Add the matabolite names for search purpose for extra reasons
-             */
-//            if(project.getMetaboligths() != null && project.getMetaboligths().size() > 0){
-//                for(Metabolite met: project.getMetaboligths()){
-//                    if(met != null && met.getName() != null){
-//                        Element metName = document.createElement("field");
-//                        metName.setAttribute("name", "metabolite_name");
-//                        metName.appendChild(document.createTextNode(met.getName()));
-//                        additionalFields.appendChild(metName);
-//                    }
-//                }
-//            }
-
-            /**
-             * Add the matabolite pubchem ids for search purpose for extra reasons
-             */
-//            if(project.getMetaboligths() != null && project.getMetaboligths().size() > 0){
-//                for(Metabolite met: project.getMetaboligths()){
-//                    if(met != null && met.getPubchem() != null){
-//                        Element metName = document.createElement("field");
-//                        metName.setAttribute("name", "pubchem_id");
-//                        metName.appendChild(document.createTextNode(met.getPubchem()));
-//                        additionalFields.appendChild(metName);
-//                    }
-//                }
-//            }
 
             //Add submitter information
             if(project.getSubmitter() != null){
