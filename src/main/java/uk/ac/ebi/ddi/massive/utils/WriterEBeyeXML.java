@@ -34,11 +34,9 @@ public class WriterEBeyeXML {
 
     private static final String NOT_AVAILABLE = "Not available";
 
-    private static final String OMICS_TYPE    = "Metabolomics";
-
     private static final String DEFAULT_EXPERIMENT_TYPE = "Mass Spectrometry";
 
-    private static final String METABOLOME_WORKBENCH_DESCRIPTION = "The Metabolomics Workbench will serve as a national and international repository for metabolomics data and metadata and will provide analysis tools and access to metabolite standards, protocols, tutorials, training, and more.";
+    private static final String MASSIVE_DESCRIPTION = "The Massive Database contains information about all the proteomics/metabolomics datasets in massive";
 
     private Project project;
 
@@ -83,7 +81,7 @@ public class WriterEBeyeXML {
 
             //Add the description of the database
             Element description = document.createElement("description");
-            description.appendChild(document.createTextNode(METABOLOME_WORKBENCH_DESCRIPTION));
+            description.appendChild(document.createTextNode(MASSIVE_DESCRIPTION));
             database.appendChild(description);
 
             //Database release
@@ -155,11 +153,14 @@ public class WriterEBeyeXML {
             entry.appendChild(additionalFields);
 
 
-            // Add the omics type
-            Element omicsType = document.createElement("field");
-            omicsType.setAttribute("name", "omics_type");
-            omicsType.appendChild(document.createTextNode(OMICS_TYPE));
-            additionalFields.appendChild(omicsType);
+            // One or multiple omics type, for the metabolomics ones the tag metabolomics must be added.
+            for(String type: project.getOmicsType()){
+                Element omicsType = document.createElement("field");
+                omicsType.setAttribute("name", "omics_type");
+                omicsType.appendChild(document.createTextNode(type));
+                additionalFields.appendChild(omicsType);
+            }
+
 
             if(project.getDatasetLink() != null){
                 Element repoLink = document.createElement("field");

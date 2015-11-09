@@ -27,6 +27,12 @@ public class Constants {
     public static final String PASSELURL_ACCESSION      = "MS:1002420";
     public static final String PUBMED_ACCESSION         = "MS:1000879";
 
+    public static final String METABOLOMICS_TYPE        = "Metabolomics";
+    public static final String PROTEOMICS_TYPE          = "Proteomics";
+
+    public static final String METABOLOMICS_PATTERN     = "metabolomi";
+    public static final String METABOLITE_PATTERN       = "metabolit";
+
 
 
     /**

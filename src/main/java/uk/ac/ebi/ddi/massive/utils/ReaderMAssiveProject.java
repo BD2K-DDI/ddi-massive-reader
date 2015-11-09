@@ -19,9 +19,9 @@ import java.util.*;
  * Reader using SAX the XML file
  * @author ypriverol
  */
-public class ReaderMWProject {
+public class ReaderMassiveProject {
 
-    private static final Logger logger = LoggerFactory.getLogger(ReaderMWProject.class);
+    private static final Logger logger = LoggerFactory.getLogger(ReaderMassiveProject.class);
 
     private static final String MASSIVE = "massive";
 
@@ -58,7 +58,22 @@ public class ReaderMWProject {
 
         proj.setProjectTags(transformKeywords(dataset.getKeywords()));
 
+        proj.setOmicsType(transformToOmicsType(dataset));
+
         return proj;
+    }
+
+    private static List<String> transformToOmicsType(DatasetDetail dataset) {
+        List<String> types = new ArrayList<>();
+        types.add(Constants.PROTEOMICS_TYPE);
+        if(dataset != null && dataset.getKeywords() != null){
+            if(dataset.getKeywords().toLowerCase().contains(Constants.METABOLOMICS_PATTERN) ||
+                    dataset.getKeywords().toLowerCase().contains(Constants.METABOLITE_PATTERN)){
+                types.add(Constants.METABOLOMICS_TYPE);
+                types.remove(Constants.PROTEOMICS_TYPE);
+            }
+        }
+        return types;
     }
 
     /**

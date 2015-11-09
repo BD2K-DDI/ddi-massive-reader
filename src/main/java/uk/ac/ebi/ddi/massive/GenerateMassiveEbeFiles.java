@@ -18,7 +18,7 @@ import uk.ac.ebi.ddi.massive.model.Project;
 
 import uk.ac.ebi.ddi.massive.model.Specie;
 import uk.ac.ebi.ddi.massive.utils.Constants;
-import uk.ac.ebi.ddi.massive.utils.ReaderMWProject;
+import uk.ac.ebi.ddi.massive.utils.ReaderMassiveProject;
 import uk.ac.ebi.ddi.massive.utils.WriterEBeyeXML;
 
 
@@ -105,7 +105,7 @@ public class GenerateMassiveEbeFiles {
                                     taxonomies.add(new Specie(datasetDetail.getSpecies(), null));
                             }
 
-                            Project proj = ReaderMWProject.readProject(datasetDetail, taxonomies);
+                            Project proj = ReaderMassiveProject.readProject(datasetDetail, taxonomies);
                             WriterEBeyeXML writer = new WriterEBeyeXML(proj, new File(outputFolder));
                             writer.generate();
                         }

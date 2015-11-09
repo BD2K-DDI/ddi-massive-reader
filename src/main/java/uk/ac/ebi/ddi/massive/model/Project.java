@@ -38,6 +38,8 @@ public class Project {
 
     private String hash = null;
 
+    private List<String> omicsType;
+
     /**
      * Default constructor create a List of every list-based attribute
      */
@@ -160,5 +162,13 @@ public class Project {
 
     public void setHash(String hash) {
         this.hash = hash;
+    }
+
+    public List<String> getOmicsType() {
+        return omicsType;
+    }
+
+    public void setOmicsType(List<String> omicsType) {
+        this.omicsType = omicsType;
     }
 }
