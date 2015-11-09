@@ -9,23 +9,22 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.test.context.ContextConfiguration;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 import uk.ac.ebi.ddi.massive.extws.massive.config.MassiveWsConfigProd;
-import uk.ac.ebi.ddi.massive.extws.massive.model.DatasetDetail;
 import uk.ac.ebi.ddi.massive.extws.massive.model.DatasetList;
 
 import static org.junit.Assert.*;
 
 @RunWith(SpringJUnit4ClassRunner.class)
 @ContextConfiguration(locations = {"classpath:test-context.xml"})
-public class DatasetWsClientTest {
+public class ISODetasetsWsClientTest {
 
     @Autowired
     MassiveWsConfigProd massiveWsConfig;
 
-    DatasetWsClient datasetWsClient;
+    ISODetasetsWsClient datasetWsClient;
 
     @Before
     public void setUp() throws Exception {
-        datasetWsClient = new DatasetWsClient(massiveWsConfig);
+        datasetWsClient = new ISODetasetsWsClient(massiveWsConfig);
     }
 
     @After
@@ -34,11 +33,11 @@ public class DatasetWsClientTest {
     }
 
     @Test
-    public void testGetDataset() throws Exception {
+    public void testGetAllDatasets() throws Exception {
 
-        DatasetDetail dataset = datasetWsClient.getDataset("9e98a8d3fd404615bdd064d75463f3c3");
+        DatasetList datasetList = datasetWsClient.getAllDatasets();
 
-        System.out.println(dataset.toString());
+        Assert.assertTrue(datasetList.getDatasets().length > 0);
 
     }
 }

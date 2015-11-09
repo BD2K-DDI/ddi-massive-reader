@@ -9,7 +9,6 @@ import com.fasterxml.jackson.annotation.JsonProperty;
  */
 
 @JsonIgnoreProperties(ignoreUnknown = true)
-
 public class DataSetSummary extends AbstractDataset{
 
     @JsonProperty("dataset")
@@ -61,14 +60,6 @@ public class DataSetSummary extends AbstractDataset{
         this.datasetNum = datasetNum;
     }
 
-    public String getSpecies() {
-        return species;
-    }
-
-    public void setSpecies(String species) {
-        this.species = species;
-    }
-
     public String getSite() {
         return site;
     }
@@ -99,14 +90,6 @@ public class DataSetSummary extends AbstractDataset{
 
     public void setFileCount(String fileCount) {
         this.fileCount = fileCount;
-    }
-
-    public String getCreated() {
-        return created;
-    }
-
-    public void setCreated(String created) {
-        this.created = created;
     }
 
     public String getFileSize() {
@@ -148,6 +131,8 @@ public class DataSetSummary extends AbstractDataset{
     public void setIds(String ids) {
         this.ids = ids;
     }
+
+
 
     @Override
     public String toString() {

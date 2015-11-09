@@ -1,31 +1,26 @@
 package uk.ac.ebi.ddi.massive.extws.massive.utils;
 
-import com.fasterxml.jackson.databind.JavaType;
-import com.fasterxml.jackson.databind.ObjectMapper;
-import org.apache.commons.io.IOUtils;
-import org.springframework.http.HttpInputMessage;
+import org.springframework.beans.BeansException;
+import org.springframework.beans.factory.InitializingBean;
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.ApplicationContextAware;
 import org.springframework.http.MediaType;
-import org.springframework.http.converter.HttpMessageNotReadableException;
-import org.springframework.http.converter.json.AbstractJackson2HttpMessageConverter;
-import org.springframework.http.converter.json.GsonHttpMessageConverter;
-import org.springframework.http.converter.json.MappingJackson2HttpMessageConverter;
+import org.springframework.http.converter.StringHttpMessageConverter;
 
-
-import java.io.IOException;
-import java.io.InputStream;
+import java.lang.reflect.Field;
+import java.lang.reflect.Modifier;
 import java.nio.charset.Charset;
 import java.util.Arrays;
 import java.util.List;
 
-
 /**
  * @author Yasset Perez-Riverol (ypriverol@gmail.com)
- * @date 19/05/2015
+ * @date 08/11/15
  */
+public class CharsetPostProcessor extends StringHttpMessageConverter {
 
-public class CustomHttpMessageConverter extends MappingJackson2HttpMessageConverter {
+    public CharsetPostProcessor(){
 
-    public CustomHttpMessageConverter() {
         List<MediaType> types = Arrays.asList(
                 new MediaType("text", "html", DEFAULT_CHARSET),
                 new MediaType("application", "json", DEFAULT_CHARSET),
@@ -34,5 +29,8 @@ public class CustomHttpMessageConverter extends MappingJackson2HttpMessageConver
                 new MediaType("text", "html", Charset.forName("ISO-8859-1"))
         );
         super.setSupportedMediaTypes(types);
+
     }
+
+
 }

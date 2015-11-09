@@ -1,7 +1,9 @@
 package uk.ac.ebi.ddi.massive.extws.massive.model;
 
+import com.fasterxml.jackson.annotation.JsonFormat;
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import com.fasterxml.jackson.annotation.JsonProperty;
+import com.fasterxml.jackson.databind.annotation.JsonDeserialize;
 
 /**
  * @author Yasset Perez-Riverol (ypriverol@gmail.com)

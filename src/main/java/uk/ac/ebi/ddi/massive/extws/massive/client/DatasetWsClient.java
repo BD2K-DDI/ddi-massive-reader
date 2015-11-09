@@ -5,6 +5,7 @@ import org.slf4j.LoggerFactory;
 
 import uk.ac.ebi.ddi.massive.extws.massive.config.AbstractMassiveWsConfig;
 import uk.ac.ebi.ddi.massive.extws.massive.model.*;
+import uk.ac.ebi.ddi.massive.extws.massive.utils.CharsetPostProcessor;
 import uk.ac.ebi.ddi.massive.extws.massive.utils.CustomHttpMessageConverter;
 
 
@@ -26,22 +27,6 @@ public class DatasetWsClient extends MassiveClient {
     }
 
     /**
-     * Returns the Datasets from MassiVe
-     * @return A list of entries and the facets included
-     */
-    public DatasetList getAllDatasets(){
-
-        String url = String.format("%s://%s/datasets_json.jsp",
-                config.getProtocol(), config.getHostName());
-        //Todo: Needs to be removed in the future, this is for debugging
-        logger.debug(url);
-
-
-        return this.restTemplate.getForObject(url, DatasetList.class);
-    }
-
-
-    /**
      * This function provides a way to retrieve the information of a dataset from Massive
      * Specially the metadata.
      * @param task the id of the dataset
@@ -49,6 +34,7 @@ public class DatasetWsClient extends MassiveClient {
      */
     public DatasetDetail getDataset(String task){
         this.restTemplate.getMessageConverters().add(new CustomHttpMessageConverter());
+        this.restTemplate.getMessageConverters().add(new CharsetPostProcessor());
         String url = String.format("%s://%s/MassiveServlet?task=%s&function=massiveinformation",
                 config.getProtocol(), config.getHostName(), task);
         //Todo: Needs to be removed in the future, this is for debugging
