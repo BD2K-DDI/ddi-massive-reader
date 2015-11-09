@@ -4,10 +4,7 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.w3c.dom.Document;
 import org.w3c.dom.Element;
-import uk.ac.ebi.ddi.massive.model.Instrument;
-import uk.ac.ebi.ddi.massive.model.Project;
-import uk.ac.ebi.ddi.massive.model.Reference;
-import uk.ac.ebi.ddi.massive.model.Specie;
+import uk.ac.ebi.ddi.massive.model.*;
 
 
 import javax.xml.parsers.DocumentBuilder;
@@ -243,6 +240,21 @@ public class WriterEBeyeXML {
                 refSpecies.setAttribute("name", "species");
                 refSpecies.appendChild(document.createTextNode(NOT_AVAILABLE));
                 additionalFields.appendChild(refSpecies);
+            }
+
+            //Add PTMs information
+            if (project.getModifications()!=null && project.getModifications().size()>0) {
+                for (CvParam ptmName : project.getModifications()) {
+                    Element modification = document.createElement("field");
+                    modification.setAttribute("name", "modification");
+                    modification.appendChild(document.createTextNode(ptmName.getName()));
+                    additionalFields.appendChild(modification);
+                }
+            } else {
+                Element modification = document.createElement("field");
+                modification.setAttribute("name", "modification");
+                modification.appendChild(document.createTextNode(NOT_AVAILABLE));
+                additionalFields.appendChild(modification);
             }
 
 //

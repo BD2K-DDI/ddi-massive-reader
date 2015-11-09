@@ -19,9 +19,6 @@ public class AbstractDataset {
     @JsonProperty("pi")
     String principalInvestigator;
 
-    @JsonProperty("modification")
-    String modification;
-
     @JsonProperty("instrument")
     String instrument;
 
@@ -68,14 +65,6 @@ public class AbstractDataset {
 
     public void setPrincipalInvestigator(String principalInvestigator) {
         this.principalInvestigator = principalInvestigator;
-    }
-
-    public String getModification() {
-        return modification;
-    }
-
-    public void setModification(String modification) {
-        this.modification = modification;
     }
 
     public String getInstrument() {
@@ -139,13 +128,13 @@ public class AbstractDataset {
         return "AbstractDataset{" +
                 "title='" + title + '\'' +
                 ", principalInvestigator='" + principalInvestigator + '\'' +
-                ", modification='" + modification + '\'' +
                 ", instrument='" + instrument + '\'' +
                 ", complete='" + complete + '\'' +
                 ", privateStatus='" + privateStatus + '\'' +
                 ", user='" + user + '\'' +
                 ", species='" + species + '\'' +
                 ", created='" + created + '\'' +
+                ", task='" + task + '\'' +
                 ", url='" + url + '\'' +
                 '}';
     }

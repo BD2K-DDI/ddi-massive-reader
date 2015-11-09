@@ -64,7 +64,23 @@ public class ReaderMassiveProject {
 
         proj.setReferences(transformReferences(dataset.getPublications()));
 
+        proj.setModifications(transformModifications(dataset.getModification()));
+
         return proj;
+    }
+
+    private static List<CvParam> transformModifications(String modification) {
+        List<CvParam> modifications = new ArrayList<>();
+        if(modification != null && !modification.isEmpty()){
+            String[] modArray = modification.split(Constants.MASSIVE_SEPARATOR);
+            for(String mod: modArray){
+                if(!mod.toLowerCase().contains("PRIDE:0000398".toLowerCase())){
+                    String name = mod.split("\"")[1];
+                    modifications.add(new CvParam(null,name,null,null));
+                }
+            }
+        }
+        return modifications;
     }
 
     /**

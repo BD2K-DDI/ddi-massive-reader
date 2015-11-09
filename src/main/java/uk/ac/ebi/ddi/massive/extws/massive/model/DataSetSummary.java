@@ -41,6 +41,17 @@ public class DataSetSummary extends AbstractDataset{
     @JsonProperty("id")
     String ids;
 
+    public String getModification() {
+        return modification;
+    }
+
+    public void setModification(String modification) {
+        this.modification = modification;
+    }
+
+    @JsonProperty("modification")
+    String modification;
+
     public String getId() {
         return id;
     }

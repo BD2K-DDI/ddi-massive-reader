@@ -44,8 +44,19 @@ public class DatasetDetail extends AbstractDataset{
     @JsonProperty("keywords")
     String keywords;
 
+    public String getModification() {
+        return modification;
+    }
+
+    public void setModification(String modification) {
+        this.modification = modification;
+    }
+
     @JsonProperty("ftp")
     String ftp;
+
+    @JsonProperty("modifications")
+    String modification;
 
     private List<String> taxonomy;
 
