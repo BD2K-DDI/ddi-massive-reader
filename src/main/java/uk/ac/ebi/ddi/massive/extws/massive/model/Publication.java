@@ -27,7 +27,7 @@ public class Publication {
     String publicationAbstract;
 
     @JsonProperty("pmid")
-    String pubmedId;
+    Integer pubmedId;
 
     @JsonProperty("pmcid")
     String pmcid;
@@ -72,11 +72,11 @@ public class Publication {
         this.publicationAbstract = publicationAbstract;
     }
 
-    public String getPubmedId() {
+    public Integer getPubmedId() {
         return pubmedId;
     }
 
-    public void setPubmedId(String pubmedId) {
+    public void setPubmedId(Integer pubmedId) {
         this.pubmedId = pubmedId;
     }
 

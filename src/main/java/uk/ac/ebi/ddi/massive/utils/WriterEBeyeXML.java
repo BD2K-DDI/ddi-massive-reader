@@ -6,6 +6,7 @@ import org.w3c.dom.Document;
 import org.w3c.dom.Element;
 import uk.ac.ebi.ddi.massive.model.Instrument;
 import uk.ac.ebi.ddi.massive.model.Project;
+import uk.ac.ebi.ddi.massive.model.Reference;
 import uk.ac.ebi.ddi.massive.model.Specie;
 
 
@@ -134,6 +135,19 @@ public class WriterEBeyeXML {
 
             }
 
+            if (project.getReferences() != null && !project.getReferences().isEmpty()) {
+                for(Reference reference: project.getReferences()){
+                    if(reference.getPubmedId() != null){
+                        Element citations = document.createElement("ref");
+                        citations.setAttribute("dbkey", reference.getPubmedId().toString());
+                        citations.setAttribute("dbname", "pubmed");
+                        crossReferences.appendChild(citations);
+                    }
+                }
+            }
+
+
+
             Element dates = document.createElement("dates");
             entry.appendChild(dates);
 
@@ -213,7 +227,7 @@ public class WriterEBeyeXML {
                 }
             }
 
-            //We add all the species to the
+            //We add all the species to as free text in case the information is not present
             if (project.getSpecies()!=null && !project.getSpecies().isEmpty()) {
                 for(Specie specie: project.getSpecies()){
                     if(specie.getName() != null && !specie.getName().isEmpty() && specie.getTaxId() == null){
@@ -230,6 +244,24 @@ public class WriterEBeyeXML {
                 refSpecies.appendChild(document.createTextNode(NOT_AVAILABLE));
                 additionalFields.appendChild(refSpecies);
             }
+
+//
+//            if (project.getSpecies()!=null && !project.getSpecies().isEmpty()) {
+//                for(Specie specie: project.getSpecies()){
+//                    if(specie.getName() != null && !specie.getName().isEmpty() && specie.getTaxId() == null){
+//                        Element refSpecies = document.createElement("field");
+//                        refSpecies.setAttribute("name", "species");
+//                        refSpecies.appendChild(document.createTextNode(specie.getName()));
+//                        additionalFields.appendChild(refSpecies);
+//                    }
+//                }
+//
+//            } else {
+//                Element refSpecies = document.createElement("field");
+//                refSpecies.setAttribute("name", "species");
+//                refSpecies.appendChild(document.createTextNode(NOT_AVAILABLE));
+//                additionalFields.appendChild(refSpecies);
+//            }
 
 
              //Add information about experiment type

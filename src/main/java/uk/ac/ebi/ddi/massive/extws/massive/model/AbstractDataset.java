@@ -41,6 +41,17 @@ public class AbstractDataset {
     @JsonProperty("created")
     String created;
 
+    public String getTask() {
+        return task;
+    }
+
+    public void setTask(String task) {
+        this.task = task;
+    }
+
+    @JsonProperty("task")
+    String task;
+
     String url;
 
     public String getTitle() {

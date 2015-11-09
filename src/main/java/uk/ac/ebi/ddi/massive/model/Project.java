@@ -40,6 +40,10 @@ public class Project {
 
     private List<String> omicsType;
 
+    private List<Reference> references;
+
+    private List<CvParam> modifications;
+
     /**
      * Default constructor create a List of every list-based attribute
      */
@@ -170,5 +174,21 @@ public class Project {
 
     public void setOmicsType(List<String> omicsType) {
         this.omicsType = omicsType;
+    }
+
+    public List<Reference> getReferences() {
+        return references;
+    }
+
+    public void setReferences(List<Reference> references) {
+        this.references = references;
+    }
+
+    public List<CvParam> getModifications() {
+        return modifications;
+    }
+
+    public void setModifications(List<CvParam> modifications) {
+        this.modifications = modifications;
     }
 }

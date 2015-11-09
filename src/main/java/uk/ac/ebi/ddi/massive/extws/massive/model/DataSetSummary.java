@@ -38,9 +38,6 @@ public class DataSetSummary extends AbstractDataset{
     @JsonProperty("hash")
     String hash;
 
-    @JsonProperty("task")
-    String task;
-
     @JsonProperty("id")
     String ids;
 
@@ -114,14 +111,6 @@ public class DataSetSummary extends AbstractDataset{
 
     public void setHash(String hash) {
         this.hash = hash;
-    }
-
-    public String getTask() {
-        return task;
-    }
-
-    public void setTask(String task) {
-        this.task = task;
     }
 
     public String getIds() {

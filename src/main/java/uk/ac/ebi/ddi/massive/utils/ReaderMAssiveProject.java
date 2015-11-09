@@ -3,10 +3,8 @@ package uk.ac.ebi.ddi.massive.utils;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import uk.ac.ebi.ddi.massive.extws.massive.model.DatasetDetail;
-import uk.ac.ebi.ddi.massive.model.Instrument;
-import uk.ac.ebi.ddi.massive.model.Project;
-import uk.ac.ebi.ddi.massive.model.Specie;
-import uk.ac.ebi.ddi.massive.model.Submitter;
+import uk.ac.ebi.ddi.massive.extws.massive.model.Publication;
+import uk.ac.ebi.ddi.massive.model.*;
 
 
 import java.text.DateFormat;
@@ -60,7 +58,34 @@ public class ReaderMassiveProject {
 
         proj.setOmicsType(transformToOmicsType(dataset));
 
+        proj.setHash(dataset.getTask());
+
+        proj.setDatasetLink(MASSIVE_LINK+dataset.getTask()+"&view=advanced_view");
+
+        proj.setReferences(transformReferences(dataset.getPublications()));
+
         return proj;
+    }
+
+    /**
+     * Convert citations from Massive to References
+     * @param publications
+     * @return
+     */
+    private static List<Reference> transformReferences(Publication[] publications) {
+        List<Reference> references = new ArrayList<>();
+        if(publications != null && publications.length > 0){
+            for(Publication publication:publications){
+                if(publication != null){
+                    String citation = (publication.getTitle() != null)?publication.getTitle():"";
+                    citation = (publication.getAuthors() != null)? citation + ". " + publication.getAuthors():citation;
+                    citation = (publication.getCitation() != null)?citation + ". " + publication.getCitation():citation;
+                    references.add(new Reference(publication.getPubmedId(), (citation.isEmpty())?null:citation));
+                }
+            }
+        }
+        return references;
+
     }
 
     private static List<String> transformToOmicsType(DatasetDetail dataset) {

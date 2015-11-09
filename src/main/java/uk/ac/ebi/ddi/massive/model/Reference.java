@@ -11,6 +11,14 @@ public class Reference {
 
     private String referenceLine;
 
+    public Reference() {
+    }
+
+    public Reference(Integer pubmedId, String referenceLine) {
+        this.pubmedId = pubmedId;
+        this.referenceLine = referenceLine;
+    }
+
     public Integer getPubmedId() {
         return pubmedId;
     }
