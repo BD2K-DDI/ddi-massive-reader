@@ -1,0 +1,30 @@
+<database>
+  <name>massive</name>
+  <description>The Massive Database contains information about all the proteomics/metabolomics datasets in massive</description>
+  <release>1.0</release>
+  <release_date>15-11-10</release_date>
+  <entry_count>1</entry_count>
+  <entries>
+    <entry id="MSV000078521">
+      <name>Orbitrap Velos: narrow-range, defined mixtures for quantitative proteomics (PubMed ID: 23879310)</name>
+      <description>These five Orbi Velos replicates of samples A and B represent 36 proteins from the Sigma UPS1 that have been mixed in defined concentrations that span a narrow dynamic range.  These "NRD A" and "NRD B" mixtures have, in turn, been spiked into Agilent Pyrococcus furiosus lysate.</description>
+      <cross_references>
+        <ref dbkey="9606" dbname="TAXONOMY"/>
+        <ref dbkey="2261" dbname="TAXONOMY"/>
+        <ref dbkey="23879310" dbname="pubmed"/>
+      </cross_references>
+      <dates>
+        <date type="submission" value="14-01-10"/>
+      </dates>
+      <additional_fields>
+        <field name="omics_type">Proteomics</field>
+        <field name="full_dataset_link">http://massive.ucsd.edu/ProteoSAFe/result.jsp?task=ae8a83b05fd248fd88119d43534a72e3&amp;view=advanced_view</field>
+        <field name="repository">massive</field>
+        <field name="instrument_platform">LTQ Orbitrap Velos</field>
+        <field name="modification">Not available</field>
+        <field name="technology_type">Not available</field>
+        <field name="submitter">Daniel C. Liebler</field>
+      </additional_fields>
+    </entry>
+  </entries>
+</database>

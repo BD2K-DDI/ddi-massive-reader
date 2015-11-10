@@ -1,0 +1,31 @@
+<database>
+  <name>massive</name>
+  <description>The Massive Database contains information about all the proteomics/metabolomics datasets in massive</description>
+  <release>1.0</release>
+  <release_date>15-11-10</release_date>
+  <entry_count>1</entry_count>
+  <entries>
+    <entry id="MSV000078989">
+      <name>So_Kinase_Networks_in_TRAIL_induced_apoptosis</name>
+      <description>This submission consists of the mass spectrometry raw files for the manuscript by So et al. (Kinase Networks in TRAIL induced apoptosis). This submission contains files for the data presented as  supplementary tables 5 (interaction network of 104 protein kinases in DLD-1 cells) acquired on a QSTAR Elite and table  7 (global phosphorylation analysis of TRAIL-stimulated DLD-1 cells) acquired on an LTQ Orbitrap.   See the README file within "Methods" and the accompanying File description.</description>
+      <cross_references>
+        <ref dbkey="9606" dbname="TAXONOMY"/>
+      </cross_references>
+      <dates>
+        <date type="submission" value="15-01-09"/>
+      </dates>
+      <additional_fields>
+        <field name="omics_type">Proteomics</field>
+        <field name="full_dataset_link">http://massive.ucsd.edu/ProteoSAFe/result.jsp?task=3ff2b351f9a54f7faf5e4fefc9c45cb4&amp;view=advanced_view</field>
+        <field name="repository">massive</field>
+        <field name="instrument_platform">QSTAR Elite</field>
+        <field name="modification">Phosphorylation.</field>
+        <field name="technology_type">Not available</field>
+        <field name="curator_keywords">proteomics</field>
+        <field name="curator_keywords">affinity purification</field>
+        <field name="curator_keywords">protein kinases</field>
+        <field name="submitter">Karen Colwill</field>
+      </additional_fields>
+    </entry>
+  </entries>
+</database>

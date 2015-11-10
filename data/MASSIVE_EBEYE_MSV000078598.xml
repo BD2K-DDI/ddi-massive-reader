@@ -1,0 +1,29 @@
+<database>
+  <name>massive</name>
+  <description>The Massive Database contains information about all the proteomics/metabolomics datasets in massive</description>
+  <release>1.0</release>
+  <release_date>15-11-10</release_date>
+  <entry_count>1</entry_count>
+  <entries>
+    <entry id="MSV000078598">
+      <name>GNPS Southern Line Islands Coral Interactions metabolome</name>
+      <description>Ethyl Acetate and Methanol extracted metabolomes from coral interacting with various other reef algae. Maxis LC-MS/MS</description>
+      <cross_references>
+        <ref dbkey="6127" dbname="TAXONOMY"/>
+        <ref dbkey="46719" dbname="TAXONOMY"/>
+      </cross_references>
+      <dates>
+        <date type="submission" value="14-04-17"/>
+      </dates>
+      <additional_fields>
+        <field name="omics_type">Metabolomics</field>
+        <field name="full_dataset_link">http://massive.ucsd.edu/ProteoSAFe/result.jsp?task=9365dda0c34e43c8b7632527cf9b06b9&amp;view=advanced_view</field>
+        <field name="repository">massive</field>
+        <field name="instrument_platform">maXis</field>
+        <field name="modification">Not available</field>
+        <field name="technology_type">Not available</field>
+        <field name="submitter">Rohwer/Dorrestein</field>
+      </additional_fields>
+    </entry>
+  </entries>
+</database>

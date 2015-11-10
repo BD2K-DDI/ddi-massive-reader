@@ -1,0 +1,32 @@
+<database>
+  <name>massive</name>
+  <description>The Massive Database contains information about all the proteomics/metabolomics datasets in massive</description>
+  <release>1.0</release>
+  <release_date>15-11-10</release_date>
+  <entry_count>1</entry_count>
+  <entries>
+    <entry id="MSV000078573">
+      <name>Clawing through evolution: Toxin diversification/convergence in the lineage Chilopoda (Centipedes)</name>
+      <description>Undheim EAB, Jones A, Clauser KR, Holland JW, Pineda SS, King GF, Fry BG.  Mol Biol Evol, 2014 31: p?-?.</description>
+      <cross_references>
+        <ref dbkey="24847043" dbname="pubmed"/>
+      </cross_references>
+      <dates>
+        <date type="submission" value="14-04-02"/>
+      </dates>
+      <additional_fields>
+        <field name="omics_type">Proteomics</field>
+        <field name="full_dataset_link">http://massive.ucsd.edu/ProteoSAFe/result.jsp?task=98bdce50985e43b4af23f181b9b99217&amp;view=advanced_view</field>
+        <field name="repository">massive</field>
+        <field name="instrument_platform">LTQ Orbitrap Elite</field>
+        <field name="species">Ethmostigmus rubripes(Centipede)</field>
+        <field name="species">Scolopendra morsitans(Centipede)</field>
+        <field name="species">Cormocephalus westwoodi(Centipede)</field>
+        <field name="species">Thereuopoda longicornis(Centipede)</field>
+        <field name="modification">Not available</field>
+        <field name="technology_type">Not available</field>
+        <field name="submitter">Steven A. Carr</field>
+      </additional_fields>
+    </entry>
+  </entries>
+</database>

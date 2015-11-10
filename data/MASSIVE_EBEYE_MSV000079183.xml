@@ -1,0 +1,31 @@
+<database>
+  <name>massive</name>
+  <description>The Massive Database contains information about all the proteomics/metabolomics datasets in massive</description>
+  <release>1.0</release>
+  <release_date>15-11-10</release_date>
+  <entry_count>1</entry_count>
+  <entries>
+    <entry id="MSV000079183">
+      <name>Miguel Teixeira</name>
+      <description>Membrane proteome-wide response to the antifungal drug clotrimazole in Candida glabrata: role of the transcription factor CgPdr1 and the Drug:H+ Antiporters CgTpo1_1 and CgTpo1_2&#13;
+</description>
+      <cross_references>
+        <ref dbkey="5478" dbname="TAXONOMY"/>
+      </cross_references>
+      <dates>
+        <date type="submission" value="15-07-06"/>
+      </dates>
+      <additional_fields>
+        <field name="omics_type">Proteomics</field>
+        <field name="full_dataset_link">http://massive.ucsd.edu/ProteoSAFe/result.jsp?task=ebdaf334b1c84d6795b0f1922b526883&amp;view=advanced_view</field>
+        <field name="repository">massive</field>
+        <field name="instrument_platform">TripleTOF 5600</field>
+        <field name="modification">A protein modification that effectively converts an L-cysteine residue to S-carboxamidomethyl-L-cysteine.</field>
+        <field name="modification">Oxidation or Hydroxylation.</field>
+        <field name="technology_type">Not available</field>
+        <field name="curator_keywords">Proteomics</field>
+        <field name="submitter">Miguel Teixeira</field>
+      </additional_fields>
+    </entry>
+  </entries>
+</database>

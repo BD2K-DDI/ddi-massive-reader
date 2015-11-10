@@ -1,0 +1,35 @@
+<database>
+  <name>massive</name>
+  <description>The Massive Database contains information about all the proteomics/metabolomics datasets in massive</description>
+  <release>1.0</release>
+  <release_date>15-11-10</release_date>
+  <entry_count>1</entry_count>
+  <entries>
+    <entry id="MSV000079343">
+      <name>Mouse lung proteome response to a wild type infectious clone of H7N9 Influenza virus and mutants</name>
+      <description>Proteomic data from mouse lung; Treated with wild-type and mutant H7N9 and mockulum; Time points 1, 2, 4 &amp; 7 days; 5 biological replicates</description>
+      <cross_references>
+        <ref dbkey="10090" dbname="TAXONOMY"/>
+      </cross_references>
+      <dates>
+        <date type="submission" value="15-10-02"/>
+      </dates>
+      <additional_fields>
+        <field name="omics_type">Proteomics</field>
+        <field name="full_dataset_link">http://massive.ucsd.edu/ProteoSAFe/result.jsp?task=2b16a42bc8144e9cb176cd0a4d800946&amp;view=advanced_view</field>
+        <field name="repository">massive</field>
+        <field name="instrument_platform">Exactive</field>
+        <field name="instrument_platform">LTQ Orbitrap</field>
+        <field name="modification">Oxidation or Hydroxylation.</field>
+        <field name="modification">Iodoacetamide derivative.</field>
+        <field name="technology_type">Not available</field>
+        <field name="curator_keywords">omics</field>
+        <field name="curator_keywords">H7N9</field>
+        <field name="submitter">Yoshihiro Kawaoka</field>
+        <field name="submitter">Katrina Waters</field>
+        <field name="submitter"/>
+        <field name="submitter">Thomas Metz</field>
+      </additional_fields>
+    </entry>
+  </entries>
+</database>

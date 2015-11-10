@@ -1,0 +1,33 @@
+<database>
+  <name>massive</name>
+  <description>The Massive Database contains information about all the proteomics/metabolomics datasets in massive</description>
+  <release>1.0</release>
+  <release_date>15-11-10</release_date>
+  <entry_count>1</entry_count>
+  <entries>
+    <entry id="MSV000079099">
+      <name>GNPS Tomato Plant 3D Swabs with controls </name>
+      <description>A small tomato plant from the Dorrestein garden was swabbed with ethyl acetate soaked swabs.  This data contains 82 swabs taken from stem, branches, leaves and surrounding soil, as well as several sampling controls (swabs with no sample contact), and technical controls run on the instrument before the samples.  </description>
+      <cross_references>
+        <ref dbkey="44770" dbname="TAXONOMY"/>
+      </cross_references>
+      <dates>
+        <date type="submission" value="15-04-08"/>
+      </dates>
+      <additional_fields>
+        <field name="omics_type">Metabolomics</field>
+        <field name="full_dataset_link">http://massive.ucsd.edu/ProteoSAFe/result.jsp?task=fb429f3627bb46508f3ac953cd77ffb8&amp;view=advanced_view</field>
+        <field name="repository">massive</field>
+        <field name="instrument_platform">micrOTOF-Q II</field>
+        <field name="species">unidentified plant colonizing microorganisms</field>
+        <field name="modification">Not available</field>
+        <field name="technology_type">Not available</field>
+        <field name="curator_keywords">plants</field>
+        <field name="curator_keywords">microbiome</field>
+        <field name="curator_keywords">soil</field>
+        <field name="curator_keywords">3D</field>
+        <field name="submitter">Dorrestein</field>
+      </additional_fields>
+    </entry>
+  </entries>
+</database>

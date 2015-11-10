@@ -1,0 +1,29 @@
+<database>
+  <name>massive</name>
+  <description>The Massive Database contains information about all the proteomics/metabolomics datasets in massive</description>
+  <release>1.0</release>
+  <release_date>15-11-10</release_date>
+  <entry_count>1</entry_count>
+  <entries>
+    <entry id="MSV000079373">
+      <name>A chemical and enzymatic approach to study site-specific sumoylation reveals functions of E1 sumoylation</name>
+      <description>A variety of cellular pathways are regulated by post-translational modifications of proteins by ubiquitin-family proteins, including ubiquitin and the Small Ubiquitin-like MOdifier (SUMO), by a cascade reaction catalyzed by E1, E2, and E3 enzymes. A major barrier to understanding the diverse regulatory roles of SUMO has been a lack of suitable methods to identify protein sumoylation sites. Here we developed a high-throughput mass-spectrometry (MS) based method combining chemical and enzymatic modifications to identify sumoylation sites. We applied this method for a proteome-wide analysis of protein sumoylation sites in Saccharomyces cerevisiae. Among the proteins we identified were Aos1 and Uba2, two subunits of the E1 enzyme, which we found to be extensively sumoylated. The sumoylation sites of Aos1 and Uba2 were further analyzed to both validate our method and investigate the role of auto-sumoylation of Aos1 and Uba2 in their regulation. Interestingly, mutations that eliminated the bulk of Uba2 sumoylation caused lethality. Further analyses showed that two conserved sumoylation sites of Uba2 have a redundant function in regulating cell growth, but have distinct roles in substrate-specific sumoylation. Taken together, these findings establish a general approach to study site-specific sumoylation and uncover functions of E1 enzyme auto-sumoylation.</description>
+      <cross_references>
+        <ref dbkey="4932" dbname="TAXONOMY"/>
+      </cross_references>
+      <dates>
+        <date type="submission" value="15-11-09"/>
+      </dates>
+      <additional_fields>
+        <field name="omics_type">Proteomics</field>
+        <field name="full_dataset_link">http://massive.ucsd.edu/ProteoSAFe/result.jsp?task=a0db6d0a63dd4bb6b1684334404e9e5e&amp;view=advanced_view</field>
+        <field name="repository">massive</field>
+        <field name="instrument_platform">LTQ Orbitrap</field>
+        <field name="modification">Not available</field>
+        <field name="technology_type">Not available</field>
+        <field name="curator_keywords">SUMO</field>
+        <field name="submitter">Huilin Zhou</field>
+      </additional_fields>
+    </entry>
+  </entries>
+</database>

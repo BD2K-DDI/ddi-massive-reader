@@ -1,0 +1,28 @@
+<database>
+  <name>massive</name>
+  <description>The Massive Database contains information about all the proteomics/metabolomics datasets in massive</description>
+  <release>1.0</release>
+  <release_date>15-11-10</release_date>
+  <entry_count>1</entry_count>
+  <entries>
+    <entry id="MSV000078570">
+      <name>GNPS - A. odontolyticus/Candidatus Saccaribacteria oral taxon TM7x monoculture/coculture</name>
+      <description>These LCMS spectra were obtained to elucidate if unique small-molecules are excreted by the bacterial host Actinomyces odintolyticus and its epibiont Candidatus Saccaribacteria oral taxon TM7x while growing in co-culture. Candidatus Saccaribacteria oral taxon TM7x cannot grow by it self in mono-culture. </description>
+      <cross_references/>
+      <dates>
+        <date type="submission" value="14-03-26"/>
+      </dates>
+      <additional_fields>
+        <field name="omics_type">Metabolomics</field>
+        <field name="full_dataset_link">http://massive.ucsd.edu/ProteoSAFe/result.jsp?task=482fb9a98a8c4690bcc38e347fbeb622&amp;view=advanced_view</field>
+        <field name="repository">massive</field>
+        <field name="instrument_platform">6520 Quadrupole Time-of-Flight LC/MS</field>
+        <field name="species">Candidatus Saccaribacteria oral taxon TM7x</field>
+        <field name="modification">Not available</field>
+        <field name="technology_type">Not available</field>
+        <field name="submitter">Jeffrey McLean</field>
+        <field name="submitter">Xuesong He</field>
+      </additional_fields>
+    </entry>
+  </entries>
+</database>

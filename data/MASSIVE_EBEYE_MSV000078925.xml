@@ -1,0 +1,34 @@
+<database>
+  <name>massive</name>
+  <description>The Massive Database contains information about all the proteomics/metabolomics datasets in massive</description>
+  <release>1.0</release>
+  <release_date>15-11-10</release_date>
+  <entry_count>1</entry_count>
+  <entries>
+    <entry id="MSV000078925">
+      <name>GNPS-In vitro reaction of CYP450 Bmp7 with 2,4-dibromophenol substrate</name>
+      <description>In vitro reaction of CYP450 Bmp7 with 2,4-dibromophenol substrate</description>
+      <cross_references>
+        <ref dbkey="25061970" dbname="pubmed"/>
+        <ref dbkey="24974229" dbname="pubmed"/>
+      </cross_references>
+      <dates>
+        <date type="submission" value="14-11-05"/>
+      </dates>
+      <additional_fields>
+        <field name="omics_type">Metabolomics</field>
+        <field name="full_dataset_link">http://massive.ucsd.edu/ProteoSAFe/result.jsp?task=cdbc7d1304834434b1fd43c2fc2b7168&amp;view=advanced_view</field>
+        <field name="repository">massive</field>
+        <field name="instrument_platform">Agilent 6530 Accurate Mass Q-TOF</field>
+        <field name="species">In vitro reaction of CYP450 Bmp7 with 2,4-dibromophenol substrate</field>
+        <field name="modification">Not available</field>
+        <field name="technology_type">Not available</field>
+        <field name="curator_keywords">Polybrominated diphenyl ethers</field>
+        <field name="curator_keywords">PBDE</field>
+        <field name="curator_keywords">Polybrominated biphenyls</field>
+        <field name="curator_keywords">CYP450 Bmp7</field>
+        <field name="submitter">Bradley S Moore</field>
+      </additional_fields>
+    </entry>
+  </entries>
+</database>

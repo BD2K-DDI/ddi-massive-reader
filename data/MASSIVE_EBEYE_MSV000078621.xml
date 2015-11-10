@@ -1,0 +1,29 @@
+<database>
+  <name>massive</name>
+  <description>The Massive Database contains information about all the proteomics/metabolomics datasets in massive</description>
+  <release>1.0</release>
+  <release_date>15-11-10</release_date>
+  <entry_count>1</entry_count>
+  <entries>
+    <entry id="MSV000078621">
+      <name>GNPS Interaction between Pseudoalteromonas sp OT59 and Penicillium citrinum</name>
+      <description>MS/MS network analysis of OT59 and P. citrinum extracts. The various metabolite classes found are: alteramides, estatins, citrinin, bromoalterochromides, and citrinadins. </description>
+      <cross_references>
+        <ref dbkey="1460272" dbname="TAXONOMY"/>
+        <ref dbkey="5077" dbname="TAXONOMY"/>
+      </cross_references>
+      <dates>
+        <date type="submission" value="14-04-29"/>
+      </dates>
+      <additional_fields>
+        <field name="omics_type">Metabolomics</field>
+        <field name="full_dataset_link">http://massive.ucsd.edu/ProteoSAFe/result.jsp?task=b8db1955fec143d591bd05489293db09&amp;view=advanced_view</field>
+        <field name="repository">massive</field>
+        <field name="instrument_platform">LTQ FT</field>
+        <field name="modification">Not available</field>
+        <field name="technology_type">Not available</field>
+        <field name="submitter">Dorrestein</field>
+      </additional_fields>
+    </entry>
+  </entries>
+</database>

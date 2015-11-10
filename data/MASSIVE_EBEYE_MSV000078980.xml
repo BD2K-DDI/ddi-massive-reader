@@ -1,0 +1,31 @@
+<database>
+  <name>massive</name>
+  <description>The Massive Database contains information about all the proteomics/metabolomics datasets in massive</description>
+  <release>1.0</release>
+  <release_date>15-11-10</release_date>
+  <entry_count>1</entry_count>
+  <entries>
+    <entry id="MSV000078980">
+      <name>Functional proteomics defines a PRC2-G9A interaction network and reveals ZNF518B as a G9A regulator</name>
+      <description>null</description>
+      <cross_references>
+        <ref dbkey="10090" dbname="TAXONOMY"/>
+        <ref dbkey="25680957" dbname="pubmed"/>
+      </cross_references>
+      <dates>
+        <date type="submission" value="14-12-17"/>
+      </dates>
+      <additional_fields>
+        <field name="omics_type">Proteomics</field>
+        <field name="full_dataset_link">http://massive.ucsd.edu/ProteoSAFe/result.jsp?task=86ab0b7a619c42c9b8b6dd03baa812e4&amp;view=advanced_view</field>
+        <field name="repository">massive</field>
+        <field name="instrument_platform">Q Exactive</field>
+        <field name="modification">Iodoacetamide derivative.</field>
+        <field name="technology_type">Not available</field>
+        <field name="curator_keywords">proteomics</field>
+        <field name="curator_keywords">interaction network</field>
+        <field name="submitter">Steven A. Carr</field>
+      </additional_fields>
+    </entry>
+  </entries>
+</database>

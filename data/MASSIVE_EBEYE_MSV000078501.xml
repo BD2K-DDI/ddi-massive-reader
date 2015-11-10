@@ -1,0 +1,29 @@
+<database>
+  <name>massive</name>
+  <description>The Massive Database contains information about all the proteomics/metabolomics datasets in massive</description>
+  <release>1.0</release>
+  <release_date>15-11-10</release_date>
+  <entry_count>1</entry_count>
+  <entries>
+    <entry id="MSV000078501">
+      <name>Shotgun Protein Sequencing With Meta Contig Assembly</name>
+      <description>Guthals A, Clauser KR, Bandeira N. Mol Cell Proteomics 2012, 11, 1084-1096. doi:10.1074/mcp.M111.015768.
+Tranche_hash:s+8iy5TbHHydsOPmTf9yqotRGvkxeJPF8BXJxMxxZOnCRXqbje8wbn+Orpxr51YR3L0S2sZBTYljUdHUF35LjfTqeukAAAAAAv6xWQ==</description>
+      <cross_references>
+        <ref dbkey="22798278" dbname="pubmed"/>
+      </cross_references>
+      <dates>
+        <date type="submission" value="13-11-21"/>
+      </dates>
+      <additional_fields>
+        <field name="omics_type">Proteomics</field>
+        <field name="full_dataset_link">http://massive.ucsd.edu/ProteoSAFe/result.jsp?task=f508c0649ea543a98f5704db854718db&amp;view=advanced_view</field>
+        <field name="repository">massive</field>
+        <field name="instrument_platform">Not available</field>
+        <field name="modification">Not available</field>
+        <field name="technology_type">Not available</field>
+        <field name="submitter">null</field>
+      </additional_fields>
+    </entry>
+  </entries>
+</database>

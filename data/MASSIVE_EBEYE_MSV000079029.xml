@@ -1,0 +1,29 @@
+<database>
+  <name>massive</name>
+  <description>The Massive Database contains information about all the proteomics/metabolomics datasets in massive</description>
+  <release>1.0</release>
+  <release_date>15-11-10</release_date>
+  <entry_count>1</entry_count>
+  <entries>
+    <entry id="MSV000079029">
+      <name>GNPS_Freshwater_Cyanobacteria_Crudes_and_Fractions_University_of_Hawaii_at_Manoa</name>
+      <description>Extracts  of select strains from the UH Manoa culture collection. These are the crudes and select fractions (75% and 100% MeOH) after C8 chromatography</description>
+      <cross_references>
+        <ref dbkey="1117" dbname="TAXONOMY"/>
+      </cross_references>
+      <dates>
+        <date type="submission" value="15-02-02"/>
+      </dates>
+      <additional_fields>
+        <field name="omics_type">Metabolomics</field>
+        <field name="full_dataset_link">http://massive.ucsd.edu/ProteoSAFe/result.jsp?task=8d454318535a42109ddecea22f839e2f&amp;view=advanced_view</field>
+        <field name="repository">massive</field>
+        <field name="instrument_platform">microTOF LC</field>
+        <field name="modification">Not available</field>
+        <field name="technology_type">Not available</field>
+        <field name="curator_keywords">Freshwater Cyanobacteria</field>
+        <field name="submitter">Williams</field>
+      </additional_fields>
+    </entry>
+  </entries>
+</database>

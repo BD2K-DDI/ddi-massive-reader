@@ -1,0 +1,28 @@
+<database>
+  <name>massive</name>
+  <description>The Massive Database contains information about all the proteomics/metabolomics datasets in massive</description>
+  <release>1.0</release>
+  <release_date>15-11-10</release_date>
+  <entry_count>1</entry_count>
+  <entries>
+    <entry id="MSV000078992">
+      <name>GNPS CF sputum bacterial isolates</name>
+      <description>This is LC-MS/MS data on bacterial isolates from various CF sputum samples. The bacteria are grown on either artificial sputum medium (ASM) or ISP2 medium. If ASM medium, it is named in the filename, if not it is ISP2.</description>
+      <cross_references/>
+      <dates>
+        <date type="submission" value="15-01-14"/>
+      </dates>
+      <additional_fields>
+        <field name="omics_type">Metabolomics</field>
+        <field name="full_dataset_link">http://massive.ucsd.edu/ProteoSAFe/result.jsp?task=d8a51117201548e8b274d6a4e4c7a17e&amp;view=advanced_view</field>
+        <field name="repository">massive</field>
+        <field name="instrument_platform">maXis</field>
+        <field name="species">Bacteria</field>
+        <field name="modification">Not available</field>
+        <field name="technology_type">Not available</field>
+        <field name="curator_keywords">Cystic Fibrosis isolates</field>
+        <field name="submitter">Rohwer/Dorrestein</field>
+      </additional_fields>
+    </entry>
+  </entries>
+</database>

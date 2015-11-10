@@ -1,0 +1,31 @@
+<database>
+  <name>massive</name>
+  <description>The Massive Database contains information about all the proteomics/metabolomics datasets in massive</description>
+  <release>1.0</release>
+  <release_date>15-11-10</release_date>
+  <entry_count>1</entry_count>
+  <entries>
+    <entry id="MSV000078964">
+      <name>GNPS - Peanut Pathogen Interactions</name>
+      <description>GNPS - Peanut Pathogen Interactions</description>
+      <cross_references>
+        <ref dbkey="5059" dbname="TAXONOMY"/>
+        <ref dbkey="1091042" dbname="TAXONOMY"/>
+        <ref dbkey="267608" dbname="TAXONOMY"/>
+      </cross_references>
+      <dates>
+        <date type="submission" value="14-12-11"/>
+      </dates>
+      <additional_fields>
+        <field name="omics_type">Metabolomics</field>
+        <field name="full_dataset_link">http://massive.ucsd.edu/ProteoSAFe/result.jsp?task=deb3a7a6cfe5464783894b6af732f06b&amp;view=advanced_view</field>
+        <field name="repository">massive</field>
+        <field name="instrument_platform">LTQ FT</field>
+        <field name="modification">Not available</field>
+        <field name="technology_type">Not available</field>
+        <field name="curator_keywords">Peanuts, Interactions</field>
+        <field name="submitter">PC Dorrestein NP Keller</field>
+      </additional_fields>
+    </entry>
+  </entries>
+</database>

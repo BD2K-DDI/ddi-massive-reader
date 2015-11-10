@@ -1,0 +1,33 @@
+<database>
+  <name>massive</name>
+  <description>The Massive Database contains information about all the proteomics/metabolomics datasets in massive</description>
+  <release>1.0</release>
+  <release_date>15-11-10</release_date>
+  <entry_count>1</entry_count>
+  <entries>
+    <entry id="MSV000078900">
+      <name>GNPS_Lychnophora Endophytes Coculture 01</name>
+      <description>Coculture RLe1, RLe3, RLe7, RLe10 and FLe4 on ISP-2
+Coculture RLe7 and FLe4 on parboiled rice</description>
+      <cross_references/>
+      <dates>
+        <date type="submission" value="14-10-19"/>
+      </dates>
+      <additional_fields>
+        <field name="omics_type">Metabolomics</field>
+        <field name="full_dataset_link">http://massive.ucsd.edu/ProteoSAFe/result.jsp?task=819e4da9479d4f789687b7868cb8bc1b&amp;view=advanced_view</field>
+        <field name="repository">massive</field>
+        <field name="instrument_platform">Thermo Finnigan LTQ-FT-ICR</field>
+        <field name="species">Streptomyces cattleya RLe1</field>
+        <field name="species">Streptomyces mobaraensis RLe3</field>
+        <field name="species">Streptomyces albospinus RLe7</field>
+        <field name="species">Kitsatospora nipponensis RLe10</field>
+        <field name="species">Coniochaeta sp FLe4</field>
+        <field name="modification">Not available</field>
+        <field name="technology_type">Not available</field>
+        <field name="curator_keywords">Endophytes Streptomyces Coniochaeta Lychnophora</field>
+        <field name="submitter">Monica T Pupo</field>
+      </additional_fields>
+    </entry>
+  </entries>
+</database>

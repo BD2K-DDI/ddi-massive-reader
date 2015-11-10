@@ -1,0 +1,34 @@
+<database>
+  <name>massive</name>
+  <description>The Massive Database contains information about all the proteomics/metabolomics datasets in massive</description>
+  <release>1.0</release>
+  <release_date>15-11-10</release_date>
+  <entry_count>1</entry_count>
+  <entries>
+    <entry id="MSV000078890">
+      <name>IDENTIFICATION OF SUMO-2/3 MODIFIED PROTEINS ASSOCIATED WITH MITOTIC CHROMOSOMES</name>
+      <description>Sumoylation is essential for progression through mitosis, but the specific protein targets and functions remain poorly understood. In this study, we used chromosome spreads to more precisely define the localization of SUMO-2/3 to the inner-centromere and protein scaffold of mitotic chromosomes. We also developed methods to immune-purify proteins modified by endogenous, untagged SUMO-2/3 from mitotic chromosomes. Using these methods we identified 149 chromosome associated SUMO-2/3 substrates by nLC-ESI-MS/MS. Approximately one-third of the identified proteins have reported functions in mitosis. Consistent with SUMO-2/3 immunolocalization, we identified known centromere and kinetochore associated proteins, as well as chromosome scaffold associated proteins. Notably, &gt;30 proteins involved in chromatin modification or remodeling were identified. Our results provide insights into the roles of sumoylation as a regulator of chromatin structure and other diverse processes in mitosis. Furthermore, our purification and fractionation methodologies represent an important compliment to existing approaches to identify sumoylated proteins using exogenously expressed and tagged SUMOs.</description>
+      <cross_references>
+        <ref dbkey="9606" dbname="TAXONOMY"/>
+        <ref dbkey="25367092" dbname="pubmed"/>
+      </cross_references>
+      <dates>
+        <date type="submission" value="14-10-07"/>
+      </dates>
+      <additional_fields>
+        <field name="omics_type">Proteomics</field>
+        <field name="full_dataset_link">http://massive.ucsd.edu/ProteoSAFe/result.jsp?task=6629bcede9c340799a546362a8d29caf&amp;view=advanced_view</field>
+        <field name="repository">massive</field>
+        <field name="instrument_platform">LTQ Orbitrap Velos</field>
+        <field name="modification">N-ethylmaleimide on cysteines.</field>
+        <field name="modification">Ubiquitinylation residue.</field>
+        <field name="modification">Oxidation or Hydroxylation.</field>
+        <field name="technology_type">Not available</field>
+        <field name="curator_keywords">SUMO</field>
+        <field name="curator_keywords">mitosis</field>
+        <field name="curator_keywords">chromosome</field>
+        <field name="submitter">Michael Matunis</field>
+      </additional_fields>
+    </entry>
+  </entries>
+</database>

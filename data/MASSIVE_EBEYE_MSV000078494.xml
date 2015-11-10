@@ -1,0 +1,29 @@
+<database>
+  <name>massive</name>
+  <description>The Massive Database contains information about all the proteomics/metabolomics datasets in massive</description>
+  <release>1.0</release>
+  <release_date>15-11-10</release_date>
+  <entry_count>1</entry_count>
+  <entries>
+    <entry id="MSV000078494">
+      <name>The matrisome: in silico definition and in vivo characterization of tumor extracellular matrix</name>
+      <description>Naba A, Clauser KR, Hoersch S, Liu H, Carr SA, Hynes RO. Mol Cell Proteomics 2012, 11: M111.014647. doi:10.1074/mcp.M111.014647. PMCID:PMC3322572.
+Tranche_hash:onoKvMCC9umP0dW2GlZSGN/DVfz6tqoyRvsA16h351RjGJZiqjk0wWGYQB9+zPpRj+ASAgKsd779N0Td4250FCPJ6jUAAAAAAABFoQ==</description>
+      <cross_references>
+        <ref dbkey="22159717" dbname="pubmed"/>
+      </cross_references>
+      <dates>
+        <date type="submission" value="13-11-20"/>
+      </dates>
+      <additional_fields>
+        <field name="omics_type">Proteomics</field>
+        <field name="full_dataset_link">http://massive.ucsd.edu/ProteoSAFe/result.jsp?task=100eec8e080c44c781dca38626b1ce18&amp;view=advanced_view</field>
+        <field name="repository">massive</field>
+        <field name="instrument_platform">Not available</field>
+        <field name="modification">Not available</field>
+        <field name="technology_type">Not available</field>
+        <field name="submitter">null</field>
+      </additional_fields>
+    </entry>
+  </entries>
+</database>

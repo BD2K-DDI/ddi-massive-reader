@@ -1,0 +1,30 @@
+<database>
+  <name>massive</name>
+  <description>The Massive Database contains information about all the proteomics/metabolomics datasets in massive</description>
+  <release>1.0</release>
+  <release_date>15-11-10</release_date>
+  <entry_count>1</entry_count>
+  <entries>
+    <entry id="MSV000079080">
+      <name>Surface Proteome Analysis of Procyclic and Bloodstream forms of Trypanosoma brucei</name>
+      <description>Surface-exposed proteins of the bloodstream and procyclic forms of T. brucei were biotinylated, affinity purified using streptavidin, and analyzed by LC-MS/MS</description>
+      <cross_references>
+        <ref dbkey="5691" dbname="TAXONOMY"/>
+      </cross_references>
+      <dates>
+        <date type="submission" value="15-03-17"/>
+      </dates>
+      <additional_fields>
+        <field name="omics_type">Proteomics</field>
+        <field name="full_dataset_link">http://massive.ucsd.edu/ProteoSAFe/result.jsp?task=64858d308a5c4a619a0285e87f6a978c&amp;view=advanced_view</field>
+        <field name="repository">massive</field>
+        <field name="instrument_platform">Q Exactive</field>
+        <field name="instrument_platform">LTQ Orbitrap XL</field>
+        <field name="modification">Not available</field>
+        <field name="technology_type">Not available</field>
+        <field name="curator_keywords">surface proteome</field>
+        <field name="submitter">James Wohlschlegel</field>
+      </additional_fields>
+    </entry>
+  </entries>
+</database>

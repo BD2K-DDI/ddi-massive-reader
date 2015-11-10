@@ -1,0 +1,39 @@
+<database>
+  <name>massive</name>
+  <description>The Massive Database contains information about all the proteomics/metabolomics datasets in massive</description>
+  <release>1.0</release>
+  <release_date>15-11-10</release_date>
+  <entry_count>1</entry_count>
+  <entries>
+    <entry id="MSV000078551">
+      <name>GNPS - MS/MS networking guided analysis of molecule and gene cluster families - Figure 4</name>
+      <description>Paper Title: MS/MS networking guided analysis of molecule and gene cluster families
+
+Author List: Don Duy Nguyen, Cheng-Hsuan Wu, Wilna J. Moree, Anne Lamsa, Marnix H. Medema, Xiling Zhao, Ronnie G. Gavilan, Marystella Aparicio, Librada Atencio, Chanaye Jackson, Javier Ballesteros, Joel Sanchez, Jeramie D. Watrous, Vanessa V. Phelan, Corine van de Wiel, Roland D. Kersten, Samina Mehnaz, René De Mot, Elizabeth A. Shank, Pep Charusanti, Harish Nagarajan, Brendan M. Duggan, Bradley S. Moore, Nuno Bandeira, Bernhard Ø. Palsson, Kit Pogliano, Marcelino Gutiérrez, and Pieter C. Dorrestein
+
+Citation: Proc. Natl. Acad. Sci USA 2013 110(28):E2611-2620.  doi: 10.1073/pnas.1303471110
+
+PubMedID: 23798442
+
+Brief description of the data submitted: RAW files used to generate Figure 4.  Bacterial network of Pseudoalteromonas 04M1A, OT59, and piscicida with a cosine similarity score cutoff of 0.70.  This network was generated using nanoDESI-MS/MS.</description>
+      <cross_references>
+        <ref dbkey="23798442" dbname="pubmed"/>
+      </cross_references>
+      <dates>
+        <date type="submission" value="14-02-18"/>
+      </dates>
+      <additional_fields>
+        <field name="omics_type">Metabolomics</field>
+        <field name="full_dataset_link">http://massive.ucsd.edu/ProteoSAFe/result.jsp?task=56a3d63080d34aa9ba20a64801e16b66&amp;view=advanced_view</field>
+        <field name="repository">massive</field>
+        <field name="instrument_platform">LTQ FT</field>
+        <field name="species">Pseudoalteromonas OT59</field>
+        <field name="species">Pseudoalteromonas 04M1A</field>
+        <field name="species">Pseudoalteromonas piscicida JCM 20779T</field>
+        <field name="modification">Not available</field>
+        <field name="technology_type">Not available</field>
+        <field name="submitter">Pieter Dorrestein</field>
+      </additional_fields>
+    </entry>
+  </entries>
+</database>

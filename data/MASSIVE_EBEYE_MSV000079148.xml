@@ -1,0 +1,36 @@
+<database>
+  <name>massive</name>
+  <description>The Massive Database contains information about all the proteomics/metabolomics datasets in massive</description>
+  <release>1.0</release>
+  <release_date>15-11-10</release_date>
+  <entry_count>1</entry_count>
+  <entries>
+    <entry id="MSV000079148">
+      <name>Mouse dendritic cell proteome response to wild-type West Nile virus (WNV-NY)</name>
+      <description>Proteomics data from 2x105 dendritic cells; West Nile Virus treated, Untreated, Mockulum treated; Time points 0, 4, 8, 12, 24; Two biological replicates</description>
+      <cross_references>
+        <ref dbkey="10090" dbname="TAXONOMY"/>
+      </cross_references>
+      <dates>
+        <date type="submission" value="15-06-11"/>
+      </dates>
+      <additional_fields>
+        <field name="omics_type">Proteomics</field>
+        <field name="full_dataset_link">http://massive.ucsd.edu/ProteoSAFe/result.jsp?task=d6e43518fbac4144ab7026318f0e7fc6&amp;view=advanced_view</field>
+        <field name="repository">massive</field>
+        <field name="instrument_platform">LTQ Orbitrap Velos</field>
+        <field name="modification">Oxidation or Hydroxylation.</field>
+        <field name="modification">Iodoacetamide derivative.</field>
+        <field name="technology_type">Not available</field>
+        <field name="curator_keywords">omics</field>
+        <field name="curator_keywords">proteomics</field>
+        <field name="curator_keywords">West Nile Virus</field>
+        <field name="submitter">Yoshihiro Kawaoka</field>
+        <field name="submitter">Michael Diamond</field>
+        <field name="submitter">Katrina Waters</field>
+        <field name="submitter">Richard Smith</field>
+        <field name="submitter">Thomas Metz</field>
+      </additional_fields>
+    </entry>
+  </entries>
+</database>

@@ -1,0 +1,31 @@
+<database>
+  <name>massive</name>
+  <description>The Massive Database contains information about all the proteomics/metabolomics datasets in massive</description>
+  <release>1.0</release>
+  <release_date>15-11-10</release_date>
+  <entry_count>1</entry_count>
+  <entries>
+    <entry id="MSV000078817">
+      <name>GNPS - Large Pseudoalteromonas v1</name>
+      <description>250 strain collection of Pseudoalteromonas from the Technical University of Denmark and INDICASAT, Panama.</description>
+      <cross_references>
+        <ref dbkey="53246" dbname="TAXONOMY"/>
+      </cross_references>
+      <dates>
+        <date type="submission" value="14-08-22"/>
+      </dates>
+      <additional_fields>
+        <field name="omics_type">Metabolomics</field>
+        <field name="full_dataset_link">http://massive.ucsd.edu/ProteoSAFe/result.jsp?task=eb427ad78b5d455193f5c4c32f0e2f30&amp;view=advanced_view</field>
+        <field name="repository">massive</field>
+        <field name="instrument_platform">micrOTOF-Q II</field>
+        <field name="modification">Not available</field>
+        <field name="technology_type">Not available</field>
+        <field name="submitter">Pieter Dorrestein</field>
+        <field name="submitter">Lone Gram</field>
+        <field name="submitter">Marcelino Gutierrez</field>
+        <field name="submitter">Maria Mansson</field>
+      </additional_fields>
+    </entry>
+  </entries>
+</database>

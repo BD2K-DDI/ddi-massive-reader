@@ -1,0 +1,28 @@
+<database>
+  <name>massive</name>
+  <description>The Massive Database contains information about all the proteomics/metabolomics datasets in massive</description>
+  <release>1.0</release>
+  <release_date>15-11-10</release_date>
+  <entry_count>1</entry_count>
+  <entries>
+    <entry id="MSV000078646">
+      <name>GNPS_Protein identification from S. aureus JE2 and mutant agrC and clpP supernatant</name>
+      <description>Protein identification from SDS page gelbands by nLC-MS/MS analysis</description>
+      <cross_references>
+        <ref dbkey="1280" dbname="TAXONOMY"/>
+      </cross_references>
+      <dates>
+        <date type="submission" value="14-05-15"/>
+      </dates>
+      <additional_fields>
+        <field name="omics_type">Metabolomics</field>
+        <field name="full_dataset_link">http://massive.ucsd.edu/ProteoSAFe/result.jsp?task=6fcfbc3d61fd44f09a068d4172ab3489&amp;view=advanced_view</field>
+        <field name="repository">massive</field>
+        <field name="instrument_platform">Thermo Scientific Q-Exative MS</field>
+        <field name="modification">Not available</field>
+        <field name="technology_type">Not available</field>
+        <field name="submitter">Martin Overgaard</field>
+      </additional_fields>
+    </entry>
+  </entries>
+</database>

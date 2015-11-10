@@ -1,0 +1,30 @@
+<database>
+  <name>massive</name>
+  <description>The Massive Database contains information about all the proteomics/metabolomics datasets in massive</description>
+  <release>1.0</release>
+  <release_date>15-11-10</release_date>
+  <entry_count>1</entry_count>
+  <entries>
+    <entry id="MSV000078994">
+      <name>Dynamic profiling of the protein life cycle in response to pathogens</name>
+      <description>Jovanovic M,Rooney M, Mertins P, Przybylski D, Chevrier N, Satija R, Rodriguez EH, Fields AP, Schwartz S, Raychowdhury R, Mumbach M, Eisenhaure T, Rabani M, Gennert D, Lu D, Delorey T, Weissman JS, Carr SA, Hacohen N, Regev A, submitted 2015. Protein expression is regulated by production and degradation of mRNAs and proteins, but their specific relationships remain unknown. We combine measurements of protein production and degradation and mRNA dynamics to build a quantitative genomic model of the differential regulation of gene expression in LPS stimulated mouse dendritic cells. Changes in mRNA abundance play a dominant role in determining most dynamic fold changes in protein levels. Conversely, the preexisting proteome of proteins performing basic cellular functions is remodeled primarily through changes in protein production or degradation, accounting for over half of the absolute change in protein molecules in the cell. Thus, the proteome is regulated by transcriptional induction of novel cellular functions and remodeling of preexisting functions through the protein life cycle.</description>
+      <cross_references>
+        <ref dbkey="10090" dbname="TAXONOMY"/>
+        <ref dbkey="25745177" dbname="pubmed"/>
+      </cross_references>
+      <dates>
+        <date type="submission" value="15-01-15"/>
+      </dates>
+      <additional_fields>
+        <field name="omics_type">Proteomics</field>
+        <field name="full_dataset_link">http://massive.ucsd.edu/ProteoSAFe/result.jsp?task=2453195395cc4df98a31db269fc237f0&amp;view=advanced_view</field>
+        <field name="repository">massive</field>
+        <field name="instrument_platform">Q Exactive</field>
+        <field name="modification">Iodoacetamide derivative.</field>
+        <field name="technology_type">Not available</field>
+        <field name="curator_keywords">SILAC dendritic</field>
+        <field name="submitter">Steven A. Carr</field>
+      </additional_fields>
+    </entry>
+  </entries>
+</database>

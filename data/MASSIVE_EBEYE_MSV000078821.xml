@@ -1,0 +1,27 @@
+<database>
+  <name>massive</name>
+  <description>The Massive Database contains information about all the proteomics/metabolomics datasets in massive</description>
+  <release>1.0</release>
+  <release_date>15-11-10</release_date>
+  <entry_count>1</entry_count>
+  <entries>
+    <entry id="MSV000078821">
+      <name>ProteoWizard Signal Processing Evaluation: Agilent 6530 QqToF, Bovine 6 Mixture</name>
+      <description>ProteoWizard Signal Processing Evaluation: Agilent 6530 QqToF, Bovine 6 Mixture</description>
+      <cross_references/>
+      <dates>
+        <date type="submission" value="14-08-24"/>
+      </dates>
+      <additional_fields>
+        <field name="omics_type">Proteomics</field>
+        <field name="full_dataset_link">http://massive.ucsd.edu/ProteoSAFe/result.jsp?task=faf75a6d74494e8fa5c5ced0869d995c&amp;view=advanced_view</field>
+        <field name="repository">massive</field>
+        <field name="instrument_platform">Agilent 6530 QqToF</field>
+        <field name="species">Michrom Bovine 6 Mixture</field>
+        <field name="modification">Not available</field>
+        <field name="technology_type">Not available</field>
+        <field name="submitter">David Tabb</field>
+      </additional_fields>
+    </entry>
+  </entries>
+</database>

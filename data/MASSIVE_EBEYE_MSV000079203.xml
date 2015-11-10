@@ -1,0 +1,36 @@
+<database>
+  <name>massive</name>
+  <description>The Massive Database contains information about all the proteomics/metabolomics datasets in massive</description>
+  <release>1.0</release>
+  <release_date>15-11-10</release_date>
+  <entry_count>1</entry_count>
+  <entries>
+    <entry id="MSV000079203">
+      <name>Human plasma BOS iTRAQ</name>
+      <description>We compared 4 pools of plasma in the same iTRAQ proteomic experiment. The pool 1 contained plasma from twelve patients with strict BOS criteria and with plasma sample available at onset of the clinical symptoms (named BOS), pool 2 contained plasma from sixteen patients with pulmonary infections (infection), pool 3 contained plasma from fifteen patients with chronic GVHD without pulmonary involvement (CGVHD no lung), and pool 4 contained plasma from fifteen patients after transplant with no chronic complications (at similar time point as BOS samples) (no complications). Each pool contained 25 &amp;#956;l of plasma. &#13;
+&#13;
+The four pooled plasmas were then individually immunodepleted of the twenty common hyper-abundant proteins with a ProteoPrep®20 plasma immunodepletion kit (Sigma-Aldrich) according to manufacturer?s procedure. The cysteine residues were alkylated and all samples were trypsinized. Each pool was labeled with a different tag allowing for differential quantification. The samples were labeled in the following order: 1) BOS with 114, 2) Infection with 115, 3) cGVHD with 116, and 4) No complication with 117. The four pooled plasma samples were dissolved in buffer A (7mM potassium phosphate, 30% acetonitrile, pH 2.65) and combined right before fractionation with a SCX column (Zorbax 300-SCX 5µm, 2.1 x 150 mm, Agilent). The fractions were collected every minute at 200 µL/min flow rate from 1% solvent B (7mM potassium phosphate, 500 mM KCl, 30% acetonitrile, pH 2.65) to 60% over 40 minutes (1% B for 7 minutes, 6 to 15% B for 18 minutes, 15 to 34% B for 10 minutes, and 34 to 60% B for 5 minutes) as well as during column washing at 98% solvent B for 10 minutes. These fractions were consolidated into 11 fractions using the UV trace to distribute the peptide quantities to be similar. &#13;
+&#13;
+LC-MS/MS analysis was performed with an Easy-nLC 1000 (Thermo Scientific) coupled to an Orbitrap Elite mass spectrometer (Thermo Scientific). The peptide sample was diluted in 30 µL of 2% acetonitrile and 0.1% formic acid in water and 8-4 µL was loaded onto the column in triplicates and separated using a two-mobile-phase system consisting of 0.1% formic acid in water (A) and 0.1% formic acid in acetonitrile (B). A 90 minute gradient from 7% to 35% B at a flow rate of 400 nL/min was used for chromatographic separations. The mass spectrometer was operated in a data-dependent MS/MS mode over the m/z range of 400-1800. The mass resolution was set at 60,000.  For each cycle, the 10 most abundant ions from the scan were selected for MS/MS analysis using 40% normalized HCD collision energy and analyzed with an orbitrap with the resolution set to 15000. </description>
+      <cross_references>
+        <ref dbkey="9606" dbname="TAXONOMY"/>
+      </cross_references>
+      <dates>
+        <date type="submission" value="15-07-30"/>
+      </dates>
+      <additional_fields>
+        <field name="omics_type">Proteomics</field>
+        <field name="full_dataset_link">http://massive.ucsd.edu/ProteoSAFe/result.jsp?task=1183df47b532499bbddf93be8165e401&amp;view=advanced_view</field>
+        <field name="repository">massive</field>
+        <field name="instrument_platform">LTQ Orbitrap Elite</field>
+        <field name="modification">A protein modification that effectively replaces a hydrogen atom of a protein N-terminal with the Applied Biosystems iTRAQ4plex-114 reporter+balance group.</field>
+        <field name="modification">A protein modification that effectively replaces the N6'-hydrogen atom of a lysine residue with the Applied Biosystems iTRAQ4plex-114 reporter+balance group.</field>
+        <field name="modification">Iodoacetamide derivative.</field>
+        <field name="modification">Oxidation or Hydroxylation.</field>
+        <field name="technology_type">Not available</field>
+        <field name="curator_keywords">iTRAQ quantification BOS</field>
+        <field name="submitter">Sophie Paczesny</field>
+      </additional_fields>
+    </entry>
+  </entries>
+</database>

@@ -1,0 +1,30 @@
+<database>
+  <name>massive</name>
+  <description>The Massive Database contains information about all the proteomics/metabolomics datasets in massive</description>
+  <release>1.0</release>
+  <release_date>15-11-10</release_date>
+  <entry_count>1</entry_count>
+  <entries>
+    <entry id="MSV000078830">
+      <name>GNPS - P aeruginosa PA14 transposon library ethyl acetate/methanol extractions</name>
+      <description>LC-MS/MS analysis of ethyl acetate/methanol extractions of full P. aeruginosa PA14 transposon library from Ausubel lab at Harvard Medical School (http://ausubellab.mgh.harvard.edu/cgi-bin/pa14/home.cgi)
+
+Under 'Results Files' are two excel sheets. One excel sheet is the library information provided by the Ausubel lab.  The second excel sheet is a truncated version including mzXML file name, area under the curve for the internal standard and RAW growth values.</description>
+      <cross_references>
+        <ref dbkey="652611" dbname="TAXONOMY"/>
+      </cross_references>
+      <dates>
+        <date type="submission" value="14-08-26"/>
+      </dates>
+      <additional_fields>
+        <field name="omics_type">Metabolomics</field>
+        <field name="full_dataset_link">http://massive.ucsd.edu/ProteoSAFe/result.jsp?task=24f4d9c8eedb423b9965f192afdd44d9&amp;view=advanced_view</field>
+        <field name="repository">massive</field>
+        <field name="instrument_platform">microTOF LC</field>
+        <field name="modification">Not available</field>
+        <field name="technology_type">Not available</field>
+        <field name="submitter">Pieter Dorrestein</field>
+      </additional_fields>
+    </entry>
+  </entries>
+</database>

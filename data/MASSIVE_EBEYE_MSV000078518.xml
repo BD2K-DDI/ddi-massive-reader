@@ -1,0 +1,28 @@
+<database>
+  <name>massive</name>
+  <description>The Massive Database contains information about all the proteomics/metabolomics datasets in massive</description>
+  <release>1.0</release>
+  <release_date>15-11-10</release_date>
+  <entry_count>1</entry_count>
+  <entries>
+    <entry id="MSV000078518">
+      <name>Dingar_in_vivo-BioID_P103_VS6</name>
+      <description>This submission is the mass spectrometry dataset for the manuscript by Dingar et al. (In vivo BioID identifies CHD8 as a novel c-Myc interacting protein). See the README file within "Methods and Protocols" for the accompanying File descriptions.</description>
+      <cross_references>
+        <ref dbkey="25452129" dbname="pubmed"/>
+      </cross_references>
+      <dates>
+        <date type="submission" value="14-01-03"/>
+      </dates>
+      <additional_fields>
+        <field name="omics_type">Proteomics</field>
+        <field name="full_dataset_link">http://massive.ucsd.edu/ProteoSAFe/result.jsp?task=7d8d8c8e6c76499ba88c5ba8d66a1ccc&amp;view=advanced_view</field>
+        <field name="repository">massive</field>
+        <field name="instrument_platform">Not available</field>
+        <field name="modification">Not available</field>
+        <field name="technology_type">Not available</field>
+        <field name="submitter">null</field>
+      </additional_fields>
+    </entry>
+  </entries>
+</database>

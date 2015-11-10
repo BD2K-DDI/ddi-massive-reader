@@ -1,0 +1,33 @@
+<database>
+  <name>massive</name>
+  <description>The Massive Database contains information about all the proteomics/metabolomics datasets in massive</description>
+  <release>1.0</release>
+  <release_date>15-11-10</release_date>
+  <entry_count>1</entry_count>
+  <entries>
+    <entry id="MSV000079178">
+      <name>Integration-independent Transgenic Huntington Disease Fragment Mouse Models</name>
+      <description>Data from Integration-independent Transgenic Huntington Disease
+Fragment Mouse Models Reveal Distinct Phenotypes and Life
+Span in Vivo
+
+CoIP of HTT full length and fragment proteins from mouse cortical lysates. Controlled with preimmune mouse IgG IP.</description>
+      <cross_references>
+        <ref dbkey="10090" dbname="TAXONOMY"/>
+      </cross_references>
+      <dates>
+        <date type="submission" value="15-06-30"/>
+      </dates>
+      <additional_fields>
+        <field name="omics_type">Proteomics</field>
+        <field name="full_dataset_link">http://massive.ucsd.edu/ProteoSAFe/result.jsp?task=7a4617e1206f45259e16c95c3f631c3f&amp;view=advanced_view</field>
+        <field name="repository">massive</field>
+        <field name="instrument_platform">ABSciex 5600</field>
+        <field name="modification">Not available</field>
+        <field name="technology_type">Not available</field>
+        <field name="curator_keywords">Mouse Model, Huntingtin interacting proteins</field>
+        <field name="submitter">Lisa Ellerby</field>
+      </additional_fields>
+    </entry>
+  </entries>
+</database>

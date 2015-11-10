@@ -1,0 +1,36 @@
+<database>
+  <name>massive</name>
+  <description>The Massive Database contains information about all the proteomics/metabolomics datasets in massive</description>
+  <release>1.0</release>
+  <release_date>15-11-10</release_date>
+  <entry_count>1</entry_count>
+  <entries>
+    <entry id="MSV000079077">
+      <name>Multiplexed, scheduled high resolution sMRM-HR acquisition on full scan MS/MS instruments</name>
+      <description>Advances in software and high resolution, high mass accuracy mass spectrometers have expanded their functionality beyond traditional data dependent acquisition (DDA) methods.  Using a single platform, an orthogonal quadrupole time-of flight (QqTOF) mass spectrometer, the TripleTOF 5600, we have investigated the feasibility of implementing large-scale targeted quantitative assays, derived from discovery type data sets, using scheduled, high resolution multiple reaction monitoring (sMRM-HR) mass spectrometry.  We assessed the selectivity and reproducibility of MRM-HR, also referred to as parallel reaction monitoring (PRM), measuring standard peptide concentration curves as well as system suitability assays.  We specifically compared the robustness and accuracy of MRM-HR assays to traditional SRM workflows on triple quadrupole instruments.  To determine the utility of sMRM-HR for large-scale targeted quantitative assays, we retention time scheduled over 500 peptides in a single LC-MS acquisition.  High resolution and high mass accuracy of the full scan MS/MS spectra resulted in sufficient selectivity to monitor numerous MS/MS fragment ions per analyte precursor and provided flexibility for post-acquisition assay refinement and optimization. To demonstrate its applicability to biological samples, whole cell lysates from several E. coli wild-type and mutant strains were quantitatively assayed by sMRM-HR to confirm a previously generated candidate list of differentially expressed proteins.  The ease of developing and implementing sMRM-HR assays derived directly from DDA discovery workflows on the same high resolution instrument platform facilitates downstream validation studies targeting many peptides for MS/MS level quantitation. This work provides a robust MRM-HR workflow for rapidly moving from discovery analysis to large-scale, multiplexed, targeted quantitation.</description>
+      <cross_references>
+        <ref dbkey="9913" dbname="TAXONOMY"/>
+        <ref dbkey="4932" dbname="TAXONOMY"/>
+        <ref dbkey="562" dbname="TAXONOMY"/>
+        <ref dbkey="26398777" dbname="pubmed"/>
+      </cross_references>
+      <dates>
+        <date type="submission" value="15-03-10"/>
+      </dates>
+      <additional_fields>
+        <field name="omics_type">Proteomics</field>
+        <field name="full_dataset_link">http://massive.ucsd.edu/ProteoSAFe/result.jsp?task=7cb537857f0c4a47aaa2f448264c8771&amp;view=advanced_view</field>
+        <field name="repository">massive</field>
+        <field name="instrument_platform">TripleTOF 5600</field>
+        <field name="modification">Not available</field>
+        <field name="technology_type">Not available</field>
+        <field name="curator_keywords">MRM high resolution</field>
+        <field name="curator_keywords">PRM</field>
+        <field name="curator_keywords">data independent acquisition (DIA)</field>
+        <field name="curator_keywords">label free quantification</field>
+        <field name="curator_keywords">time-scheduled acquisitions</field>
+        <field name="submitter">Bradford W. Gibson</field>
+      </additional_fields>
+    </entry>
+  </entries>
+</database>

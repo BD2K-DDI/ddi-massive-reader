@@ -1,0 +1,36 @@
+<database>
+  <name>massive</name>
+  <description>The Massive Database contains information about all the proteomics/metabolomics datasets in massive</description>
+  <release>1.0</release>
+  <release_date>15-11-10</release_date>
+  <entry_count>1</entry_count>
+  <entries>
+    <entry id="MSV000079184">
+      <name>Growth condition-dependent cell surface proteome analysis of Enterococcus faecium</name>
+      <description>Using a proteolytic shaving approach we identified differentially expressed surface exposed proteins of E. faecium cells after growth in different conditions. </description>
+      <cross_references>
+        <ref dbkey="535206" dbname="TAXONOMY"/>
+        <ref dbkey="26316380" dbname="pubmed"/>
+      </cross_references>
+      <dates>
+        <date type="submission" value="15-07-07"/>
+      </dates>
+      <additional_fields>
+        <field name="omics_type">Proteomics</field>
+        <field name="full_dataset_link">http://massive.ucsd.edu/ProteoSAFe/result.jsp?task=2dd964059e67426b9d820520f1587f3b&amp;view=advanced_view</field>
+        <field name="repository">massive</field>
+        <field name="instrument_platform">LTQ Orbitrap XL</field>
+        <field name="modification">Not available</field>
+        <field name="technology_type">Not available</field>
+        <field name="curator_keywords">Enterococcus faecium</field>
+        <field name="curator_keywords">Growth</field>
+        <field name="curator_keywords">Shaving</field>
+        <field name="curator_keywords">Surfacome</field>
+        <field name="curator_keywords">BHI</field>
+        <field name="curator_keywords">TSB</field>
+        <field name="curator_keywords">Urine</field>
+        <field name="submitter">JC Sinnige</field>
+      </additional_fields>
+    </entry>
+  </entries>
+</database>

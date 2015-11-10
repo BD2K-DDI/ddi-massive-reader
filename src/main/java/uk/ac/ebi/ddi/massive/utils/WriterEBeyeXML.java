@@ -323,7 +323,7 @@ public class WriterEBeyeXML {
             transformer.setOutputProperty("{http://xml.apache.org/xslt}indent-amount", "2");
             transformer.setOutputProperty(OutputKeys.OMIT_XML_DECLARATION, "yes");
             DOMSource source = new DOMSource(document);
-            File outputXML = new File(outputDirectory, project.getRepositoryName().trim() + "_EBEYE_" + project.getAccession() + ".xml");
+            File outputXML = new File(outputDirectory, project.getRepositoryName().trim().toUpperCase() + "_EBEYE_" + project.getAccession() + ".xml");
             StreamResult result = new StreamResult(outputXML.toURI().getPath());
             transformer.transform(source, result);
             logger.info("Finished generating EB-eye XML file for: " + outputDirectory + File.separator + "MW_EBEYE_" + project.getAccession() + ".xml" );

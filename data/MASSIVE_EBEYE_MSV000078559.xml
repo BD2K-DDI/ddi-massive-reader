@@ -1,0 +1,28 @@
+<database>
+  <name>massive</name>
+  <description>The Massive Database contains information about all the proteomics/metabolomics datasets in massive</description>
+  <release>1.0</release>
+  <release_date>15-11-10</release_date>
+  <entry_count>1</entry_count>
+  <entries>
+    <entry id="MSV000078559">
+      <name>N-Glycoprotein Surfaceomes of Four Developmentally Distinct Mouse Cell Types - FIbroblasts</name>
+      <description>Using the Cell Surface Capture Technology,  the cell surface N-glycoproteomes of three cell lines and one in vitro differentiated cell type representing distinct cell fates and stages in mouse embryogenesis were assessed.</description>
+      <cross_references>
+        <ref dbkey="10090" dbname="TAXONOMY"/>
+      </cross_references>
+      <dates>
+        <date type="submission" value="14-03-15"/>
+      </dates>
+      <additional_fields>
+        <field name="omics_type">Proteomics</field>
+        <field name="full_dataset_link">http://massive.ucsd.edu/ProteoSAFe/result.jsp?task=9d5e08638ed94f34a17774b96e9f33fc&amp;view=advanced_view</field>
+        <field name="repository">massive</field>
+        <field name="instrument_platform">LTQ Orbitrap Velos</field>
+        <field name="modification">A protein modification that effectively replaces a carboxamido group with a carboxyl group, with both a gain of oxygen and loss of a nitrogen and a hydrogen.</field>
+        <field name="technology_type">Not available</field>
+        <field name="submitter">Rebekah L. Gundry</field>
+      </additional_fields>
+    </entry>
+  </entries>
+</database>

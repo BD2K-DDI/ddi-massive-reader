@@ -1,0 +1,33 @@
+<database>
+  <name>massive</name>
+  <description>The Massive Database contains information about all the proteomics/metabolomics datasets in massive</description>
+  <release>1.0</release>
+  <release_date>15-11-10</release_date>
+  <entry_count>1</entry_count>
+  <entries>
+    <entry id="MSV000078884">
+      <name>Specific Non-Gluten Proteins of Wheat are Novel Target Antigens in Celiac Disease Humoral Response</name>
+      <description>While the antigenic specificity and pathogenic relevance of immunologic reactivity to gluten in celiac disease have been extensively researched, the immune response to non-gluten proteins of wheat has not been characterized.  We aimed to investigate the level and molecular specificity of antibody response to wheat non-gluten proteins in celiac disease.  Serum samples from patients and controls were screened for IgG and IgA antibody reactivity to a non-gluten protein extract from the wheat cultivar Triticum aestivum 'Butte 86'.  Antibodies were further analyzed for reactivity to specific non-gluten proteins by immunoblotting, following two-dimensional gel electrophoretic separation.  Immunoreactive molecules were identified by tandem mass spectrometry.  Compared with healthy controls, patients exhibited significantly higher levels of antibody reactivity to non-gluten proteins.  The main immunoreactive non-gluten antibody target proteins were identified as serpins, purinins, &amp;#945;-amylase/protease inhibitors, globulins, and farinins.  Assessment of reactivity towards purified recombinant proteins further confirmed the presence of antibody response to specific antigens.  The results demonstrate that, in addition to the well-recognized immune reaction to gluten, celiac disease is associated with a robust humoral response directed at a specific subset of the non-gluten proteins of wheat</description>
+      <cross_references>
+        <ref dbkey="4565" dbname="TAXONOMY"/>
+      </cross_references>
+      <dates>
+        <date type="submission" value="14-10-05"/>
+      </dates>
+      <additional_fields>
+        <field name="omics_type">Proteomics</field>
+        <field name="full_dataset_link">http://massive.ucsd.edu/ProteoSAFe/result.jsp?task=842eae3f72754629a260770556da575e&amp;view=advanced_view</field>
+        <field name="repository">massive</field>
+        <field name="instrument_platform">LTQ Orbitrap Elite</field>
+        <field name="species">Specific Non-Gluten Proteins of Wheat are Novel Target Antigens in Celiac Disease Humoral Response</field>
+        <field name="modification">Not available</field>
+        <field name="technology_type">Not available</field>
+        <field name="curator_keywords">CELIAC DISEASE</field>
+        <field name="submitter">Armin Alaedini</field>
+        <field name="submitter">Columbia University Medical Center; 1130 Saint Nicholas Ave.</field>
+        <field name="submitter">9th Floor; New York</field>
+        <field name="submitter">NY  10032; Phone:  212-851-4582;  Email: aa819@columbia.edu.</field>
+      </additional_fields>
+    </entry>
+  </entries>
+</database>

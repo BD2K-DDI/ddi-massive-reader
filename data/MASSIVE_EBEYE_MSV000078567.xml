@@ -1,0 +1,27 @@
+<database>
+  <name>massive</name>
+  <description>The Massive Database contains information about all the proteomics/metabolomics datasets in massive</description>
+  <release>1.0</release>
+  <release_date>15-11-10</release_date>
+  <entry_count>1</entry_count>
+  <entries>
+    <entry id="MSV000078567">
+      <name>GNPS-FDA(Selleckchemicals)_NIHcollectionIandII</name>
+      <description>http://www.nihclinicalcollection.com/index.php http://www.selleckchem.com/screening/fda-approved-drug-library.html#chemicallib</description>
+      <cross_references/>
+      <dates>
+        <date type="submission" value="14-03-19"/>
+      </dates>
+      <additional_fields>
+        <field name="omics_type">Metabolomics</field>
+        <field name="full_dataset_link">http://massive.ucsd.edu/ProteoSAFe/result.jsp?task=cbf7980545494900b01274ab1dfc608b&amp;view=advanced_view</field>
+        <field name="repository">massive</field>
+        <field name="instrument_platform">maXis</field>
+        <field name="species">Drug Library</field>
+        <field name="modification">Not available</field>
+        <field name="technology_type">Not available</field>
+        <field name="submitter">Dorrestein</field>
+      </additional_fields>
+    </entry>
+  </entries>
+</database>

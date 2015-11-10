@@ -1,0 +1,38 @@
+<database>
+  <name>massive</name>
+  <description>The Massive Database contains information about all the proteomics/metabolomics datasets in massive</description>
+  <release>1.0</release>
+  <release_date>15-11-10</release_date>
+  <entry_count>1</entry_count>
+  <entries>
+    <entry id="MSV000078942">
+      <name>Iridovirus and Microsporidian Linked to Honey Bee Colony Decline</name>
+      <description>this is the raw data accompanying the following publication:
+Bromenshenk JJ, Henderson CB, Wick CH, Stanford MF, Zulich AW, Jabbour RE,
+Deshpande SV, McCubbin PE, Seccomb RA, Welch PM, Williams T, Firth DR, Skowronski
+E, Lehmann MM, Bilimoria SL, Gress J, Wanner KW, Cramer RA Jr. Iridovirus and
+microsporidian linked to honey bee colony decline. PLoS One. 2010 Oct
+6;5(10):e13181. doi: 10.1371/journal.pone.0013181. PubMed PMID: 20949138; PubMed 
+Central PMCID: PMC2950847.</description>
+      <cross_references>
+        <ref dbkey="7460" dbname="TAXONOMY"/>
+        <ref dbkey="27977" dbname="TAXONOMY"/>
+      </cross_references>
+      <dates>
+        <date type="submission" value="14-11-19"/>
+      </dates>
+      <additional_fields>
+        <field name="omics_type">Proteomics</field>
+        <field name="full_dataset_link">http://massive.ucsd.edu/ProteoSAFe/result.jsp?task=8efbf162045f4ae29c5b2b34093620f2&amp;view=advanced_view</field>
+        <field name="repository">massive</field>
+        <field name="instrument_platform">LTQ</field>
+        <field name="modification">A protein modification that oxygenates an L-methionine residue to one of the diastereomeric L-methionine sulfoxide residues.</field>
+        <field name="technology_type">Not available</field>
+        <field name="curator_keywords">honey bee</field>
+        <field name="curator_keywords">colony collapse</field>
+        <field name="submitter">Cramer</field>
+        <field name="submitter">Robert A.</field>
+      </additional_fields>
+    </entry>
+  </entries>
+</database>

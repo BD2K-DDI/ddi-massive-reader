@@ -1,0 +1,40 @@
+<database>
+  <name>massive</name>
+  <description>The Massive Database contains information about all the proteomics/metabolomics datasets in massive</description>
+  <release>1.0</release>
+  <release_date>15-11-10</release_date>
+  <entry_count>1</entry_count>
+  <entries>
+    <entry id="MSV000079048">
+      <name>GNPS - Lychnophora ericoides Endophytes Coculture 02</name>
+      <description>LC-MS/MS data for Molecular Networking of extracts from single and cocultures of endophytic microorganisms isolated from Lychnophora ericoides. Solvent used for extractions included MeOH/ACN and ACN/water with and without formic acid 0.1%.</description>
+      <cross_references/>
+      <dates>
+        <date type="submission" value="15-02-24"/>
+      </dates>
+      <additional_fields>
+        <field name="omics_type">Metabolomics</field>
+        <field name="full_dataset_link">http://massive.ucsd.edu/ProteoSAFe/result.jsp?task=162860a0041d44d1bc7bebf4305351b9&amp;view=advanced_view</field>
+        <field name="repository">massive</field>
+        <field name="instrument_platform">micrOTOF-Q II</field>
+        <field name="species">Streptomyces cattleya RLe1</field>
+        <field name="species">Streptomyces mobaraensis RLe3</field>
+        <field name="species">Streptomyces albospinus RLe7</field>
+        <field name="species">Streptomyces lividans RLe9</field>
+        <field name="species">Kitasatospora nipponensis RLe10</field>
+        <field name="species">Coniochaeta sp. FLe4</field>
+        <field name="species">Coniochaeta nepalica FLe5</field>
+        <field name="modification">Not available</field>
+        <field name="technology_type">Not available</field>
+        <field name="curator_keywords">Lychnophora ericoides</field>
+        <field name="curator_keywords">Actinobacteria</field>
+        <field name="curator_keywords">Endophytes</field>
+        <field name="curator_keywords">Fungi</field>
+        <field name="curator_keywords">Streptomyces</field>
+        <field name="curator_keywords">Kitasatospora</field>
+        <field name="curator_keywords">Coniochaeta</field>
+        <field name="submitter">Monica T Pupo</field>
+      </additional_fields>
+    </entry>
+  </entries>
+</database>

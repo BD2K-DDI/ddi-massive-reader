@@ -1,0 +1,34 @@
+<database>
+  <name>massive</name>
+  <description>The Massive Database contains information about all the proteomics/metabolomics datasets in massive</description>
+  <release>1.0</release>
+  <release_date>15-11-10</release_date>
+  <entry_count>1</entry_count>
+  <entries>
+    <entry id="MSV000079108">
+      <name>Venom proteome of the box jellyfish Chironex fleckeri</name>
+      <description>Transcriptome and venom proteome of the box jellyfish Chironex fleckeri.</description>
+      <cross_references>
+        <ref dbkey="45396" dbname="TAXONOMY"/>
+        <ref dbkey="26014501" dbname="pubmed"/>
+      </cross_references>
+      <dates>
+        <date type="submission" value="15-04-14"/>
+      </dates>
+      <additional_fields>
+        <field name="omics_type">Proteomics</field>
+        <field name="full_dataset_link">http://massive.ucsd.edu/ProteoSAFe/result.jsp?task=87864eb0f07f48a1a8351825b919cf7d&amp;view=advanced_view</field>
+        <field name="repository">massive</field>
+        <field name="instrument_platform">QSTAR Elite</field>
+        <field name="instrument_platform">TripleTOF 5600</field>
+        <field name="modification">Iodoacetamide derivative.</field>
+        <field name="technology_type">Not available</field>
+        <field name="curator_keywords">Chironex fleckeri</field>
+        <field name="curator_keywords">box jellyfish</field>
+        <field name="curator_keywords">venom proteome</field>
+        <field name="curator_keywords">toxins</field>
+        <field name="submitter">Jason Mulvenna</field>
+      </additional_fields>
+    </entry>
+  </entries>
+</database>

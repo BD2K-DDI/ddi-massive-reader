@@ -1,0 +1,29 @@
+<database>
+  <name>massive</name>
+  <description>The Massive Database contains information about all the proteomics/metabolomics datasets in massive</description>
+  <release>1.0</release>
+  <release_date>15-11-10</release_date>
+  <entry_count>1</entry_count>
+  <entries>
+    <entry id="MSV000078743">
+      <name>Loss of Timp gene family is sufficient for the acquisition of the CAF-like cell state</name>
+      <description>Mass spectrometry analysis of exosomes from wild type and Timp-deficient fibroblasts.</description>
+      <cross_references>
+        <ref dbkey="10090" dbname="TAXONOMY"/>
+      </cross_references>
+      <dates>
+        <date type="submission" value="14-06-17"/>
+      </dates>
+      <additional_fields>
+        <field name="omics_type">Proteomics</field>
+        <field name="full_dataset_link">http://massive.ucsd.edu/ProteoSAFe/result.jsp?task=aa841cc1aad24db1aab3a71a9fa2012c&amp;view=advanced_view</field>
+        <field name="repository">massive</field>
+        <field name="instrument_platform">LTQ Orbitrap</field>
+        <field name="modification">A protein modification that is produced by reaction with iodoacetamide, usually replacement of a reactive hydrogen with a methylcarboxamido group.</field>
+        <field name="modification">A protein modification that effectively replaces one hydrogen atom with a hydroxyl group.</field>
+        <field name="technology_type">Not available</field>
+        <field name="submitter">Thomas Kislinger</field>
+      </additional_fields>
+    </entry>
+  </entries>
+</database>

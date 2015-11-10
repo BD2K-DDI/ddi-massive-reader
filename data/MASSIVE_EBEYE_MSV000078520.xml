@@ -1,0 +1,31 @@
+<database>
+  <name>massive</name>
+  <description>The Massive Database contains information about all the proteomics/metabolomics datasets in massive</description>
+  <release>1.0</release>
+  <release_date>15-11-10</release_date>
+  <entry_count>1</entry_count>
+  <entries>
+    <entry id="MSV000078520">
+      <name>UPS2 Orbitrap data from Dicker, Lin and Ivanov (PMID: 20823122)</name>
+      <description>These raw data were first introduced in "Increased Power for the Analysis of Label-free LC-MS/MS Proteomics Data by Combining Spectral Counts and Peptide Peak Attributes" by Lee Dicker, Xihong Lin, and Alexander R. Ivanov (PubMed ID 20823122) (doi 10.1074/mcp.M110.002774).  They represent the Sigma UPS2 proteins (a high-dynamic range mixture of 48 purified human proteins) introduced to the instrument at different concentrations.&#13;
+</description>
+      <cross_references>
+        <ref dbkey="9606" dbname="TAXONOMY"/>
+        <ref dbkey="20823122" dbname="pubmed"/>
+      </cross_references>
+      <dates>
+        <date type="submission" value="14-01-10"/>
+      </dates>
+      <additional_fields>
+        <field name="omics_type">Proteomics</field>
+        <field name="full_dataset_link">http://massive.ucsd.edu/ProteoSAFe/result.jsp?task=f1aa4938fc2e4ee9b80d359b2df30f4b&amp;view=advanced_view</field>
+        <field name="repository">massive</field>
+        <field name="instrument_platform">LTQ Orbitrap</field>
+        <field name="modification">Not available</field>
+        <field name="technology_type">Not available</field>
+        <field name="submitter">Alex</field>
+        <field name="submitter">er R. Ivanov</field>
+      </additional_fields>
+    </entry>
+  </entries>
+</database>

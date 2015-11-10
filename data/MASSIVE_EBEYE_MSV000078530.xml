@@ -1,0 +1,33 @@
+<database>
+  <name>massive</name>
+  <description>The Massive Database contains information about all the proteomics/metabolomics datasets in massive</description>
+  <release>1.0</release>
+  <release_date>15-11-10</release_date>
+  <entry_count>1</entry_count>
+  <entries>
+    <entry id="MSV000078530">
+      <name>Upload for 2012 MCP manuscript - "Shotgun protein sequencing with meta-contig assembly."</name>
+      <description>Shotgun protein sequencing with meta-contig assembly.
+
+Full-length de novo sequencing from tandem mass (MS/MS) spectra of unknown proteins such as antibodies or proteins from organisms with unsequenced genomes remains a challenging open problem. Conventional algorithms designed to individually sequence each MS/MS spectrum are limited by incomplete peptide fragmentation or low signal to noise ratios and tend to result in short de novo sequences at low sequencing accuracy. Our shotgun protein sequencing (SPS) approach was developed to ameliorate these limitations by first finding groups of unidentified spectra from the same peptides (contigs) and then deriving a consensus de novo sequence for each assembled set of spectra (contig sequences). But whereas SPS enables much more accurate reconstruction of de novo sequences longer than can be recovered from individual MS/MS spectra, it still requires error-tolerant matching to homologous proteins to group smaller contig sequences into full-length protein sequences, thus limiting its effectiveness on sequences from poorly annotated proteins. Using low and high resolution CID and high resolution HCD MS/MS spectra, we address this limitation with a Meta-SPS algorithm designed to overlap and further assemble SPS contigs into Meta-SPS de novo contig sequences extending as long as 100 amino acids at over 97% accuracy without requiring any knowledge of homologous protein sequences. We demonstrate Meta-SPS using distinct MS/MS data sets obtained with separate enzymatic digestions and discuss how the remaining de novo sequencing limitations relate to MS/MS acquisition settings.</description>
+      <cross_references>
+        <ref dbkey="9606" dbname="TAXONOMY"/>
+        <ref dbkey="9796" dbname="TAXONOMY"/>
+        <ref dbkey="10116" dbname="TAXONOMY"/>
+      </cross_references>
+      <dates>
+        <date type="submission" value="14-01-16"/>
+      </dates>
+      <additional_fields>
+        <field name="omics_type">Proteomics</field>
+        <field name="full_dataset_link">http://massive.ucsd.edu/ProteoSAFe/result.jsp?task=51b5a93b8bad4bc3aa0b0dc931e71b54&amp;view=advanced_view</field>
+        <field name="repository">massive</field>
+        <field name="instrument_platform">LTQ Orbitrap</field>
+        <field name="modification">Not available</field>
+        <field name="technology_type">Not available</field>
+        <field name="submitter">Dr. Nuno B</field>
+        <field name="submitter">eira</field>
+      </additional_fields>
+    </entry>
+  </entries>
+</database>

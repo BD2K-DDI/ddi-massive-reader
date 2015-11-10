@@ -1,0 +1,34 @@
+<database>
+  <name>massive</name>
+  <description>The Massive Database contains information about all the proteomics/metabolomics datasets in massive</description>
+  <release>1.0</release>
+  <release_date>15-11-10</release_date>
+  <entry_count>1</entry_count>
+  <entries>
+    <entry id="MSV000079114">
+      <name>Omics analysis of host responses during pandemic H1N1 influenza infection</name>
+      <description>Proteomics data from lungs and trachea of ferrets (Mustela putorius furo) infected intranasally with either influenza A/California/04/2009 (CA04) virus or influenza A/Brevig Mission/1/1918 (1918) virus. Sections of trachea and lung collected were at 1, 3 and 8 days post-infection.</description>
+      <cross_references>
+        <ref dbkey="9669" dbname="TAXONOMY"/>
+      </cross_references>
+      <dates>
+        <date type="submission" value="15-04-24"/>
+      </dates>
+      <additional_fields>
+        <field name="omics_type">Proteomics</field>
+        <field name="full_dataset_link">http://massive.ucsd.edu/ProteoSAFe/result.jsp?task=ae810ca3e07c41a4a46b08a9babc23c9&amp;view=advanced_view</field>
+        <field name="repository">massive</field>
+        <field name="instrument_platform">LTQ Orbitrap</field>
+        <field name="instrument_platform">LTQ Velos</field>
+        <field name="modification">Oxidation or Hydroxylation.</field>
+        <field name="modification">Iodoacetamide derivative.</field>
+        <field name="technology_type">Not available</field>
+        <field name="curator_keywords">influenza</field>
+        <field name="curator_keywords">H1N1</field>
+        <field name="curator_keywords">infection</field>
+        <field name="curator_keywords">proteomics</field>
+        <field name="submitter">Michael Katze</field>
+      </additional_fields>
+    </entry>
+  </entries>
+</database>

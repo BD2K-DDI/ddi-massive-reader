@@ -1,0 +1,29 @@
+<database>
+  <name>massive</name>
+  <description>The Massive Database contains information about all the proteomics/metabolomics datasets in massive</description>
+  <release>1.0</release>
+  <release_date>15-11-10</release_date>
+  <entry_count>1</entry_count>
+  <entries>
+    <entry id="MSV000078532">
+      <name>MODa: Fast multi-blind modification search through tandem mass spectrometry</name>
+      <description>These datasets, Human Plasma (LTQ), HEK293 (LTQ), and Lens (LCQ Classic), were used in this work, 'Fast multi-blind modification search through tandem mass spectrometry' (MCP 2012).</description>
+      <cross_references>
+        <ref dbkey="9606" dbname="TAXONOMY"/>
+      </cross_references>
+      <dates>
+        <date type="submission" value="14-01-21"/>
+      </dates>
+      <additional_fields>
+        <field name="omics_type">Proteomics</field>
+        <field name="full_dataset_link">http://massive.ucsd.edu/ProteoSAFe/result.jsp?task=18d4b75c61244b619548780a084660b4&amp;view=advanced_view</field>
+        <field name="repository">massive</field>
+        <field name="instrument_platform">LCQ Classic</field>
+        <field name="instrument_platform">LTQ</field>
+        <field name="modification">Not available</field>
+        <field name="technology_type">Not available</field>
+        <field name="submitter">Eunok Paek</field>
+      </additional_fields>
+    </entry>
+  </entries>
+</database>

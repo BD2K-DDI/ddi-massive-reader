@@ -1,0 +1,28 @@
+<database>
+  <name>massive</name>
+  <description>The Massive Database contains information about all the proteomics/metabolomics datasets in massive</description>
+  <release>1.0</release>
+  <release_date>15-11-10</release_date>
+  <entry_count>1</entry_count>
+  <entries>
+    <entry id="MSV000078637">
+      <name>GNPS_mouse_embryo_nanoDESI_PNAS2013_Hsu -- raw Thermo files</name>
+      <description>This the data set collected in targeted (data dependent) manner using nanoDESI microscope regarding some high abundant small molecules associated with mouse embryogenesis. All of the spectra have been published in PNAS 2013 110 (37), 14855-14860 by CC Hsu and et al.</description>
+      <cross_references>
+        <ref dbkey="10090" dbname="TAXONOMY"/>
+      </cross_references>
+      <dates>
+        <date type="submission" value="14-05-13"/>
+      </dates>
+      <additional_fields>
+        <field name="omics_type">Metabolomics</field>
+        <field name="full_dataset_link">http://massive.ucsd.edu/ProteoSAFe/result.jsp?task=674754a72aa7412aa1212717ed675d64&amp;view=advanced_view</field>
+        <field name="repository">massive</field>
+        <field name="instrument_platform">LTQ FT</field>
+        <field name="modification">Not available</field>
+        <field name="technology_type">Not available</field>
+        <field name="submitter">Pieter C Dorrestein</field>
+      </additional_fields>
+    </entry>
+  </entries>
+</database>

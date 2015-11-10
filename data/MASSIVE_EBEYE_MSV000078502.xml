@@ -1,0 +1,27 @@
+<database>
+  <name>massive</name>
+  <description>The Massive Database contains information about all the proteomics/metabolomics datasets in massive</description>
+  <release>1.0</release>
+  <release_date>15-11-10</release_date>
+  <entry_count>1</entry_count>
+  <entries>
+    <entry id="MSV000078502">
+      <name>Quantitative, Multiplexed Assays for Low Abundance Proteins in Plasma by MRM with Stable Isotopes</name>
+      <description>Keshishian H, Addona T, Burgess M, Kuhn E, Carr SA. Mol Cell Proteomics. 2007, 12, 2212-29.
+Tranche_hash:LMMCbszGGFZm9e+7M2H8xf9Jvcg0KtznGn7M5VC39/NuKFK51ka/nc19AL44H2dE+FqMakaKLX6mIGEyPQ4Q7bfp92gAAAAAAAAT4A==</description>
+      <cross_references/>
+      <dates>
+        <date type="submission" value="13-11-21"/>
+      </dates>
+      <additional_fields>
+        <field name="omics_type">Proteomics</field>
+        <field name="full_dataset_link">http://massive.ucsd.edu/ProteoSAFe/result.jsp?task=e8a638b93f8543a3a04f3615a54b0912&amp;view=advanced_view</field>
+        <field name="repository">massive</field>
+        <field name="instrument_platform">Not available</field>
+        <field name="modification">Not available</field>
+        <field name="technology_type">Not available</field>
+        <field name="submitter">null</field>
+      </additional_fields>
+    </entry>
+  </entries>
+</database>

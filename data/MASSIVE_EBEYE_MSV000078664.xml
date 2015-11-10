@@ -1,0 +1,27 @@
+<database>
+  <name>massive</name>
+  <description>The Massive Database contains information about all the proteomics/metabolomics datasets in massive</description>
+  <release>1.0</release>
+  <release_date>15-11-10</release_date>
+  <entry_count>1</entry_count>
+  <entries>
+    <entry id="MSV000078664">
+      <name>GNPS - Lomaiviticin A C D E - purified</name>
+      <description>LCMS run of LC-purified lomaiviticins A, C, D &amp; E - Reference: Kersten, R.D., Lane, A.L., Nett, M., Richter, T.K., Duggan, B.M., Dorrestein, P.C., Moore, B.S. Bioactivity-Guided Genome Mining Reveals the Lomaiviticin Biosynthetic Gene Cluster in Salinispora tropica. Chembiochem 14, 955-962 (2013).</description>
+      <cross_references/>
+      <dates>
+        <date type="submission" value="14-05-22"/>
+      </dates>
+      <additional_fields>
+        <field name="omics_type">Metabolomics</field>
+        <field name="full_dataset_link">http://massive.ucsd.edu/ProteoSAFe/result.jsp?task=669001b259d349e58f7d4f5786eff250&amp;view=advanced_view</field>
+        <field name="repository">massive</field>
+        <field name="instrument_platform">6520 Quadrupole Time-of-Flight LC/MS</field>
+        <field name="species">Salinispora tropica CNB440</field>
+        <field name="modification">Not available</field>
+        <field name="technology_type">Not available</field>
+        <field name="submitter">Brad Moore (UCSD-SIO)</field>
+      </additional_fields>
+    </entry>
+  </entries>
+</database>

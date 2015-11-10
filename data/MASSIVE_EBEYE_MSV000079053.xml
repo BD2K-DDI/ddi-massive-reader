@@ -1,0 +1,142 @@
+<database>
+  <name>massive</name>
+  <description>The Massive Database contains information about all the proteomics/metabolomics datasets in massive</description>
+  <release>1.0</release>
+  <release_date>15-11-10</release_date>
+  <entry_count>1</entry_count>
+  <entries>
+    <entry id="MSV000079053">
+      <name>PNNL Biodiversity Library - Microbial Section</name>
+      <description>A collection of MS/MS data 112 microbial species. #BiodiversityLibrary</description>
+      <cross_references>
+        <ref dbkey="349163" dbname="TAXONOMY"/>
+        <ref dbkey="446462" dbname="TAXONOMY"/>
+        <ref dbkey="1172" dbname="TAXONOMY"/>
+        <ref dbkey="161493" dbname="TAXONOMY"/>
+        <ref dbkey="948" dbname="TAXONOMY"/>
+        <ref dbkey="290399" dbname="TAXONOMY"/>
+        <ref dbkey="198094" dbname="TAXONOMY"/>
+        <ref dbkey="260799" dbname="TAXONOMY"/>
+        <ref dbkey="224308" dbname="TAXONOMY"/>
+        <ref dbkey="283166" dbname="TAXONOMY"/>
+        <ref dbkey="224326" dbname="TAXONOMY"/>
+        <ref dbkey="446465" dbname="TAXONOMY"/>
+        <ref dbkey="13373" dbname="TAXONOMY"/>
+        <ref dbkey="458033" dbname="TAXONOMY"/>
+        <ref dbkey="190650" dbname="TAXONOMY"/>
+        <ref dbkey="446466" dbname="TAXONOMY"/>
+        <ref dbkey="46770" dbname="TAXONOMY"/>
+        <ref dbkey="1097" dbname="TAXONOMY"/>
+        <ref dbkey="1108" dbname="TAXONOMY"/>
+        <ref dbkey="1515" dbname="TAXONOMY"/>
+        <ref dbkey="469378" dbname="TAXONOMY"/>
+        <ref dbkey="1148" dbname="TAXONOMY"/>
+        <ref dbkey="43989" dbname="TAXONOMY"/>
+        <ref dbkey="860575" dbname="TAXONOMY"/>
+        <ref dbkey="65393" dbname="TAXONOMY"/>
+        <ref dbkey="395961" dbname="TAXONOMY"/>
+        <ref dbkey="497965" dbname="TAXONOMY"/>
+        <ref dbkey="41431" dbname="TAXONOMY"/>
+        <ref dbkey="395962" dbname="TAXONOMY"/>
+        <ref dbkey="243164" dbname="TAXONOMY"/>
+        <ref dbkey="243230" dbname="TAXONOMY"/>
+        <ref dbkey="88274" dbname="TAXONOMY"/>
+        <ref dbkey="876" dbname="TAXONOMY"/>
+        <ref dbkey="641491" dbname="TAXONOMY"/>
+        <ref dbkey="882" dbname="TAXONOMY"/>
+        <ref dbkey="469381" dbname="TAXONOMY"/>
+        <ref dbkey="945" dbname="TAXONOMY"/>
+        <ref dbkey="701347" dbname="TAXONOMY"/>
+        <ref dbkey="511693" dbname="TAXONOMY"/>
+        <ref dbkey="511145" dbname="TAXONOMY"/>
+        <ref dbkey="59374" dbname="TAXONOMY"/>
+        <ref dbkey="404380" dbname="TAXONOMY"/>
+        <ref dbkey="269799" dbname="TAXONOMY"/>
+        <ref dbkey="243231" dbname="TAXONOMY"/>
+        <ref dbkey="351604" dbname="TAXONOMY"/>
+        <ref dbkey="2246" dbname="TAXONOMY"/>
+        <ref dbkey="469382" dbname="TAXONOMY"/>
+        <ref dbkey="519442" dbname="TAXONOMY"/>
+        <ref dbkey="35701" dbname="TAXONOMY"/>
+        <ref dbkey="266940" dbname="TAXONOMY"/>
+        <ref dbkey="521045" dbname="TAXONOMY"/>
+        <ref dbkey="2208" dbname="TAXONOMY"/>
+        <ref dbkey="323259" dbname="TAXONOMY"/>
+        <ref dbkey="383631" dbname="TAXONOMY"/>
+        <ref dbkey="83332" dbname="TAXONOMY"/>
+        <ref dbkey="479431" dbname="TAXONOMY"/>
+        <ref dbkey="446468" dbname="TAXONOMY"/>
+        <ref dbkey="48935" dbname="TAXONOMY"/>
+        <ref dbkey="278957" dbname="TAXONOMY"/>
+        <ref dbkey="335992" dbname="TAXONOMY"/>
+        <ref dbkey="338963" dbname="TAXONOMY"/>
+        <ref dbkey="59919" dbname="TAXONOMY"/>
+        <ref dbkey="208964" dbname="TAXONOMY"/>
+        <ref dbkey="205922" dbname="TAXONOMY"/>
+        <ref dbkey="60912" dbname="TAXONOMY"/>
+        <ref dbkey="329" dbname="TAXONOMY"/>
+        <ref dbkey="272942" dbname="TAXONOMY"/>
+        <ref dbkey="272943" dbname="TAXONOMY"/>
+        <ref dbkey="1076" dbname="TAXONOMY"/>
+        <ref dbkey="120962" dbname="TAXONOMY"/>
+        <ref dbkey="471857" dbname="TAXONOMY"/>
+        <ref dbkey="209261" dbname="TAXONOMY"/>
+        <ref dbkey="588858" dbname="TAXONOMY"/>
+        <ref dbkey="99287" dbname="TAXONOMY"/>
+        <ref dbkey="446469" dbname="TAXONOMY"/>
+        <ref dbkey="326297" dbname="TAXONOMY"/>
+        <ref dbkey="325240" dbname="TAXONOMY"/>
+        <ref dbkey="402882" dbname="TAXONOMY"/>
+        <ref dbkey="399599" dbname="TAXONOMY"/>
+        <ref dbkey="407976" dbname="TAXONOMY"/>
+        <ref dbkey="318161" dbname="TAXONOMY"/>
+        <ref dbkey="318167" dbname="TAXONOMY"/>
+        <ref dbkey="323850" dbname="TAXONOMY"/>
+        <ref dbkey="211586" dbname="TAXONOMY"/>
+        <ref dbkey="399804" dbname="TAXONOMY"/>
+        <ref dbkey="319224" dbname="TAXONOMY"/>
+        <ref dbkey="351745" dbname="TAXONOMY"/>
+        <ref dbkey="94122" dbname="TAXONOMY"/>
+        <ref dbkey="60480" dbname="TAXONOMY"/>
+        <ref dbkey="60481" dbname="TAXONOMY"/>
+        <ref dbkey="110321" dbname="TAXONOMY"/>
+        <ref dbkey="266834" dbname="TAXONOMY"/>
+        <ref dbkey="471855" dbname="TAXONOMY"/>
+        <ref dbkey="446470" dbname="TAXONOMY"/>
+        <ref dbkey="330779" dbname="TAXONOMY"/>
+        <ref dbkey="32049" dbname="TAXONOMY"/>
+        <ref dbkey="119484" dbname="TAXONOMY"/>
+        <ref dbkey="469371" dbname="TAXONOMY"/>
+        <ref dbkey="197221" dbname="TAXONOMY"/>
+        <ref dbkey="1394889" dbname="TAXONOMY"/>
+        <ref dbkey="2336" dbname="TAXONOMY"/>
+        <ref dbkey="244573" dbname="TAXONOMY"/>
+        <ref dbkey="278956" dbname="TAXONOMY"/>
+        <ref dbkey="794903" dbname="TAXONOMY"/>
+        <ref dbkey="446471" dbname="TAXONOMY"/>
+        <ref dbkey="630" dbname="TAXONOMY"/>
+        <ref dbkey="214092" dbname="TAXONOMY"/>
+        <ref dbkey="187410" dbname="TAXONOMY"/>
+        <ref dbkey="273123" dbname="TAXONOMY"/>
+        <ref dbkey="502801" dbname="TAXONOMY"/>
+      </cross_references>
+      <dates>
+        <date type="submission" value="15-02-26"/>
+      </dates>
+      <additional_fields>
+        <field name="omics_type">Proteomics</field>
+        <field name="full_dataset_link">http://massive.ucsd.edu/ProteoSAFe/result.jsp?task=97a903b49a0646af819e2383ab6aad98&amp;view=advanced_view</field>
+        <field name="repository">massive</field>
+        <field name="instrument_platform">LTQ Orbitrap Velos</field>
+        <field name="instrument_platform">LTQ</field>
+        <field name="instrument_platform">LTQ FT</field>
+        <field name="instrument_platform">LTQ Orbitrap</field>
+        <field name="species">escherichia coli rk4353</field>
+        <field name="modification">Oxidation or Hydroxylation.</field>
+        <field name="technology_type">Not available</field>
+        <field name="curator_keywords">Biodiversity Library data from microbes</field>
+        <field name="submitter">Sam Payne</field>
+      </additional_fields>
+    </entry>
+  </entries>
+</database>

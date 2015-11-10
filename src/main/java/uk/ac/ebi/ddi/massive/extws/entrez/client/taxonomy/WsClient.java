@@ -28,8 +28,8 @@ public class WsClient {
 
     private ClientHttpRequestFactory clientHttpRequestFactory() {
         HttpComponentsClientHttpRequestFactory factory = new HttpComponentsClientHttpRequestFactory();
-        factory.setReadTimeout(12000);
-        factory.setConnectTimeout(12000);
+        factory.setReadTimeout(120000);
+        factory.setConnectTimeout(120000);
         return factory;
     }
 

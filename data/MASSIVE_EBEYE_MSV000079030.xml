@@ -1,0 +1,30 @@
+<database>
+  <name>massive</name>
+  <description>The Massive Database contains information about all the proteomics/metabolomics datasets in massive</description>
+  <release>1.0</release>
+  <release_date>15-11-10</release_date>
+  <entry_count>1</entry_count>
+  <entries>
+    <entry id="MSV000079030">
+      <name>The use of ubiquitin lysine mutants to characterize E2-E3 linkage specificity: mass spectrometry offers a cautionary 'tail'</name>
+      <description>RAW MS data and analysis files for Hong et al. 2015.  MS analysis of in vitro auto-ubiquitylation assays to characterize the linkage specificity of 12 different E2-E3 combinations.</description>
+      <cross_references>
+        <ref dbkey="9606" dbname="TAXONOMY"/>
+      </cross_references>
+      <dates>
+        <date type="submission" value="15-02-04"/>
+      </dates>
+      <additional_fields>
+        <field name="omics_type">Proteomics</field>
+        <field name="full_dataset_link">http://massive.ucsd.edu/ProteoSAFe/result.jsp?task=284d4aa134af4daebe0c2f80e9630fd3&amp;view=advanced_view</field>
+        <field name="repository">massive</field>
+        <field name="instrument_platform">LTQ Velos</field>
+        <field name="modification">Ubiquitinylation residue.</field>
+        <field name="technology_type">Not available</field>
+        <field name="curator_keywords">ubiquitin</field>
+        <field name="curator_keywords">spectral matching</field>
+        <field name="submitter">Brian Raught</field>
+      </additional_fields>
+    </entry>
+  </entries>
+</database>

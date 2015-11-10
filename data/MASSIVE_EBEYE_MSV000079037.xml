@@ -1,0 +1,34 @@
+<database>
+  <name>massive</name>
+  <description>The Massive Database contains information about all the proteomics/metabolomics datasets in massive</description>
+  <release>1.0</release>
+  <release_date>15-11-10</release_date>
+  <entry_count>1</entry_count>
+  <entries>
+    <entry id="MSV000079037">
+      <name>Identification of Nodule-Specific Cysteine-Rich Plant Peptides in Endosymbiotic Bacteria</name>
+      <description>The transformation of Sinorhizobium bacteria into nitrogen-fixing bacteroids located in the root-nodules of the Medicago plants is controlled by specific peptides released by the plants. In our study root nodules, and differently purified bacteroid mixtures were studied. Detailed description about sample preparation and data interpretation can be found in "Identification of Nodule-Specific Cysteine-Rich Plant Peptides in Endosymbiotic Bacteria" by H. Durgo et al., Proteomics (2015). CID spectra supporting all NCR identifications can be viewed using MS-Viewer on the public Protein Prospector website (prospector.ucsf.edu), search key: h7swi0wcik.</description>
+      <cross_references>
+        <ref dbkey="3880" dbname="TAXONOMY"/>
+        <ref dbkey="110321" dbname="TAXONOMY"/>
+      </cross_references>
+      <dates>
+        <date type="submission" value="15-02-17"/>
+      </dates>
+      <additional_fields>
+        <field name="omics_type">Proteomics</field>
+        <field name="full_dataset_link">http://massive.ucsd.edu/ProteoSAFe/result.jsp?task=f764f20397e340588cc27a8e12236b13&amp;view=advanced_view</field>
+        <field name="repository">massive</field>
+        <field name="instrument_platform">LTQ Orbitrap Elite</field>
+        <field name="modification">Not available</field>
+        <field name="technology_type">Not available</field>
+        <field name="curator_keywords">NCR peptides</field>
+        <field name="curator_keywords">nitrogen-fixing bacteroids</field>
+        <field name="curator_keywords">signal peptides</field>
+        <field name="curator_keywords">ion trap CID</field>
+        <field name="submitter">Eva Kondorosi</field>
+        <field name="submitter">Katalin F. Medzihradszky</field>
+      </additional_fields>
+    </entry>
+  </entries>
+</database>

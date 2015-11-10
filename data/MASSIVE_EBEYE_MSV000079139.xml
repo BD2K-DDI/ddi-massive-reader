@@ -1,0 +1,33 @@
+<database>
+  <name>massive</name>
+  <description>The Massive Database contains information about all the proteomics/metabolomics datasets in massive</description>
+  <release>1.0</release>
+  <release_date>15-11-10</release_date>
+  <entry_count>1</entry_count>
+  <entries>
+    <entry id="MSV000079139">
+      <name>GNPS - Actinomycetes from Himalaya</name>
+      <description>Actinomycete strains isolated from the Himalya mountains were grown for 5 days and extracted with butanol. Samples were run on HPLC Agilent 1200 coupled to Amazon ETD.</description>
+      <cross_references>
+        <ref dbkey="1654" dbname="TAXONOMY"/>
+      </cross_references>
+      <dates>
+        <date type="submission" value="15-06-04"/>
+      </dates>
+      <additional_fields>
+        <field name="omics_type">Metabolomics</field>
+        <field name="full_dataset_link">http://massive.ucsd.edu/ProteoSAFe/result.jsp?task=f53b81b49545441988b4fea3a16e1497&amp;view=advanced_view</field>
+        <field name="repository">massive</field>
+        <field name="instrument_platform">amaZon ETD</field>
+        <field name="modification">Not available</field>
+        <field name="technology_type">Not available</field>
+        <field name="curator_keywords">Actinomycetes</field>
+        <field name="curator_keywords">actinomyces</field>
+        <field name="curator_keywords">himalaya</field>
+        <field name="curator_keywords">streptomyces</field>
+        <field name="curator_keywords">streptomycetes</field>
+        <field name="submitter">Pieter Dorrestein</field>
+      </additional_fields>
+    </entry>
+  </entries>
+</database>

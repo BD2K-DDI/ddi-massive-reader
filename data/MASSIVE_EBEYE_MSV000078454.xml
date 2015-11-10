@@ -1,0 +1,28 @@
+<database>
+  <name>massive</name>
+  <description>The Massive Database contains information about all the proteomics/metabolomics datasets in massive</description>
+  <release>1.0</release>
+  <release_date>15-11-10</release_date>
+  <entry_count>1</entry_count>
+  <entries>
+    <entry id="MSV000078454">
+      <name>Lambert_AP_SWATH_P94_VS1_MEPCE_EIF4A2</name>
+      <description>This submission is part of the mass spectrometry datasets for the manuscript by Lambert et al. that describes the use of SWATH to rapidly monitor differential interactomes. This submission contains 9 SWATH files and 9 IDA files for the following baits: MEPCE, EIF4A2 and a GFP negative controls, each analyzed by SWATH and IDA in biological triplicates.  See the README file within "Methods and Protocols" and the accompanying File description.  Additional details and files are found on prohits-web.lunenfeld.ca.  </description>
+      <cross_references>
+        <ref dbkey="24162924" dbname="pubmed"/>
+      </cross_references>
+      <dates>
+        <date type="submission" value="13-07-04"/>
+      </dates>
+      <additional_fields>
+        <field name="omics_type">Proteomics</field>
+        <field name="full_dataset_link">http://massive.ucsd.edu/ProteoSAFe/result.jsp?task=442926e304aa43158891b3318fa1993d&amp;view=advanced_view</field>
+        <field name="repository">massive</field>
+        <field name="instrument_platform">Not available</field>
+        <field name="modification">Not available</field>
+        <field name="technology_type">Not available</field>
+        <field name="submitter">null</field>
+      </additional_fields>
+    </entry>
+  </entries>
+</database>

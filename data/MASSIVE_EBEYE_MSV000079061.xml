@@ -1,0 +1,29 @@
+<database>
+  <name>massive</name>
+  <description>The Massive Database contains information about all the proteomics/metabolomics datasets in massive</description>
+  <release>1.0</release>
+  <release_date>15-11-10</release_date>
+  <entry_count>1</entry_count>
+  <entries>
+    <entry id="MSV000079061">
+      <name>Mapping the H+(V)-ATPase interactome</name>
+      <description>Immunoprecipitations from total mouse kidney lysates with antibodies specific to B1 subunit of V-ATPase (IP1, IP2, IP3 and IP4) and various negative controls (IP1beads, IP4beads, IP5beads, IP6KO, IP7KO, IP2peptide, IP3peptide).</description>
+      <cross_references>
+        <ref dbkey="10090" dbname="TAXONOMY"/>
+      </cross_references>
+      <dates>
+        <date type="submission" value="15-03-05"/>
+      </dates>
+      <additional_fields>
+        <field name="omics_type">Proteomics</field>
+        <field name="full_dataset_link">http://massive.ucsd.edu/ProteoSAFe/result.jsp?task=ba4e467b669343a6953619892901294c&amp;view=advanced_view</field>
+        <field name="repository">massive</field>
+        <field name="instrument_platform">LTQ Velos</field>
+        <field name="modification">Not available</field>
+        <field name="technology_type">Not available</field>
+        <field name="curator_keywords">V-ATPase</field>
+        <field name="submitter">Dennis Brown</field>
+      </additional_fields>
+    </entry>
+  </entries>
+</database>

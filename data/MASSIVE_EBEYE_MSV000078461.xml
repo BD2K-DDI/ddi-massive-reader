@@ -1,0 +1,30 @@
+<database>
+  <name>massive</name>
+  <description>The Massive Database contains information about all the proteomics/metabolomics datasets in massive</description>
+  <release>1.0</release>
+  <release_date>15-11-10</release_date>
+  <entry_count>1</entry_count>
+  <entries>
+    <entry id="MSV000078461">
+      <name>Characterizing protein phosphorylation downstream of the TrkA receptor</name>
+      <description>Phosphorylation twenty minutes after stimulation of the TrkA receptor was characterized in PC12 (rat) cells. The study was performed using chimeric receptors, where the endodomain of TrkA was fused to the extracellular domain of PDGFR.  As PDGFR (and PDGF) are not expressed in these cells, addition of PDGF caused selective stimulation only of the chimeric receptor.  Phosphorylation was compared between unstimulated cells, stimulated cells with the chimeric receptor, stimulated cells where Tyr490 in the chimeric receptor had been mutated to Phe, and stimulated cells where Tyr490 and Tyr785 were both mutated to Phe.  This allowed characterization of protein phosphorylated by TrkA, and dissection of which proteins and sites are phosphorylated through the two key tyrosine residues in the TrkA receptor.  This work led to two publications:
+
+Biarc J, Chalkley RJ, Burlingame AL, Bradshaw RA. The induction of serine/threonine protein phosphorylations by a PDGFR/TrkA chimera in stably transfected PC12 cells. Mol Cell Proteomics. (2012) 11(5):15-30
+
+Biarc J, Chalkley RJ, Burlingame AL, Bradshaw RA. Dissecting the roles of tyrosines 490 and 785 of TrkA in the induction of downstream protein phosphorylation using chimeric receptors. J Biol Chem. (2013) 288 (23):16606-16618</description>
+      <cross_references/>
+      <dates>
+        <date type="submission" value="13-07-11"/>
+      </dates>
+      <additional_fields>
+        <field name="omics_type">Proteomics</field>
+        <field name="full_dataset_link">http://massive.ucsd.edu/ProteoSAFe/result.jsp?task=851ad98123854c75811e53f38a9eefa9&amp;view=advanced_view</field>
+        <field name="repository">massive</field>
+        <field name="instrument_platform">Not available</field>
+        <field name="modification">Not available</field>
+        <field name="technology_type">Not available</field>
+        <field name="submitter">null</field>
+      </additional_fields>
+    </entry>
+  </entries>
+</database>

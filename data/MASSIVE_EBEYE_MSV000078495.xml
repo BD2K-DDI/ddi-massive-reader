@@ -1,0 +1,30 @@
+<database>
+  <name>massive</name>
+  <description>The Massive Database contains information about all the proteomics/metabolomics datasets in massive</description>
+  <release>1.0</release>
+  <release_date>15-11-10</release_date>
+  <entry_count>1</entry_count>
+  <entries>
+    <entry id="MSV000078495">
+      <name>iTRAQ labeling is superior to mTRAQ for quantitative global proteomics and phosphoproteomics</name>
+      <description>Mertins P, Udeshi ND, Clauser KR, Mani DR, Patel J, Ong, SE, Jaffe JD, Carr SA. Mol Cell Proteomics 2012, mcp.M111.014423. doi:10.1074/mcp.M111.014423.
+Tranche_hash:5cHw5Rj36vYNshNpy8k4nojtPyW27N/FHcImna3+zw4QV6KIlLOg3i6zesWBdWkEX608MEgdxWuVyKvvdOgB9BAanesAAAAAAACEzw==
+</description>
+      <cross_references>
+        <ref dbkey="22210691" dbname="pubmed"/>
+      </cross_references>
+      <dates>
+        <date type="submission" value="13-11-20"/>
+      </dates>
+      <additional_fields>
+        <field name="omics_type">Proteomics</field>
+        <field name="full_dataset_link">http://massive.ucsd.edu/ProteoSAFe/result.jsp?task=8eb6afc9085946639bd39d06d1917289&amp;view=advanced_view</field>
+        <field name="repository">massive</field>
+        <field name="instrument_platform">Not available</field>
+        <field name="modification">Not available</field>
+        <field name="technology_type">Not available</field>
+        <field name="submitter">null</field>
+      </additional_fields>
+    </entry>
+  </entries>
+</database>

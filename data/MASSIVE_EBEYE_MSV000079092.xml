@@ -1,0 +1,34 @@
+<database>
+  <name>massive</name>
+  <description>The Massive Database contains information about all the proteomics/metabolomics datasets in massive</description>
+  <release>1.0</release>
+  <release_date>15-11-10</release_date>
+  <entry_count>1</entry_count>
+  <entries>
+    <entry id="MSV000079092">
+      <name>MS1 Peptide Ion Intensity Chromatograms in MS2 (SWATH) Data Independent Acquisitions</name>
+      <description>Quantitative analysis of discovery-based proteomic workflows now relies on high-throughput large-scale methods for identification and quantification of proteins and post-translational modifications. Advancements in label-free quantitative techniques, using either data-dependent or data-independent mass spectrometric acquisitions, have coincided with improved instrumentation featuring greater precision, increased mass accuracy, and faster scan speeds. We recently reported on a new quantitative method called MS1 Filtering (Schilling et al. (2012) Mol. Cell. Proteomics 11, 202-214) for processing data-independent MS1 ion intensity chromatograms from peptide analytes using the Skyline software platform. In contrast, data-independent acquisitions from MS2 scans, or SWATH, can quantify all fragment ion intensities when reference spectra are available. As each SWATH acquisition cycle typically contains an MS1 scan, these two independent label-free quantitative approaches can be acquired in a single experiment. Here, we have expanded the capability of Skyline to extract both MS1 and MS2 ion intensity chromatograms from a single SWATH data-independent acquisition (DIA) in an Integrated Dual Scan Analysis (IDSA) approach. The performance of both MS1 and MS2 data was examined in simple and complex samples using standard concentration curves. Cases of interferences in MS1 and MS2 ion intensity data were assessed, as were the differentiation and quantitation of phosphopeptide isomers in MS2 scan data. In addition, we demonstrated an approach for optimization of SWATH m/z window sizes to reduce interferences using MS1 scans as a guide. Finally, a correlation analysis was performed on both MS1 and MS2 ion intensity data obtained from SWATH acquisitions on a complex mixture using a linear model that automatically removes signals containing interferences. This work demonstrates the practical advantages of properly acquiring and processing MS1 precursor data in addition to MS2 fragment ion intensity data in a DIA (SWATH), and provides an approach to simultaneously obtain independent measurements of relative peptide abundance from a single experiment.</description>
+      <cross_references>
+        <ref dbkey="10090" dbname="TAXONOMY"/>
+      </cross_references>
+      <dates>
+        <date type="submission" value="15-04-01"/>
+      </dates>
+      <additional_fields>
+        <field name="omics_type">Proteomics</field>
+        <field name="full_dataset_link">http://massive.ucsd.edu/ProteoSAFe/result.jsp?task=08bf6cab8b8e4db6a951619c2abe1c9d&amp;view=advanced_view</field>
+        <field name="repository">massive</field>
+        <field name="instrument_platform">TripleTOF 5600</field>
+        <field name="modification">Phosphorylation.</field>
+        <field name="modification">Acetylation.</field>
+        <field name="technology_type">Not available</field>
+        <field name="curator_keywords">Quantification</field>
+        <field name="curator_keywords">SWATH</field>
+        <field name="curator_keywords">Integrated Dual Scan Analysis (IDSA)</field>
+        <field name="curator_keywords">MS1 Filtering</field>
+        <field name="curator_keywords">Skyline</field>
+        <field name="submitter">Bradford W. Gibson</field>
+      </additional_fields>
+    </entry>
+  </entries>
+</database>

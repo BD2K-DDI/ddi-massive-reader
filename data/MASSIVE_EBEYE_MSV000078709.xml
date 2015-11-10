@@ -1,0 +1,30 @@
+<database>
+  <name>massive</name>
+  <description>The Massive Database contains information about all the proteomics/metabolomics datasets in massive</description>
+  <release>1.0</release>
+  <release_date>15-11-10</release_date>
+  <entry_count>1</entry_count>
+  <entries>
+    <entry id="MSV000078709">
+      <name>GNPS - Imaging mass spectrometry of a coral microbe interaction with fungi - Figure 2</name>
+      <description>Title: Imaging mass spectrometry of a coral microbe interaction with fungi
+Authors: Moree WJ1, Yang JY, Zhao X, Liu WT, Aparicio M, Atencio L, Ballesteros J, Sánchez J, Gavilán RG, Gutiérrez M, Dorrestein PC.
+Journal: J Chem Ecol. 2013 Jul;39(7):1045-54. doi: 10.1007/s10886-013-0320-1
+Pubmed ID: 23881443</description>
+      <cross_references/>
+      <dates>
+        <date type="submission" value="14-06-04"/>
+      </dates>
+      <additional_fields>
+        <field name="omics_type">Metabolomics</field>
+        <field name="full_dataset_link">http://massive.ucsd.edu/ProteoSAFe/result.jsp?task=ed1efce238094699adbec8e068b694a6&amp;view=advanced_view</field>
+        <field name="repository">massive</field>
+        <field name="instrument_platform">LTQ FT</field>
+        <field name="species">Bacillus amyloliquefaciens GA40</field>
+        <field name="modification">Not available</field>
+        <field name="technology_type">Not available</field>
+        <field name="submitter">PC Dorrestein</field>
+      </additional_fields>
+    </entry>
+  </entries>
+</database>

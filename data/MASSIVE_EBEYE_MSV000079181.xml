@@ -1,0 +1,32 @@
+<database>
+  <name>massive</name>
+  <description>The Massive Database contains information about all the proteomics/metabolomics datasets in massive</description>
+  <release>1.0</release>
+  <release_date>15-11-10</release_date>
+  <entry_count>1</entry_count>
+  <entries>
+    <entry id="MSV000079181">
+      <name>GNPS - 150702_Office_Human_Profiling</name>
+      <description>288 Samples were taken across an office space from 4 individuals and several sites from built environment. Attached is a 3D scan of the room and 4 individuals where samples were collected.</description>
+      <cross_references>
+        <ref dbkey="9606" dbname="TAXONOMY"/>
+      </cross_references>
+      <dates>
+        <date type="submission" value="15-07-02"/>
+      </dates>
+      <additional_fields>
+        <field name="omics_type">Metabolomics</field>
+        <field name="full_dataset_link">http://massive.ucsd.edu/ProteoSAFe/result.jsp?task=11b194fe56614a069495aea6234ef17b&amp;view=advanced_view</field>
+        <field name="repository">massive</field>
+        <field name="instrument_platform">maXis</field>
+        <field name="species">Built Environment</field>
+        <field name="modification">Not available</field>
+        <field name="technology_type">Not available</field>
+        <field name="curator_keywords">Human Mapping</field>
+        <field name="curator_keywords">Office</field>
+        <field name="curator_keywords">Work Environment</field>
+        <field name="submitter">Dorrestein</field>
+      </additional_fields>
+    </entry>
+  </entries>
+</database>

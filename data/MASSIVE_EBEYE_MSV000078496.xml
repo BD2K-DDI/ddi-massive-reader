@@ -1,0 +1,27 @@
+<database>
+  <name>massive</name>
+  <description>The Massive Database contains information about all the proteomics/metabolomics datasets in massive</description>
+  <release>1.0</release>
+  <release_date>15-11-10</release_date>
+  <entry_count>1</entry_count>
+  <entries>
+    <entry id="MSV000078496">
+      <name>Proteomic and Genetic Approaches Identify Syk as an AML Target</name>
+      <description>Hahn CK, Berchuck JE, Ross KN, Kakoza RM, Clauser KR, Schinzel AC, Ross L, Galinsky I, Davis TN, Silver SJ, Root DE, Stone RM, DeAngelo DJ, Carroll M, Hahn WC, Carr SA, Golub TR, Kung AL, Stegmaier K. Cancer Cell. 2009 16: 281-294. PMCID: PMC2803063.
+</description>
+      <cross_references/>
+      <dates>
+        <date type="submission" value="13-11-21"/>
+      </dates>
+      <additional_fields>
+        <field name="omics_type">Proteomics</field>
+        <field name="full_dataset_link">http://massive.ucsd.edu/ProteoSAFe/result.jsp?task=fe16ec7433004bebb4333c90502dc412&amp;view=advanced_view</field>
+        <field name="repository">massive</field>
+        <field name="instrument_platform">Not available</field>
+        <field name="modification">Not available</field>
+        <field name="technology_type">Not available</field>
+        <field name="submitter">null</field>
+      </additional_fields>
+    </entry>
+  </entries>
+</database>

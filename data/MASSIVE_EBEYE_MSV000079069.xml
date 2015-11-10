@@ -1,0 +1,29 @@
+<database>
+  <name>massive</name>
+  <description>The Massive Database contains information about all the proteomics/metabolomics datasets in massive</description>
+  <release>1.0</release>
+  <release_date>15-11-10</release_date>
+  <entry_count>1</entry_count>
+  <entries>
+    <entry id="MSV000079069">
+      <name>GNPS_New_Caledonian_Euphorbiaceae_part2</name>
+      <description>133 crude EtOAc extracts from new-caledonian Euphorbiaceae species.</description>
+      <cross_references>
+        <ref dbkey="3977" dbname="TAXONOMY"/>
+      </cross_references>
+      <dates>
+        <date type="submission" value="15-03-09"/>
+      </dates>
+      <additional_fields>
+        <field name="omics_type">Metabolomics</field>
+        <field name="full_dataset_link">http://massive.ucsd.edu/ProteoSAFe/result.jsp?task=7de39ae4b2514d7f9fb69d53d72e59ae&amp;view=advanced_view</field>
+        <field name="repository">massive</field>
+        <field name="instrument_platform">Q-Exactive Plus</field>
+        <field name="modification">Not available</field>
+        <field name="technology_type">Not available</field>
+        <field name="curator_keywords">euphorbiaceae, new-caledonia, endemic plants, biodiversity</field>
+        <field name="submitter">Wolfender/Litaudon</field>
+      </additional_fields>
+    </entry>
+  </entries>
+</database>

@@ -1,0 +1,94 @@
+<database>
+  <name>massive</name>
+  <description>The Massive Database contains information about all the proteomics/metabolomics datasets in massive</description>
+  <release>1.0</release>
+  <release_date>15-11-10</release_date>
+  <entry_count>1</entry_count>
+  <entries>
+    <entry id="MSV000078552">
+      <name>GNPS - MS/MS networking guided analysis of molecule and gene cluster families - Figure 1</name>
+      <description>Paper Title: MS/MS networking guided analysis of molecule and gene cluster families
+
+Author List: Don Duy Nguyen, Cheng-Hsuan Wu, Wilna J. Moree, Anne Lamsa, Marnix H. Medema, Xiling Zhao, Ronnie G. Gavilan, Marystella Aparicio, Librada Atencio, Chanaye Jackson, Javier Ballesteros, Joel Sanchez, Jeramie D. Watrous, Vanessa V. Phelan, Corine van de Wiel, Roland D. Kersten, Samina Mehnaz, René De Mot, Elizabeth A. Shank, Pep Charusanti, Harish Nagarajan, Brendan M. Duggan, Bradley S. Moore, Nuno Bandeira, Bernhard Ø. Palsson, Kit Pogliano, Marcelino Gutiérrez, and Pieter C. Dorrestein
+
+Citation: Proc. Natl. Acad. Sci USA 2013 110(28):E2611-2620.  doi: 10.1073/pnas.1303471110
+
+PubMedID: 23798442
+
+Brief description of the data submitted: RAW files used to generate Figure 1.  Bacterial network of 42 strains of bacilli and 18 strains of pseudomonads with a cosine similarity score cutoff of 0.70.  This network was generated using nanoDESI-MS/MS.</description>
+      <cross_references>
+        <ref dbkey="86192" dbname="TAXONOMY"/>
+        <ref dbkey="23798442" dbname="pubmed"/>
+      </cross_references>
+      <dates>
+        <date type="submission" value="14-02-18"/>
+      </dates>
+      <additional_fields>
+        <field name="omics_type">Metabolomics</field>
+        <field name="full_dataset_link">http://massive.ucsd.edu/ProteoSAFe/result.jsp?task=43cbb6fe127c4c4783e80207ac8a153a&amp;view=advanced_view</field>
+        <field name="repository">massive</field>
+        <field name="instrument_platform">LTQ FT</field>
+        <field name="species">Bacillus subtilis 3610</field>
+        <field name="species">Bacillus ES113</field>
+        <field name="species">Bacillus ES114</field>
+        <field name="species">Bacillus ES115</field>
+        <field name="species">Bacillus ES118</field>
+        <field name="species">Bacillus ES120</field>
+        <field name="species">Bacillus ES190</field>
+        <field name="species">Bacillus ES20</field>
+        <field name="species">Bacillus ES221</field>
+        <field name="species">Bacillus ES222</field>
+        <field name="species">Bacillus ES223</field>
+        <field name="species">Bacillus ES332</field>
+        <field name="species">Bacillus ES333</field>
+        <field name="species">Bacillus ES335</field>
+        <field name="species">Bacillus ES336</field>
+        <field name="species">Bacillus ES337</field>
+        <field name="species">Bacillus ES341</field>
+        <field name="species">Bacillus ES342</field>
+        <field name="species">Bacillus ES343</field>
+        <field name="species">Bacillus ES345</field>
+        <field name="species">Bacillus ES382</field>
+        <field name="species">Bacillus ES386</field>
+        <field name="species">Bacillus ES387</field>
+        <field name="species">Bacillus ES392</field>
+        <field name="species">Bacillus ES44</field>
+        <field name="species">Bacillus ES73</field>
+        <field name="species">Bacillus ES76</field>
+        <field name="species">Bacillus FZB42</field>
+        <field name="species">Bacillus GP24</field>
+        <field name="species">Bacillus GP25</field>
+        <field name="species">Bacillus KP1032</field>
+        <field name="species">Bacillus LCT22</field>
+        <field name="species">Bacillus LCTS</field>
+        <field name="species">Bacillus LS18</field>
+        <field name="species">Bacillus LS276</field>
+        <field name="species">Bacillus LS28</field>
+        <field name="species">Bacillus LS29</field>
+        <field name="species">Bacillus PY79</field>
+        <field name="species">Bacillus QBM1551</field>
+        <field name="species">Bacillus ZK4633</field>
+        <field name="species">Bacillus ZK4636</field>
+        <field name="species">Bacillus ZK4678</field>
+        <field name="species">Pseudomonas 3W11M1</field>
+        <field name="species">Pseudomonas BW10S1</field>
+        <field name="species">Pseudomonas BW11P2</field>
+        <field name="species">Pseudomonas CH36</field>
+        <field name="species">Pseudomonas RW10S2</field>
+        <field name="species">Pseudomonas RW951</field>
+        <field name="species">Pseudomonas C52</field>
+        <field name="species">Pseudomonas HCL17</field>
+        <field name="species">Pseudomonas Putdia</field>
+        <field name="species">Pseudomonas PA01</field>
+        <field name="species">Pseudomonas PA14</field>
+        <field name="species">Pseudomonas ES11</field>
+        <field name="species">Pseudomonas ES60</field>
+        <field name="species">Pseudomonas ES97</field>
+        <field name="species">Pseudomonas RW10S1</field>
+        <field name="modification">Not available</field>
+        <field name="technology_type">Not available</field>
+        <field name="submitter">Pieter Dorrestein</field>
+      </additional_fields>
+    </entry>
+  </entries>
+</database>

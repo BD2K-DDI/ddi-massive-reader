@@ -1,0 +1,29 @@
+<database>
+  <name>massive</name>
+  <description>The Massive Database contains information about all the proteomics/metabolomics datasets in massive</description>
+  <release>1.0</release>
+  <release_date>15-11-10</release_date>
+  <entry_count>1</entry_count>
+  <entries>
+    <entry id="MSV000079362">
+      <name>Uchl3 KO MEF Cell Ubiquitin Immunoaffinity Enrichment LFQ </name>
+      <description>Spectra of UCHL3 Lysine -GG Immunoaffinity enrichment experiments.  These files were used for LFQ of the ubiquitination changes during insulin signaling in Uchl3 KO MEF cells.  The term Both = Insulin and MG132</description>
+      <cross_references>
+        <ref dbkey="10090" dbname="TAXONOMY"/>
+      </cross_references>
+      <dates>
+        <date type="submission" value="15-11-01"/>
+      </dates>
+      <additional_fields>
+        <field name="omics_type">Proteomics</field>
+        <field name="full_dataset_link">http://massive.ucsd.edu/ProteoSAFe/result.jsp?task=d75d74e666084c35a4b04d5c2280a7ca&amp;view=advanced_view</field>
+        <field name="repository">massive</field>
+        <field name="instrument_platform">LTQ Velos</field>
+        <field name="modification">Ubiquitinylation residue.</field>
+        <field name="technology_type">Not available</field>
+        <field name="curator_keywords">UCHL3, DUB, Ubiquitin, Insulin</field>
+        <field name="submitter">Eric Strieter</field>
+      </additional_fields>
+    </entry>
+  </entries>
+</database>

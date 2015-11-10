@@ -1,0 +1,29 @@
+<database>
+  <name>massive</name>
+  <description>The Massive Database contains information about all the proteomics/metabolomics datasets in massive</description>
+  <release>1.0</release>
+  <release_date>15-11-10</release_date>
+  <entry_count>1</entry_count>
+  <entries>
+    <entry id="MSV000078867">
+      <name>Proteomics Studies of the Interactome of RNA Polymerase II C-Terminal Repeated Domain</name>
+      <description>We developed a proteomics approach to examine the mammalian CTD-interactome. We used six synthetic peptides each consisting of four consensus CTD-repeats and with different combinations of serine and tyrosine phosphorylation as affinity-matrix to pull-down nuclear proteins from HeLa cells. The pull-down fractions were then analyzed by MUDPIT mass spectrometry. This approach identified a total of 100 CTD-interacting proteins pull-downed by the differentially phosphorylated CTD-peptides. Our analyses showed that the majority of proteins pulled-down by serine-phosphorylatd CTD are involved in RNA processing. Furthermore, this study identified proteins that were preferentially pulled-down by tyrosine/serine-doubly phosphorylated CTD.</description>
+      <cross_references>
+        <ref dbkey="9606" dbname="TAXONOMY"/>
+      </cross_references>
+      <dates>
+        <date type="submission" value="14-09-24"/>
+      </dates>
+      <additional_fields>
+        <field name="omics_type">Proteomics</field>
+        <field name="full_dataset_link">http://massive.ucsd.edu/ProteoSAFe/result.jsp?task=dfa10c6566dc4bfca6362abc761b74bc&amp;view=advanced_view</field>
+        <field name="repository">massive</field>
+        <field name="instrument_platform">LTQ</field>
+        <field name="modification">Phosphorylation.</field>
+        <field name="technology_type">Not available</field>
+        <field name="curator_keywords">ABL, Ionizing Radiation, MUDPIT, Phosphotyrosine, pY1-CTD antibodies, RPRD1B</field>
+        <field name="submitter">Jean Y. J. Wang</field>
+      </additional_fields>
+    </entry>
+  </entries>
+</database>

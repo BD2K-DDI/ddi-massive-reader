@@ -1,0 +1,33 @@
+<database>
+  <name>massive</name>
+  <description>The Massive Database contains information about all the proteomics/metabolomics datasets in massive</description>
+  <release>1.0</release>
+  <release_date>15-11-10</release_date>
+  <entry_count>1</entry_count>
+  <entries>
+    <entry id="MSV000078513">
+      <name>Discovery and verification of plasma protein biomarker candidates for cardiovascular disease</name>
+      <description>Addona TA,  Shi X, Keshishian H, Mani DR, Burgess M, Gillette MA, Clauser KR, Shen D, Lewis GD, Farrell LA, Fifer MA, Sabatine MS, Gerszten RE, Carr SA. Nat Biotechnol. 2011, 29(7):635-43. doi: 10.1038/nbt.1899. PMCID:PMC3366591.
+Discovery, AIMS, and MRM datasets
+Discovery_Tranche_hash: b/quYtp/Q8fY6EdnRMoUEe5Jme2WHwYKLj50kWO/JvsNdVnQV6UCgTixEFP9uQiBYJo9emQVc2lRzbDQLKURot4mEXEAAAAAAAGNYQ==
+AIMS_Tranche_hash: dzovoZTeT+kY0bQ4/NxPDI912ib+Z0/7UM/QS+Tzn1p0qdljLshY74okkmbLgCkQLbK8/CqwnSwPYciLSQqNc70hDuEAAAAAAACjIg==
+MRM_Tranche_hash: WNWMJg68D/CjrNnR26osMAfjmCNGbxEMweFdZJTps7AUv8Aw9pIhsfbMehM4lGYJSIKVx6CbZS/pBCftDf8XvDuKidMAAAAAAABCMg==</description>
+      <cross_references>
+        <ref dbkey="21685905" dbname="pubmed"/>
+        <ref dbkey="19561596" dbname="pubmed"/>
+      </cross_references>
+      <dates>
+        <date type="submission" value="13-12-19"/>
+      </dates>
+      <additional_fields>
+        <field name="omics_type">Proteomics</field>
+        <field name="full_dataset_link">http://massive.ucsd.edu/ProteoSAFe/result.jsp?task=28061302e7e74047b47bb4cdc2a51c30&amp;view=advanced_view</field>
+        <field name="repository">massive</field>
+        <field name="instrument_platform">Not available</field>
+        <field name="modification">Not available</field>
+        <field name="technology_type">Not available</field>
+        <field name="submitter">null</field>
+      </additional_fields>
+    </entry>
+  </entries>
+</database>

@@ -1,0 +1,29 @@
+<database>
+  <name>massive</name>
+  <description>The Massive Database contains information about all the proteomics/metabolomics datasets in massive</description>
+  <release>1.0</release>
+  <release_date>15-11-10</release_date>
+  <entry_count>1</entry_count>
+  <entries>
+    <entry id="MSV000079320">
+      <name>GNPS - Streptomyces wadayamensis B1 (Wd, 1 and 2)</name>
+      <description>Extratos de cultivo de S. wadayamensis B1 selvagem e clones silenciados</description>
+      <cross_references>
+        <ref dbkey="141454" dbname="TAXONOMY"/>
+      </cross_references>
+      <dates>
+        <date type="submission" value="15-09-16"/>
+      </dates>
+      <additional_fields>
+        <field name="omics_type">Metabolomics</field>
+        <field name="full_dataset_link">http://massive.ucsd.edu/ProteoSAFe/result.jsp?task=d437ff0ffbfa4a92a733e8da664fc6b7&amp;view=advanced_view</field>
+        <field name="repository">massive</field>
+        <field name="instrument_platform">LC-Q-Tof(Agilent)</field>
+        <field name="modification">Not available</field>
+        <field name="technology_type">Not available</field>
+        <field name="curator_keywords">Streptomyces</field>
+        <field name="submitter">Celio F F A</field>
+      </additional_fields>
+    </entry>
+  </entries>
+</database>

@@ -1,0 +1,40 @@
+<database>
+  <name>massive</name>
+  <description>The Massive Database contains information about all the proteomics/metabolomics datasets in massive</description>
+  <release>1.0</release>
+  <release_date>15-11-10</release_date>
+  <entry_count>1</entry_count>
+  <entries>
+    <entry id="MSV000079018">
+      <name>AP-MS MudPIT run of Ino80 complex</name>
+      <description>File name explanation: &#13;
+Sc_Ino80_TAP_V2_P1_Ti_101:	&#13;
+Sc =  Saccharomyces cerevisiae (specie)&#13;
+Ino80 = bait protein&#13;
+TAP = tag&#13;
+V2 = lab instrument name(Velos_Elite2)&#13;
+P1 = biological replicate 1&#13;
+Ti = LysC+Trypsin digestion&#13;
+101 = MudPIT run 1 from 1st technical replicate</description>
+      <cross_references>
+        <ref dbkey="4932" dbname="TAXONOMY"/>
+        <ref dbkey="25964121" dbname="pubmed"/>
+      </cross_references>
+      <dates>
+        <date type="submission" value="15-01-28"/>
+      </dates>
+      <additional_fields>
+        <field name="omics_type">Proteomics</field>
+        <field name="full_dataset_link">http://massive.ucsd.edu/ProteoSAFe/result.jsp?task=95287f1b30b14e52853c9bc9fbdd2d80&amp;view=advanced_view</field>
+        <field name="repository">massive</field>
+        <field name="instrument_platform">LTQ Orbitrap Elite</field>
+        <field name="modification">Not available</field>
+        <field name="technology_type">Not available</field>
+        <field name="curator_keywords">AP-MS, MudPIT, Ino80</field>
+        <field name="submitter">Michael P. Washburn</field>
+        <field name="submitter">Craig L. Peterson</field>
+        <field name="submitter">Thomas Walz</field>
+      </additional_fields>
+    </entry>
+  </entries>
+</database>

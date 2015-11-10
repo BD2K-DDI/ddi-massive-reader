@@ -1,0 +1,32 @@
+<database>
+  <name>massive</name>
+  <description>The Massive Database contains information about all the proteomics/metabolomics datasets in massive</description>
+  <release>1.0</release>
+  <release_date>15-11-10</release_date>
+  <entry_count>1</entry_count>
+  <entries>
+    <entry id="MSV000078535">
+      <name>Extracellular Matrix Signatures of Human Mammary Carcinoma Identify Novel Metastasis Promoters</name>
+      <description>Naba A, Clauser K.R, Lamar J.M, Carr S.A and Hynes RO. eLife 2014</description>
+      <cross_references>
+        <ref dbkey="9606" dbname="TAXONOMY"/>
+        <ref dbkey="10090" dbname="TAXONOMY"/>
+        <ref dbkey="24618895" dbname="pubmed"/>
+      </cross_references>
+      <dates>
+        <date type="submission" value="14-01-27"/>
+      </dates>
+      <additional_fields>
+        <field name="omics_type">Proteomics</field>
+        <field name="full_dataset_link">http://massive.ucsd.edu/ProteoSAFe/result.jsp?task=e49a61f728de43d3bb817b3b042fc63d&amp;view=advanced_view</field>
+        <field name="repository">massive</field>
+        <field name="instrument_platform">LTQ Orbitrap</field>
+        <field name="modification">A protein modification that is produced by reaction with iodoacetamide, usually replacement of a reactive hydrogen with a methylcarboxamido group.</field>
+        <field name="modification">A protein modification that effectively replaces a hydrogen atom with a carbamoyl (carboxamido) group. Replacement of an amino hydrogen produces a ureido group.</field>
+        <field name="modification">A protein modification that effectively replaces one hydrogen atom with a hydroxyl group.</field>
+        <field name="technology_type">Not available</field>
+        <field name="submitter">Steven A. Carr</field>
+      </additional_fields>
+    </entry>
+  </entries>
+</database>

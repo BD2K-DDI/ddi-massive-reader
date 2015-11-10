@@ -1,0 +1,31 @@
+<database>
+  <name>massive</name>
+  <description>The Massive Database contains information about all the proteomics/metabolomics datasets in massive</description>
+  <release>1.0</release>
+  <release_date>15-11-10</release_date>
+  <entry_count>1</entry_count>
+  <entries>
+    <entry id="MSV000079237">
+      <name>Molecular Architecture of the Yeast Mediator Complex</name>
+      <description>Cross-linking MS data from the yeast Mediator complex. Cross-linking was performed using either BS3 or 1:1 mix of d0:d12 DSS. Includes unfractionated, SEC enriched, high pH reverse phase fractionated, DDA and inclusion list generated files.
+</description>
+      <cross_references>
+        <ref dbkey="4932" dbname="TAXONOMY"/>
+        <ref dbkey="26402457" dbname="pubmed"/>
+      </cross_references>
+      <dates>
+        <date type="submission" value="15-08-13"/>
+      </dates>
+      <additional_fields>
+        <field name="omics_type">Proteomics</field>
+        <field name="full_dataset_link">http://massive.ucsd.edu/ProteoSAFe/result.jsp?task=9e98a8d3fd404615bdd064d75463f3c3&amp;view=advanced_view</field>
+        <field name="repository">massive</field>
+        <field name="instrument_platform">LTQ Orbitrap Velos</field>
+        <field name="modification">Monolink of DSS/BS3 crosslinker to Lys or N-terminus.</field>
+        <field name="technology_type">Not available</field>
+        <field name="curator_keywords">cross-linking, mass spectrometry, mediator complex, transcription, structural biology</field>
+        <field name="submitter">Roger D. Kornberg</field>
+      </additional_fields>
+    </entry>
+  </entries>
+</database>

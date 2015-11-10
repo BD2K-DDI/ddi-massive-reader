@@ -1,0 +1,30 @@
+<database>
+  <name>massive</name>
+  <description>The Massive Database contains information about all the proteomics/metabolomics datasets in massive</description>
+  <release>1.0</release>
+  <release_date>15-11-10</release_date>
+  <entry_count>1</entry_count>
+  <entries>
+    <entry id="MSV000078779">
+      <name>Spontaneous stem cell accumulation prevents mammary aging</name>
+      <description>Shotgun proteomics data comparing basal mammary cellular population obtained from wild-type and timp knockout mice.</description>
+      <cross_references>
+        <ref dbkey="10090" dbname="TAXONOMY"/>
+      </cross_references>
+      <dates>
+        <date type="submission" value="14-07-15"/>
+      </dates>
+      <additional_fields>
+        <field name="omics_type">Proteomics</field>
+        <field name="full_dataset_link">http://massive.ucsd.edu/ProteoSAFe/result.jsp?task=71a7128bb2314ae6a433a71dc05a5e97&amp;view=advanced_view</field>
+        <field name="repository">massive</field>
+        <field name="instrument_platform">Q Exactive</field>
+        <field name="modification">A protein modification that is produced by reaction with iodoacetamide, usually replacement of a reactive hydrogen with a methylcarboxamido group.</field>
+        <field name="modification">A protein modification that effectively replaces one hydrogen atom with a hydroxyl group.</field>
+        <field name="technology_type">Not available</field>
+        <field name="submitter">Dr. Rama Khokha</field>
+        <field name="submitter">Dr. Thomas Kislinger</field>
+      </additional_fields>
+    </entry>
+  </entries>
+</database>

@@ -1,0 +1,30 @@
+<database>
+  <name>massive</name>
+  <description>The Massive Database contains information about all the proteomics/metabolomics datasets in massive</description>
+  <release>1.0</release>
+  <release_date>15-11-10</release_date>
+  <entry_count>1</entry_count>
+  <entries>
+    <entry id="MSV000079287">
+      <name>Proteomic Analysis of Wildtype and mutant ALG-1 in C. elegans</name>
+      <description>Datasets from manuscript:  Caenorhabditis elegans ALG-1 antimorphic mutations uncover functions for Argonaute in microRNA guide strand selection and passenger strand disposal</description>
+      <cross_references>
+        <ref dbkey="6239" dbname="TAXONOMY"/>
+      </cross_references>
+      <dates>
+        <date type="submission" value="15-09-01"/>
+      </dates>
+      <additional_fields>
+        <field name="omics_type">Proteomics</field>
+        <field name="full_dataset_link">http://massive.ucsd.edu/ProteoSAFe/result.jsp?task=a27ff1005e64434c82ffb1ad5c430d48&amp;view=advanced_view</field>
+        <field name="repository">massive</field>
+        <field name="instrument_platform">LTQ Orbitrap XL</field>
+        <field name="modification">Not available</field>
+        <field name="technology_type">Not available</field>
+        <field name="curator_keywords">C. elegans</field>
+        <field name="curator_keywords">microRNA</field>
+        <field name="submitter">Victor Ambros</field>
+      </additional_fields>
+    </entry>
+  </entries>
+</database>

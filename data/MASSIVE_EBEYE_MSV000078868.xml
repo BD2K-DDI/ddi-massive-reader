@@ -1,0 +1,29 @@
+<database>
+  <name>massive</name>
+  <description>The Massive Database contains information about all the proteomics/metabolomics datasets in massive</description>
+  <release>1.0</release>
+  <release_date>15-11-10</release_date>
+  <entry_count>1</entry_count>
+  <entries>
+    <entry id="MSV000078868">
+      <name>Proteome of Arabidopsis thaliana eds16, ceh1, and eds16 ceh1 mutants</name>
+      <description>Here we present the proteomic profile of mutant plants designated as eds16 (enhanced disease susceptibility), ceh1 (constitutively expressing HPL) as well as the ceh1 eds16 double mutant. CEH1 encodes 1-hydroxy-2-methyl-2-butenyl 4-diphosphate synthase (HDS), the enzyme controlling the bottleneck step of the biosynthesis of isopentenyl diphosphate via the 2-C-methyl-d-erythritol-4-phosphate (MEP) pathway in the plastids. Mutation of this enzyme in ceh1 mutant led to accumulation of high levels of the stress specific signaling metabolite 2c-methyl-D-erythritol 2,4-cylclodiphosphate (MEcPP), and consequently constitutive activation of a selected otherwise stress responsive genes. This data identifies the ensemble of stress responsive genes whose expression is regulated by the MEcPP signaling cascade.</description>
+      <cross_references>
+        <ref dbkey="3702" dbname="TAXONOMY"/>
+      </cross_references>
+      <dates>
+        <date type="submission" value="14-09-26"/>
+      </dates>
+      <additional_fields>
+        <field name="omics_type">Proteomics</field>
+        <field name="full_dataset_link">http://massive.ucsd.edu/ProteoSAFe/result.jsp?task=3d522aba735a49fbb31774c11bd2826e&amp;view=advanced_view</field>
+        <field name="repository">massive</field>
+        <field name="instrument_platform">LTQ</field>
+        <field name="modification">Phosphorylation.</field>
+        <field name="technology_type">Not available</field>
+        <field name="curator_keywords">MEcPP, plant stress response, iTRAQ, proteomic profiling, expression profiling</field>
+        <field name="submitter">Katayoon Dehesh</field>
+      </additional_fields>
+    </entry>
+  </entries>
+</database>

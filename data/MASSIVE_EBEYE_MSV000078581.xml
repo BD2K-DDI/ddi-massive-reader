@@ -1,0 +1,28 @@
+<database>
+  <name>massive</name>
+  <description>The Massive Database contains information about all the proteomics/metabolomics datasets in massive</description>
+  <release>1.0</release>
+  <release_date>15-11-10</release_date>
+  <entry_count>1</entry_count>
+  <entries>
+    <entry id="MSV000078581">
+      <name>GNPS Streptococcus mutans biofilm</name>
+      <description>Streptococcus mutans were grown in rich SHI-medium as biofilms anaerobically. Biofilms were starved in minimal medium followed by glucose amendment (at pH 7).  Replicate samples for MS/MS-small molecule and transcription analyses were collected at pH 7 and at pH 3.5 (20 hrs after glucose spiking). Only secreted molecules were analyzed with MS/MS (no cell lysis protocol was employed).</description>
+      <cross_references>
+        <ref dbkey="210007" dbname="TAXONOMY"/>
+      </cross_references>
+      <dates>
+        <date type="submission" value="14-04-10"/>
+      </dates>
+      <additional_fields>
+        <field name="omics_type">Metabolomics</field>
+        <field name="full_dataset_link">http://massive.ucsd.edu/ProteoSAFe/result.jsp?task=eb64202c1cf14547a450c786392b7078&amp;view=advanced_view</field>
+        <field name="repository">massive</field>
+        <field name="instrument_platform">LTQ FT</field>
+        <field name="modification">Not available</field>
+        <field name="technology_type">Not available</field>
+        <field name="submitter">Anna Edlund &amp; Jeffrey McLean</field>
+      </additional_fields>
+    </entry>
+  </entries>
+</database>

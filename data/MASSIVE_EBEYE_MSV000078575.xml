@@ -1,0 +1,30 @@
+<database>
+  <name>massive</name>
+  <description>The Massive Database contains information about all the proteomics/metabolomics datasets in massive</description>
+  <release>1.0</release>
+  <release_date>15-11-10</release_date>
+  <entry_count>1</entry_count>
+  <entries>
+    <entry id="MSV000078575">
+      <name>Taipale_HSP90_cochaperone_P77_VS6</name>
+      <description>This submission is part of the mass spectrometry datasets for the manuscript by Taipale et al. (HSP90 cochaperone interaction network); Cell, 2014.  This submission contains files for the data presented as a supplementary figure that details the interaction profiles for Kelch family proteins, all acquired on a 5600 TripleTOF mass spectrometer.  See the README file within "Methods and Protocols" and the accompanying File description.</description>
+      <cross_references>
+        <ref dbkey="9606" dbname="TAXONOMY"/>
+        <ref dbkey="25036637" dbname="pubmed"/>
+      </cross_references>
+      <dates>
+        <date type="submission" value="14-04-02"/>
+      </dates>
+      <additional_fields>
+        <field name="omics_type">Proteomics</field>
+        <field name="full_dataset_link">http://massive.ucsd.edu/ProteoSAFe/result.jsp?task=76087d5f1c2148a880ef9b71f09c36d2&amp;view=advanced_view</field>
+        <field name="repository">massive</field>
+        <field name="instrument_platform">TripleTOF 5600</field>
+        <field name="modification">A protein modification that effectively replaces a carboxamido group with a carboxyl group, with both a gain of oxygen and loss of a nitrogen and a hydrogen.</field>
+        <field name="modification">A protein modification that effectively replaces one hydrogen atom with a hydroxyl group.</field>
+        <field name="technology_type">Not available</field>
+        <field name="submitter">Anne-Claude Gingras</field>
+      </additional_fields>
+    </entry>
+  </entries>
+</database>

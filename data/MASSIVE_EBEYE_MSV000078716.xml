@@ -1,0 +1,33 @@
+<database>
+  <name>massive</name>
+  <description>The Massive Database contains information about all the proteomics/metabolomics datasets in massive</description>
+  <release>1.0</release>
+  <release_date>15-11-10</release_date>
+  <entry_count>1</entry_count>
+  <entries>
+    <entry id="MSV000078716">
+      <name>GNPS- Interkingdom Microbial Interactions from Bayley Hazen Blue Cheese</name>
+      <description>Interkingdom interactions between JB182 and Penicillium spp. Information about the strain isolation can be found in the following article:
+Title: Cheese Rind Communities provide tractable systems for in situ and in vitro studies of microbial diversity
+Authors: BE Wolfe, JE Button, M Santarelli, RJ Dutton
+Cell, 2014, article accpeted. </description>
+      <cross_references>
+        <ref dbkey="256701" dbname="TAXONOMY"/>
+      </cross_references>
+      <dates>
+        <date type="submission" value="14-06-05"/>
+      </dates>
+      <additional_fields>
+        <field name="omics_type">Metabolomics</field>
+        <field name="full_dataset_link">http://massive.ucsd.edu/ProteoSAFe/result.jsp?task=8ec695fac49446d5948ce59d45811751&amp;view=advanced_view</field>
+        <field name="repository">massive</field>
+        <field name="instrument_platform">LTQ FT</field>
+        <field name="species">Penicillium sp. #12</field>
+        <field name="species">Penicillium sp. RS17</field>
+        <field name="modification">Not available</field>
+        <field name="technology_type">Not available</field>
+        <field name="submitter">PC Dorrestein RJ Dutton</field>
+      </additional_fields>
+    </entry>
+  </entries>
+</database>

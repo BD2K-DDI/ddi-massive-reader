@@ -1,0 +1,28 @@
+<database>
+  <name>massive</name>
+  <description>The Massive Database contains information about all the proteomics/metabolomics datasets in massive</description>
+  <release>1.0</release>
+  <release_date>15-11-10</release_date>
+  <entry_count>1</entry_count>
+  <entries>
+    <entry id="MSV000078744">
+      <name>GNPS Moorea Interactions 2014 UPLC-MS/MS qTOF Maxis</name>
+      <description>A set of benthic interaction samples obtained from ARMS plates in Moorea, Pacific Ocean. Mostly contains Bryozoan and tunicate interactions with samples from colony and interaction zone. Extracted in ethyl acetate and methanol.</description>
+      <cross_references>
+        <ref dbkey="7712" dbname="TAXONOMY"/>
+      </cross_references>
+      <dates>
+        <date type="submission" value="14-06-19"/>
+      </dates>
+      <additional_fields>
+        <field name="omics_type">Metabolomics</field>
+        <field name="full_dataset_link">http://massive.ucsd.edu/ProteoSAFe/result.jsp?task=2ca8ae78de5b49a6ab09bac98fdb94b2&amp;view=advanced_view</field>
+        <field name="repository">massive</field>
+        <field name="instrument_platform">maXis</field>
+        <field name="modification">Not available</field>
+        <field name="technology_type">Not available</field>
+        <field name="submitter">Forest Rohwer</field>
+      </additional_fields>
+    </entry>
+  </entries>
+</database>

@@ -1,0 +1,31 @@
+<database>
+  <name>massive</name>
+  <description>The Massive Database contains information about all the proteomics/metabolomics datasets in massive</description>
+  <release>1.0</release>
+  <release_date>15-11-10</release_date>
+  <entry_count>1</entry_count>
+  <entries>
+    <entry id="MSV000079240">
+      <name>Multicopy single-stranded DNA directs intestinal colonization of enteric pathogens</name>
+      <description>Examination of intestinal colonization of enteric pathogen Salmonella typhimurium</description>
+      <cross_references>
+        <ref dbkey="588858" dbname="TAXONOMY"/>
+      </cross_references>
+      <dates>
+        <date type="submission" value="15-08-14"/>
+      </dates>
+      <additional_fields>
+        <field name="omics_type">Proteomics</field>
+        <field name="full_dataset_link">http://massive.ucsd.edu/ProteoSAFe/result.jsp?task=a86c12221b3f474cb2defda1f2590d72&amp;view=advanced_view</field>
+        <field name="repository">massive</field>
+        <field name="instrument_platform">LTQ Orbitrap Velos</field>
+        <field name="modification">Oxidation or Hydroxylation.</field>
+        <field name="technology_type">Not available</field>
+        <field name="curator_keywords">pathogen</field>
+        <field name="curator_keywords">enteric</field>
+        <field name="submitter">Helene L. Andrews-Polymenis</field>
+        <field name="submitter">Josh Adkins</field>
+      </additional_fields>
+    </entry>
+  </entries>
+</database>

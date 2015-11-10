@@ -1,0 +1,33 @@
+<database>
+  <name>massive</name>
+  <description>The Massive Database contains information about all the proteomics/metabolomics datasets in massive</description>
+  <release>1.0</release>
+  <release_date>15-11-10</release_date>
+  <entry_count>1</entry_count>
+  <entries>
+    <entry id="MSV000078548">
+      <name>GNPS - Molecular networking as a dereplication strategy-Figure 3</name>
+      <description>Molecular networking as a dereplication strategy. Yang JY, Sanchez LM, Rath CM, Liu X, Boudreau PD, Bruns N, Glukhov E, Wodtke A, de Felicio R, Fenner A, Wong WR, Linington RG, Zhang L, Debonsi HM, Gerwick WH, Dorrestein PC.
+J Nat Prod. 2013 Sep 27;76(9):1686-99. doi: 10.1021/np400413s 
+PubMedID: 24025162 
+RAW Files used to generate Figure 3. Cyanobacterial network with a cosine similarity score cutoff of 0.65. This network was generated when extracts of cyanobacteria (six distinct collections) were separated into nine fractions based on polarity and then analyzed via LC-MS/MS with five known compounds</description>
+      <cross_references>
+        <ref dbkey="1117" dbname="TAXONOMY"/>
+        <ref dbkey="24025162" dbname="pubmed"/>
+      </cross_references>
+      <dates>
+        <date type="submission" value="14-02-11"/>
+      </dates>
+      <additional_fields>
+        <field name="omics_type">Metabolomics</field>
+        <field name="full_dataset_link">http://massive.ucsd.edu/ProteoSAFe/result.jsp?task=9e78e73d5f5c4fb0a8dc5b19937be03f&amp;view=advanced_view</field>
+        <field name="repository">massive</field>
+        <field name="instrument_platform">LCQ Classic</field>
+        <field name="modification">Not available</field>
+        <field name="technology_type">Not available</field>
+        <field name="submitter">Dorrestein</field>
+        <field name="submitter">Gerwick</field>
+      </additional_fields>
+    </entry>
+  </entries>
+</database>

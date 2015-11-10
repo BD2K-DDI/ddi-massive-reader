@@ -1,0 +1,32 @@
+<database>
+  <name>massive</name>
+  <description>The Massive Database contains information about all the proteomics/metabolomics datasets in massive</description>
+  <release>1.0</release>
+  <release_date>15-11-10</release_date>
+  <entry_count>1</entry_count>
+  <entries>
+    <entry id="MSV000078990">
+      <name>GNPS - Moorea producens JHB Metabolome</name>
+      <description>Crude extracts of Moorea producens JHB (with blank solvent controls), grown under normal conditions or with excess sodium iodide, and run by LCMS on a Thermo LTQ FT and LCQ Advantage, respectively. Isolated pure compound mzXML files from the LTQ FT by direct nanomate injection.</description>
+      <cross_references>
+        <ref dbkey="1454205" dbname="TAXONOMY"/>
+      </cross_references>
+      <dates>
+        <date type="submission" value="15-01-09"/>
+      </dates>
+      <additional_fields>
+        <field name="omics_type">Metabolomics</field>
+        <field name="full_dataset_link">http://massive.ucsd.edu/ProteoSAFe/result.jsp?task=32f0ba62cc274191a7a57d406beb7cbb&amp;view=advanced_view</field>
+        <field name="repository">massive</field>
+        <field name="instrument_platform">LTQ FT</field>
+        <field name="instrument_platform">LCQ Advantage</field>
+        <field name="modification">Not available</field>
+        <field name="technology_type">Not available</field>
+        <field name="curator_keywords">Cyanobacteria</field>
+        <field name="curator_keywords">Hectochlorin</field>
+        <field name="curator_keywords">Jamaicamide</field>
+        <field name="submitter">William Gerwick</field>
+      </additional_fields>
+    </entry>
+  </entries>
+</database>

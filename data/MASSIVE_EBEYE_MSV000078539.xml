@@ -1,0 +1,49 @@
+<database>
+  <name>massive</name>
+  <description>The Massive Database contains information about all the proteomics/metabolomics datasets in massive</description>
+  <release>1.0</release>
+  <release_date>15-11-10</release_date>
+  <entry_count>1</entry_count>
+  <entries>
+    <entry id="MSV000078539">
+      <name>iPRG 2009: Differential proteomics in Orbitrap E. coli lysates</name>
+      <description>The files in directory were generated as part of the ABRF iPRG
+2009 Study.  The sample is E. coli lysate.  The five "red" RPLC
+runs lack the "green" set of proteins.  The five "yellow" runs
+lack the "blue" set of proteins.  Both red and yellow runs
+contain a spike of BSA to enable quantitative comparison among
+runs.  Proteins were reduced and alkylated by DTT and
+iodoacetamide, respectively, and separated in a 1D gel.  The
+proteins were trypsinized, and the peptides were added to the
+in-solution digest of BSA.
+
+In a collaboration between the Ayers Institute and Mass
+Spectrometry Research Center at Vanderbilt University Medical
+Center, the red and yellow samples were each separated five
+times in an RPLC/MS/MS experiment lasting 184 minutes (of which
+the shallow gradient lasted two hours ).  The instrument
+collecting data was a Thermo LTQ-XL Orbitrap.  Eight centroided
+tandem mass spectra were collected following each profile MS
+scan.
+
+Collection of these data was supported by U24 CA126479.</description>
+      <cross_references>
+        <ref dbkey="562" dbname="TAXONOMY"/>
+      </cross_references>
+      <dates>
+        <date type="submission" value="14-01-28"/>
+      </dates>
+      <additional_fields>
+        <field name="omics_type">Proteomics</field>
+        <field name="full_dataset_link">http://massive.ucsd.edu/ProteoSAFe/result.jsp?task=7e3ec828c9344ccdb429140c5b646696&amp;view=advanced_view</field>
+        <field name="repository">massive</field>
+        <field name="instrument_platform">LTQ Orbitrap</field>
+        <field name="modification">A protein modification that effectively replaces a hydrogen atom with an acetyl group.</field>
+        <field name="modification">A protein modification that is produced by reaction with iodoacetamide, usually replacement of a reactive hydrogen with a methylcarboxamido group.</field>
+        <field name="modification">A protein modification that effectively replaces one hydrogen atom with a hydroxyl group.</field>
+        <field name="technology_type">Not available</field>
+        <field name="submitter">David L. Tabb</field>
+      </additional_fields>
+    </entry>
+  </entries>
+</database>

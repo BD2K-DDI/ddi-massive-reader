@@ -1,0 +1,32 @@
+<database>
+  <name>massive</name>
+  <description>The Massive Database contains information about all the proteomics/metabolomics datasets in massive</description>
+  <release>1.0</release>
+  <release_date>15-11-10</release_date>
+  <entry_count>1</entry_count>
+  <entries>
+    <entry id="MSV000079140">
+      <name>GNPS - Light and dark on marine actinobacteria</name>
+      <description>Light and dark effect on marine actinobacteria</description>
+      <cross_references/>
+      <dates>
+        <date type="submission" value="15-06-04"/>
+      </dates>
+      <additional_fields>
+        <field name="omics_type">Metabolomics</field>
+        <field name="full_dataset_link">http://massive.ucsd.edu/ProteoSAFe/result.jsp?task=8ad30a29f59d40f29eab9b0d53ea9523&amp;view=advanced_view</field>
+        <field name="repository">massive</field>
+        <field name="instrument_platform">agilent 1290</field>
+        <field name="instrument_platform">microTOF LC</field>
+        <field name="species">Actinobacteria &lt;class&gt;</field>
+        <field name="modification">Not available</field>
+        <field name="technology_type">Not available</field>
+        <field name="curator_keywords">light</field>
+        <field name="curator_keywords">dark</field>
+        <field name="curator_keywords">actinobacteria</field>
+        <field name="curator_keywords">marine</field>
+        <field name="submitter">Liangyu Chen</field>
+      </additional_fields>
+    </entry>
+  </entries>
+</database>

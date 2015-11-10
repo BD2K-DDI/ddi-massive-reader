@@ -1,0 +1,39 @@
+<database>
+  <name>massive</name>
+  <description>The Massive Database contains information about all the proteomics/metabolomics datasets in massive</description>
+  <release>1.0</release>
+  <release_date>15-11-10</release_date>
+  <entry_count>1</entry_count>
+  <entries>
+    <entry id="MSV000079045">
+      <name>Whole milk proteome of human and rhesus macaque during peak lactation</name>
+      <description>Milk has been well established as the optimal nutrition source for infants, yet there is still much to be understood about its molecular composition. Therefore, our objective was to develop and compare comprehensive milk proteomes for human and rhesus macaques to highlight differences in neonatal nutrition. We developed a milk proteomics technique that overcomes previous technical barriers including pervasive post-translational modifications and limited sample volume. We identified 1,606 and 518 proteins in human and macaque milk, respectively. During analysis of detected protein orthologs, we identified 88 differentially abundant proteins. Of these, 93% exhibited increased abundance in human milk relative to macaque and include lactoferrin, polymeric immunoglobulin receptor, alpha-1 antichymotrypsin, vitamin D-binding protein, and haptocorrin. Furthermore, proteins more abundant in human milk compared to macaque are associated with development of the gastrointestinal tract, the immune system, and the brain. Overall, our novel proteomics method reveals the first comprehensive macaque milk proteome and 524 newly identified human milk proteins. The differentially abundant proteins observed are consistent with the perspective that human infants, compared to non-human primates, are born at a slightly earlier stage of somatic development and require additional support through higher quantities of specific proteins to nurture human infant maturation. </description>
+      <cross_references>
+        <ref dbkey="9606" dbname="TAXONOMY"/>
+        <ref dbkey="9544" dbname="TAXONOMY"/>
+        <ref dbkey="25757574" dbname="pubmed"/>
+      </cross_references>
+      <dates>
+        <date type="submission" value="15-02-23"/>
+      </dates>
+      <additional_fields>
+        <field name="omics_type">Proteomics</field>
+        <field name="full_dataset_link">http://massive.ucsd.edu/ProteoSAFe/result.jsp?task=64275bb0a1424961a4917cc7e41a82d8&amp;view=advanced_view</field>
+        <field name="repository">massive</field>
+        <field name="instrument_platform">Q Exactive</field>
+        <field name="modification">Iodoacetamide derivative.</field>
+        <field name="modification">Deamidation.</field>
+        <field name="modification">Oxidation or Hydroxylation.</field>
+        <field name="modification">Pyro-glu from E.</field>
+        <field name="modification">Pyro-glu from Q.</field>
+        <field name="modification">Dihydroxy.</field>
+        <field name="modification">Acetylation.</field>
+        <field name="technology_type">Not available</field>
+        <field name="curator_keywords">Milk</field>
+        <field name="curator_keywords">Lactation</field>
+        <field name="curator_keywords">Mammary gland</field>
+        <field name="submitter">Danielle Lemay</field>
+      </additional_fields>
+    </entry>
+  </entries>
+</database>

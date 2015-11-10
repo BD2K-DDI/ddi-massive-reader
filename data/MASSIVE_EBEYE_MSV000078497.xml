@@ -1,0 +1,27 @@
+<database>
+  <name>massive</name>
+  <description>The Massive Database contains information about all the proteomics/metabolomics datasets in massive</description>
+  <release>1.0</release>
+  <release_date>15-11-10</release_date>
+  <entry_count>1</entry_count>
+  <entries>
+    <entry id="MSV000078497">
+      <name>Plk1 Self-Organization and Priming Phosphorylation of HsCYK-4 at the Spindle Midzone</name>
+      <description>Burkard ME, Maciejowski J, Rodriguez-Bravo V, Repka M, Lowery DM, Clauser KR, Zhang C, Shokat KM, Carr SA, Yaffe MB, Jallepalli PV.  PLoS Biology. 2009, 7, 1-16. PMCID: PMC2680336.
+Tranche_hash:hoZCdxyWctOiblTI0WPcWoNstEY2hXa1nrvH2/zm/8nMEni3uXsGtepf4XeqiDJTGfsP5zOmDl9f4vKwlQuR424g5OoAAAAAAAAJzA==</description>
+      <cross_references/>
+      <dates>
+        <date type="submission" value="13-11-21"/>
+      </dates>
+      <additional_fields>
+        <field name="omics_type">Proteomics</field>
+        <field name="full_dataset_link">http://massive.ucsd.edu/ProteoSAFe/result.jsp?task=11c25ef782984c31a1c2f558679d1f67&amp;view=advanced_view</field>
+        <field name="repository">massive</field>
+        <field name="instrument_platform">Not available</field>
+        <field name="modification">Not available</field>
+        <field name="technology_type">Not available</field>
+        <field name="submitter">null</field>
+      </additional_fields>
+    </entry>
+  </entries>
+</database>

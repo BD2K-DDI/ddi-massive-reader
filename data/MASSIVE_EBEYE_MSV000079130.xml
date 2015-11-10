@@ -1,0 +1,33 @@
+<database>
+  <name>massive</name>
+  <description>The Massive Database contains information about all the proteomics/metabolomics datasets in massive</description>
+  <release>1.0</release>
+  <release_date>15-11-10</release_date>
+  <entry_count>1</entry_count>
+  <entries>
+    <entry id="MSV000079130">
+      <name>GNPS - Coral response to environmental and endogenous stimuli</name>
+      <description>Samples comprise a series of experiments conducted with Acorpora yongei corals to examine their metabolomic response to bleaching, UV exposure, rapid growth, ontogeny, reproductive investment, and PAF and TNF stimulation. Experiments were conducted at SIO by Aaron Hartmann and Ines Galier d'Auriac. Samples were run on the mass spec by Rob Quinn.</description>
+      <cross_references>
+        <ref dbkey="117778" dbname="TAXONOMY"/>
+      </cross_references>
+      <dates>
+        <date type="submission" value="15-05-12"/>
+      </dates>
+      <additional_fields>
+        <field name="omics_type">Metabolomics</field>
+        <field name="full_dataset_link">http://massive.ucsd.edu/ProteoSAFe/result.jsp?task=a6f91175de794d9e940fa439b6391617&amp;view=advanced_view</field>
+        <field name="repository">massive</field>
+        <field name="instrument_platform">maXis</field>
+        <field name="modification">Not available</field>
+        <field name="technology_type">Not available</field>
+        <field name="curator_keywords">coral</field>
+        <field name="curator_keywords">bleaching</field>
+        <field name="curator_keywords">UV</field>
+        <field name="curator_keywords">growth</field>
+        <field name="curator_keywords">ontogeny</field>
+        <field name="submitter">Rohwer</field>
+      </additional_fields>
+    </entry>
+  </entries>
+</database>

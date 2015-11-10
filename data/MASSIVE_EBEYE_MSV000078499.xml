@@ -1,0 +1,27 @@
+<database>
+  <name>massive</name>
+  <description>The Massive Database contains information about all the proteomics/metabolomics datasets in massive</description>
+  <release>1.0</release>
+  <release_date>15-11-10</release_date>
+  <entry_count>1</entry_count>
+  <entries>
+    <entry id="MSV000078499">
+      <name>Bead-based profiling of tyrosine kinase phosphorylation identifies SRC as a glioblastoma target</name>
+      <description>Du J, Bernasconi P, Clauser KR, Mani DR, Finn SP, Beroukhim R, Burns M, Julian B, Peng XP, Hieronymus H, Maglathlin RL, Lewis TA, Liau LM, Nghiemphu P, Mellinghoff IK, Louis DN, Loda M, Carr SA,Kung AL, Golub TR. Nat Biotech, 2009, 27, 77-83. PMCID:PMC3057643.
+</description>
+      <cross_references/>
+      <dates>
+        <date type="submission" value="13-11-21"/>
+      </dates>
+      <additional_fields>
+        <field name="omics_type">Proteomics</field>
+        <field name="full_dataset_link">http://massive.ucsd.edu/ProteoSAFe/result.jsp?task=de8f659c79dd4b1fb621a76239c72e06&amp;view=advanced_view</field>
+        <field name="repository">massive</field>
+        <field name="instrument_platform">Not available</field>
+        <field name="modification">Not available</field>
+        <field name="technology_type">Not available</field>
+        <field name="submitter">null</field>
+      </additional_fields>
+    </entry>
+  </entries>
+</database>

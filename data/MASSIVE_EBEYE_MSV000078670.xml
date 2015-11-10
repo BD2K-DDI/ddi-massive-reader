@@ -1,0 +1,30 @@
+<database>
+  <name>massive</name>
+  <description>The Massive Database contains information about all the proteomics/metabolomics datasets in massive</description>
+  <release>1.0</release>
+  <release_date>15-11-10</release_date>
+  <entry_count>1</entry_count>
+  <entries>
+    <entry id="MSV000078670">
+      <name>GNPS Theonella swinhoei (yellow chemotype) and Entotheonella enriched cell fractions </name>
+      <description>UPLC-MS/MS or nanoLC-MS/MS data acquired from whole sponge extracts from the marine sponge Theonella swinhoei (yellow chemotype; Hachijo Jima, Japan) or extracts from two Entotheonella enriched cell fractions obtained by differential centrifugation. More than 40 bioactive polyketides and modified peptides that belong to seven structural classes are known to be produced by this sponge. Single-cell genomics and chemical analysis have revealed Entotheonella as the producer of most of the known chemistry from this sponge. 
+
+Reference: Wilson MC, Mori T, R�ckert C, Uria AR, Helf MJ, Takada K, Gernert C, Steffens UA, Heycke N, Schmitt S, Rinke C, Helfrich EJ, Brachmann AO, Gurgui C, Wakimoto T, Kracht M, Cr�semann M, Hentschel U, Abe I, Matsunaga S, Kalinowski J, Takeyama H, Piel J, An environmental bacterial taxon with a large and distinct metabolic repertoire. Nature. 2014 Feb 6;506(7486):58-62.</description>
+      <cross_references/>
+      <dates>
+        <date type="submission" value="14-05-23"/>
+      </dates>
+      <additional_fields>
+        <field name="omics_type">Metabolomics</field>
+        <field name="full_dataset_link">http://massive.ucsd.edu/ProteoSAFe/result.jsp?task=e30ec4edcfd245ec8b4177005c82853f&amp;view=advanced_view</field>
+        <field name="repository">massive</field>
+        <field name="instrument_platform">Q Exactive</field>
+        <field name="species">Theonella swinhoei (yellow chemotype</field>
+        <field name="species">Hachijo Jima, Japan) and Entotheonella enriched cell fractions</field>
+        <field name="modification">Not available</field>
+        <field name="technology_type">Not available</field>
+        <field name="submitter">Piel</field>
+      </additional_fields>
+    </entry>
+  </entries>
+</database>

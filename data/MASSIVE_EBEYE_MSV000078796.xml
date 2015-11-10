@@ -1,0 +1,48 @@
+<database>
+  <name>massive</name>
+  <description>The Massive Database contains information about all the proteomics/metabolomics datasets in massive</description>
+  <release>1.0</release>
+  <release_date>15-11-10</release_date>
+  <entry_count>1</entry_count>
+  <entries>
+    <entry id="MSV000078796">
+      <name>PTMs of Endogenous Tau in Wildtype and hAPP Transgenic Mice</name>
+      <description>Please Note, if a password is required, please try "a", the generic password for Massive.&#13;
+&#13;
+These data are in support of the manuscript:&#13;
+&#13;
+Post-translational Modifications of Endogenous Tau in Wildtype and Human Amyloid Precursor Protein Transgenic Mice &#13;
+&#13;
+Meaghan Morris*a,b, Giselle M. Knudsen*c, Sumihiro Maedaa,d, Jonathan C. Trinidadc, Alexandra Ianoviciuc, Alma L. Burlingamec, Lennart Muckea,d &#13;
+aGladstone Institute of Neurological Disease, San Francisco, California 94158, USA&#13;
+bBiochemistry, Cellular and Molecular Biology Graduate Program, Department of Biological Chemistry, The Johns Hopkins University School of Medicine, Baltimore, MD 21205, USA&#13;
+cMass Spectrometry Facility, Department of Pharmaceutical Chemistry, University of California, San Francisco, California 94158, USA&#13;
+dDepartment of Neurology, University of California, San Francisco, California 94158, USA&#13;
+&#13;
+*These authors contributed equally to this work&#13;
+</description>
+      <cross_references>
+        <ref dbkey="9606" dbname="TAXONOMY"/>
+        <ref dbkey="10090" dbname="TAXONOMY"/>
+        <ref dbkey="26192747" dbname="pubmed"/>
+      </cross_references>
+      <dates>
+        <date type="submission" value="14-07-30"/>
+      </dates>
+      <additional_fields>
+        <field name="omics_type">Proteomics</field>
+        <field name="full_dataset_link">http://massive.ucsd.edu/ProteoSAFe/result.jsp?task=4f229928e92c42c487d225e6f0d5a5d3&amp;view=advanced_view</field>
+        <field name="repository">massive</field>
+        <field name="instrument_platform">LTQ Orbitrap Velos</field>
+        <field name="instrument_platform">LTQ Orbitrap</field>
+        <field name="modification">A protein modification that effectively replaces a hydrogen atom with an acetyl group.</field>
+        <field name="modification">A protein modification that effectively replaces one hydrogen atom with a hydroxyl group.</field>
+        <field name="modification">A protein modification that effectively replaces a hydrogen atom with a phosphono group (H2PO3 or 'phosphate').</field>
+        <field name="modification">A protein modification that is produced by reaction with iodoacetamide, usually replacement of a reactive hydrogen with a methylcarboxamido group.</field>
+        <field name="modification">A protein modification that effectively replaces one hydrogen atom with one methyl group.</field>
+        <field name="technology_type">Not available</field>
+        <field name="submitter">Lennart Mucke</field>
+      </additional_fields>
+    </entry>
+  </entries>
+</database>

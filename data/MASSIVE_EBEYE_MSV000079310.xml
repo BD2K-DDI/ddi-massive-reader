@@ -1,0 +1,35 @@
+<database>
+  <name>massive</name>
+  <description>The Massive Database contains information about all the proteomics/metabolomics datasets in massive</description>
+  <release>1.0</release>
+  <release_date>15-11-10</release_date>
+  <entry_count>1</entry_count>
+  <entries>
+    <entry id="MSV000079310">
+      <name>PRIDE PXD000076 - Shortgun Proteomic analysis of two Bartonella quintana strains</name>
+      <description>Proteomic analysis two strains of Bartonella quintana using In-solution digestion followed by Stron Cation Exchange (SCX) and RP nano-LC-MS/MS</description>
+      <cross_references>
+        <ref dbkey="1134506" dbname="TAXONOMY"/>
+        <ref dbkey="803" dbname="TAXONOMY"/>
+        <ref dbkey="23450663" dbname="pubmed"/>
+      </cross_references>
+      <dates>
+        <date type="submission" value="15-09-10"/>
+      </dates>
+      <additional_fields>
+        <field name="omics_type">Proteomics</field>
+        <field name="full_dataset_link">http://massive.ucsd.edu/ProteoSAFe/result.jsp?task=e6ef1e57368e4282a4b33a15ae94ebbc&amp;view=advanced_view</field>
+        <field name="repository">massive</field>
+        <field name="instrument_platform">QSTAR XL</field>
+        <field name="instrument_platform">MS:1000031</field>
+        <field name="modification">A protein modification that effectively replaces one hydrogen atom with a hydroxyl group.</field>
+        <field name="modification">A protein modification that is produced by reaction with iodoacetamide, usually replacement of a reactive hydrogen with a methylcarboxamido group.</field>
+        <field name="technology_type">Not available</field>
+        <field name="curator_keywords">Bartonella quintana</field>
+        <field name="curator_keywords">JK 31</field>
+        <field name="curator_keywords">LC-MSMS</field>
+        <field name="submitter">None Listed</field>
+      </additional_fields>
+    </entry>
+  </entries>
+</database>

@@ -1,0 +1,27 @@
+<database>
+  <name>massive</name>
+  <description>The Massive Database contains information about all the proteomics/metabolomics datasets in massive</description>
+  <release>1.0</release>
+  <release_date>15-11-10</release_date>
+  <entry_count>1</entry_count>
+  <entries>
+    <entry id="MSV000078717">
+      <name>GNPS Coral microbial isolate PF 2ta6</name>
+      <description>These samples were isolated from M. annularis from the Azam lab at the Scripps Institution of Oceanography.</description>
+      <cross_references/>
+      <dates>
+        <date type="submission" value="14-06-05"/>
+      </dates>
+      <additional_fields>
+        <field name="omics_type">Metabolomics</field>
+        <field name="full_dataset_link">http://massive.ucsd.edu/ProteoSAFe/result.jsp?task=259f98d306b9440bb4df54b40f71ced3&amp;view=advanced_view</field>
+        <field name="repository">massive</field>
+        <field name="instrument_platform">maXis</field>
+        <field name="species">Pseudoalteromonas 2ta6</field>
+        <field name="modification">Not available</field>
+        <field name="technology_type">Not available</field>
+        <field name="submitter">Dorrestein</field>
+      </additional_fields>
+    </entry>
+  </entries>
+</database>

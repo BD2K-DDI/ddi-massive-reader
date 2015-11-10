@@ -1,0 +1,27 @@
+<database>
+  <name>massive</name>
+  <description>The Massive Database contains information about all the proteomics/metabolomics datasets in massive</description>
+  <release>1.0</release>
+  <release_date>15-11-10</release_date>
+  <entry_count>1</entry_count>
+  <entries>
+    <entry id="MSV000078770">
+      <name>GNPS_VERN_TOMEM-1408_MS2</name>
+      <description>Plant extract MS2 from Vernonia tomentosa. Unpublished data.</description>
+      <cross_references/>
+      <dates>
+        <date type="submission" value="14-06-25"/>
+      </dates>
+      <additional_fields>
+        <field name="omics_type">Metabolomics</field>
+        <field name="full_dataset_link">http://massive.ucsd.edu/ProteoSAFe/result.jsp?task=45b68eb4d9a44357acb366bb263bc00d&amp;view=advanced_view</field>
+        <field name="repository">massive</field>
+        <field name="instrument_platform">LC- MS - Ion trap - Bruker</field>
+        <field name="species">Vernonia tomentosa</field>
+        <field name="modification">Not available</field>
+        <field name="technology_type">Not available</field>
+        <field name="submitter">Norberto Lopes</field>
+      </additional_fields>
+    </entry>
+  </entries>
+</database>

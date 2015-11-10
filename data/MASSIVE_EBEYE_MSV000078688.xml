@@ -1,0 +1,28 @@
+<database>
+  <name>massive</name>
+  <description>The Massive Database contains information about all the proteomics/metabolomics datasets in massive</description>
+  <release>1.0</release>
+  <release_date>15-11-10</release_date>
+  <entry_count>1</entry_count>
+  <entries>
+    <entry id="MSV000078688">
+      <name>GNPS - Actinobacteria - 1000Strains</name>
+      <description>A semi-random selection of 1000 marine Actinobacteria strains from the Jensen Lab strain lists. Approximately one fifth are suspected Streptomycetes, the rest are less characterized Actinomycetes. Selection was random except that Salinispora strains were avoided.
+</description>
+      <cross_references/>
+      <dates>
+        <date type="submission" value="14-05-30"/>
+      </dates>
+      <additional_fields>
+        <field name="omics_type">Metabolomics</field>
+        <field name="full_dataset_link">http://massive.ucsd.edu/ProteoSAFe/result.jsp?task=a99ebb68bdef43eca3856069c68b93ad&amp;view=advanced_view</field>
+        <field name="repository">massive</field>
+        <field name="instrument_platform">Bruker micrOTOF-QII</field>
+        <field name="species">Actnobacteria</field>
+        <field name="modification">Not available</field>
+        <field name="technology_type">Not available</field>
+        <field name="submitter">Dorrestein</field>
+      </additional_fields>
+    </entry>
+  </entries>
+</database>

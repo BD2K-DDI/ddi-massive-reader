@@ -1,0 +1,27 @@
+<database>
+  <name>massive</name>
+  <description>The Massive Database contains information about all the proteomics/metabolomics datasets in massive</description>
+  <release>1.0</release>
+  <release_date>15-11-10</release_date>
+  <entry_count>1</entry_count>
+  <entries>
+    <entry id="MSV000078579">
+      <name>GNPS oral in vitro biofilms</name>
+      <description>These biofilms were established from saliva samples as described in Edlund et al. 2013 (Microbiome, doi:10.1186/2049-2618-1-25). After starving the biofilms in minimal medium anaerobiaclly glucose was added to the cultures. Samples for metatranscriptomics and metabolomics were collected in parallel at pH 7 (prior to glucose amendment), pH 4.2 (6 hours after glucose amendment) and pH 5.2 (9 hours after pH amendment). Secreted small molecules were extracted from biofilms (cells were not lysed) at the differnet pH stages. </description>
+      <cross_references/>
+      <dates>
+        <date type="submission" value="14-04-10"/>
+      </dates>
+      <additional_fields>
+        <field name="omics_type">Metabolomics</field>
+        <field name="full_dataset_link">http://massive.ucsd.edu/ProteoSAFe/result.jsp?task=d27cf48108334261b7b09722e1d6451d&amp;view=advanced_view</field>
+        <field name="repository">massive</field>
+        <field name="instrument_platform">LTQ FT</field>
+        <field name="species">human oral microbial flora</field>
+        <field name="modification">Not available</field>
+        <field name="technology_type">Not available</field>
+        <field name="submitter">Anna Edlund Jeffrey McLean</field>
+      </additional_fields>
+    </entry>
+  </entries>
+</database>

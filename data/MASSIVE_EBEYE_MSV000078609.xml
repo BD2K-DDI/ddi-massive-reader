@@ -1,0 +1,31 @@
+<database>
+  <name>massive</name>
+  <description>The Massive Database contains information about all the proteomics/metabolomics datasets in massive</description>
+  <release>1.0</release>
+  <release_date>15-11-10</release_date>
+  <entry_count>1</entry_count>
+  <entries>
+    <entry id="MSV000078609">
+      <name>Raj_nSR100_interactions_P36_V21_P105_V17</name>
+      <description>This submission includes the mass spectrometry data for the manuscript by Raj et al. (nSR100 regulation of an exon network required for neurogenesis).  This submission contains files for Srrm4 (aka nSR100) interactions from mouse N2A cells acquired on a 5600 TripleTOF mass spectrometer and files for SRRM4 interactions from human HEK293T cells acquired on an LTQ.  See the README file within "Methods and Protocols" and the accompanying File description.</description>
+      <cross_references>
+        <ref dbkey="9606" dbname="TAXONOMY"/>
+        <ref dbkey="10090" dbname="TAXONOMY"/>
+      </cross_references>
+      <dates>
+        <date type="submission" value="14-04-23"/>
+      </dates>
+      <additional_fields>
+        <field name="omics_type">Proteomics</field>
+        <field name="full_dataset_link">http://massive.ucsd.edu/ProteoSAFe/result.jsp?task=e3915aaed8ea4e949e7f68e8977f8649&amp;view=advanced_view</field>
+        <field name="repository">massive</field>
+        <field name="instrument_platform">TripleTOF 5600</field>
+        <field name="instrument_platform">LTQ</field>
+        <field name="modification">A protein modification that effectively replaces a carboxamido group with a carboxyl group, with both a gain of oxygen and loss of a nitrogen and a hydrogen.</field>
+        <field name="modification">A protein modification that effectively replaces one hydrogen atom with a hydroxyl group.</field>
+        <field name="technology_type">Not available</field>
+        <field name="submitter">Anne-Claude Gingras</field>
+      </additional_fields>
+    </entry>
+  </entries>
+</database>

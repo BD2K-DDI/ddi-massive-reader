@@ -1,0 +1,31 @@
+<database>
+  <name>massive</name>
+  <description>The Massive Database contains information about all the proteomics/metabolomics datasets in massive</description>
+  <release>1.0</release>
+  <release_date>15-11-10</release_date>
+  <entry_count>1</entry_count>
+  <entries>
+    <entry id="MSV000079085">
+      <name>Collagen-Degrading Peptidase Destructin-1</name>
+      <description>This dataset is provided in support of the identification of a collagen-degrading enzyme secreted by the fungus P. destructans. P. destructans is responsible for the disease white nose syndrome, which has infected and killed millions of North American bats.  Our manuscript, titled "Destructin-1 is a Collagen-Degrading Endopeptidase Secreted by P. destructans, the Causative Agent of White-Nose Syndrome", is under review, and the data set will be released upon acceptance.  </description>
+      <cross_references/>
+      <dates>
+        <date type="submission" value="15-03-23"/>
+      </dates>
+      <additional_fields>
+        <field name="omics_type">Proteomics</field>
+        <field name="full_dataset_link">http://massive.ucsd.edu/ProteoSAFe/result.jsp?task=3b7468e0aa054d7c8e3918693a190ede&amp;view=advanced_view</field>
+        <field name="repository">massive</field>
+        <field name="instrument_platform">LTQ Orbitrap XL</field>
+        <field name="species">P. destructans</field>
+        <field name="modification">Oxidation or Hydroxylation.</field>
+        <field name="modification">Iodoacetamide derivative.</field>
+        <field name="technology_type">Not available</field>
+        <field name="curator_keywords">white nose syndrome</field>
+        <field name="curator_keywords">P. destructans</field>
+        <field name="curator_keywords">destructin-1</field>
+        <field name="submitter">Richard J. Bennett</field>
+      </additional_fields>
+    </entry>
+  </entries>
+</database>

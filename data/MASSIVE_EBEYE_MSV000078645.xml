@@ -1,0 +1,28 @@
+<database>
+  <name>massive</name>
+  <description>The Massive Database contains information about all the proteomics/metabolomics datasets in massive</description>
+  <release>1.0</release>
+  <release_date>15-11-10</release_date>
+  <entry_count>1</entry_count>
+  <entries>
+    <entry id="MSV000078645">
+      <name>GNPS_Leech Ganglia small metabolites nanoDESI-MS/MS and Standards</name>
+      <description>This data set includes (1) data dependent nanoDESI-MS/MS collection on leech ganglia, (2) targeted nanoDESI-MS/MS on several ions of interests on leech ganglia, (3) nanomate-MS/MS of the commercial standards as the validation for the ion found by nanoDESI.</description>
+      <cross_references>
+        <ref dbkey="6421" dbname="TAXONOMY"/>
+      </cross_references>
+      <dates>
+        <date type="submission" value="14-05-15"/>
+      </dates>
+      <additional_fields>
+        <field name="omics_type">Metabolomics</field>
+        <field name="full_dataset_link">http://massive.ucsd.edu/ProteoSAFe/result.jsp?task=ff3c0a383e824d1d8c525ddcbfa2c7c8&amp;view=advanced_view</field>
+        <field name="repository">massive</field>
+        <field name="instrument_platform">LTQ FT</field>
+        <field name="modification">Not available</field>
+        <field name="technology_type">Not available</field>
+        <field name="submitter">Pieter Dorrestein &amp; Eduardo Macagno</field>
+      </additional_fields>
+    </entry>
+  </entries>
+</database>

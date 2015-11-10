@@ -1,0 +1,38 @@
+<database>
+  <name>massive</name>
+  <description>The Massive Database contains information about all the proteomics/metabolomics datasets in massive</description>
+  <release>1.0</release>
+  <release_date>15-11-10</release_date>
+  <entry_count>1</entry_count>
+  <entries>
+    <entry id="MSV000079201">
+      <name>Quantitative Phosphoproteomics reveals new roles for PP6 in chromosome condensation and segregation</name>
+      <description>Protein phosphorylation by protein kinases and phosphatases is an important regulatory mechanism that controls mitotic progression. Protein Phosphatase 6 (PP6) is an essential enzyme with conserved roles in chromosome segregation and spindle assembly from yeast to humans. Here, we develop a baculovirus-mediated gene silencing approach and combine it with mass spectrometry-based quantitative phosphoproteomics to overcome the lack of PP6-specific inhibitors and comprehensively determine changes in phosphorylation and protein abundance upon depletion of the catalytic subunit of PP6 (PP6c). We identify 400 phosphopeptides on 267 proteins that increase in phosphorylation occupancy upon PP6c depletion in mitosis and reveal new PP6c-dependent regulatory pathways. We demonstrate that PP6c directly opposes casein kinase 2-dependent phosphorylation of the condensin I subunit NCAP-G and show that depletion of PP6c results in defects in chromosome and condensation and segregation in anaphase, consistent with deregulation of condensin I function.</description>
+      <cross_references>
+        <ref dbkey="9606" dbname="TAXONOMY"/>
+      </cross_references>
+      <dates>
+        <date type="submission" value="15-07-27"/>
+      </dates>
+      <additional_fields>
+        <field name="omics_type">Proteomics</field>
+        <field name="full_dataset_link">http://massive.ucsd.edu/ProteoSAFe/result.jsp?task=ee1de430d313456f8b88abe30fb89199&amp;view=advanced_view</field>
+        <field name="repository">massive</field>
+        <field name="instrument_platform">Q Exactive Plus</field>
+        <field name="instrument_platform">Orbitrap Fusion</field>
+        <field name="modification">Iodoacetamide derivative.</field>
+        <field name="modification">Oxidation or Hydroxylation.</field>
+        <field name="modification">Phosphorylation.</field>
+        <field name="modification">Di-Methylation.</field>
+        <field name="modification">Dimethylated arginine.</field>
+        <field name="modification">Sixplex Tandem Mass Tag.</field>
+        <field name="technology_type">Not available</field>
+        <field name="curator_keywords">Mitosis</field>
+        <field name="curator_keywords">Protein Phosphatase 6</field>
+        <field name="curator_keywords">PP6</field>
+        <field name="curator_keywords">Phosphoproteomics</field>
+        <field name="submitter">Arminja Kettenbach</field>
+      </additional_fields>
+    </entry>
+  </entries>
+</database>

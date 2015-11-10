@@ -1,0 +1,33 @@
+<database>
+  <name>massive</name>
+  <description>The Massive Database contains information about all the proteomics/metabolomics datasets in massive</description>
+  <release>1.0</release>
+  <release_date>15-11-10</release_date>
+  <entry_count>1</entry_count>
+  <entries>
+    <entry id="MSV000079199">
+      <name>Acropora digitifera stinging cells toxins</name>
+      <description>Analysis of toxins from stinging cells of coral Acropora digitifera.</description>
+      <cross_references>
+        <ref dbkey="70779" dbname="TAXONOMY"/>
+      </cross_references>
+      <dates>
+        <date type="submission" value="15-07-21"/>
+      </dates>
+      <additional_fields>
+        <field name="omics_type">Proteomics</field>
+        <field name="full_dataset_link">http://massive.ucsd.edu/ProteoSAFe/result.jsp?task=608bf0b20fce4ce7b411b40545a4cf9f&amp;view=advanced_view</field>
+        <field name="repository">massive</field>
+        <field name="instrument_platform">LTQ Orbitrap Velos</field>
+        <field name="modification">Iodoacetamide derivative.</field>
+        <field name="modification">Oxidation or Hydroxylation.</field>
+        <field name="technology_type">Not available</field>
+        <field name="curator_keywords">Toxin</field>
+        <field name="curator_keywords">Venom</field>
+        <field name="curator_keywords">Coral</field>
+        <field name="curator_keywords">Acropora digitifera</field>
+        <field name="submitter">Dr Paul F Long</field>
+      </additional_fields>
+    </entry>
+  </entries>
+</database>

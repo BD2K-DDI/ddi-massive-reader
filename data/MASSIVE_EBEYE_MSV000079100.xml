@@ -1,0 +1,30 @@
+<database>
+  <name>massive</name>
+  <description>The Massive Database contains information about all the proteomics/metabolomics datasets in massive</description>
+  <release>1.0</release>
+  <release_date>15-11-10</release_date>
+  <entry_count>1</entry_count>
+  <entries>
+    <entry id="MSV000079100">
+      <name>A Rac/Cdc42 exchange factor complex promotes formation of lateral filopodia...</name>
+      <description>3xFLAG-IPs from HEK293T cell lysates expressing 3xFLAG-bait or 3xFLAG-control.  Trypsin Digestion</description>
+      <cross_references>
+        <ref dbkey="9606" dbname="TAXONOMY"/>
+        <ref dbkey="26129894" dbname="pubmed"/>
+      </cross_references>
+      <dates>
+        <date type="submission" value="15-04-09"/>
+      </dates>
+      <additional_fields>
+        <field name="omics_type">Proteomics</field>
+        <field name="full_dataset_link">http://massive.ucsd.edu/ProteoSAFe/result.jsp?task=b7f28517090140b58d52d01f45a3dfa7&amp;view=advanced_view</field>
+        <field name="repository">massive</field>
+        <field name="instrument_platform">LTQ Orbitrap Elite</field>
+        <field name="modification">Iodoacetamide derivative.</field>
+        <field name="technology_type">Not available</field>
+        <field name="curator_keywords">rhogef Rac Cdc42 DOCK</field>
+        <field name="submitter">Tony Pawson</field>
+      </additional_fields>
+    </entry>
+  </entries>
+</database>

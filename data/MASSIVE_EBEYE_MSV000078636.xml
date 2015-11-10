@@ -1,0 +1,66 @@
+<database>
+  <name>massive</name>
+  <description>The Massive Database contains information about all the proteomics/metabolomics datasets in massive</description>
+  <release>1.0</release>
+  <release_date>15-11-10</release_date>
+  <entry_count>1</entry_count>
+  <entries>
+    <entry id="MSV000078636">
+      <name>GNPS_40 Microbial Strains Worldwide Real-Time Metabolomics Using Flow-Probe_Raw Thermo Files</name>
+      <description>This is the data set using Prosolia flow-probe containing ~40 microbial strains collected worldwide. Most of the MS1 spectra have been published in Analytical 2013 85 (15), 7014-7018 by CC Hsu, MS ElNaggar, and et al.</description>
+      <cross_references>
+        <ref dbkey="1406" dbname="TAXONOMY"/>
+        <ref dbkey="1415167" dbname="TAXONOMY"/>
+        <ref dbkey="45537" dbname="TAXONOMY"/>
+        <ref dbkey="4959" dbname="TAXONOMY"/>
+        <ref dbkey="1459053" dbname="TAXONOMY"/>
+        <ref dbkey="36653" dbname="TAXONOMY"/>
+        <ref dbkey="5082" dbname="TAXONOMY"/>
+        <ref dbkey="75588" dbname="TAXONOMY"/>
+        <ref dbkey="47883" dbname="TAXONOMY"/>
+        <ref dbkey="1265309" dbname="TAXONOMY"/>
+        <ref dbkey="186360" dbname="TAXONOMY"/>
+        <ref dbkey="61651" dbname="TAXONOMY"/>
+        <ref dbkey="47917" dbname="TAXONOMY"/>
+        <ref dbkey="28151" dbname="TAXONOMY"/>
+      </cross_references>
+      <dates>
+        <date type="submission" value="14-05-13"/>
+      </dates>
+      <additional_fields>
+        <field name="omics_type">Metabolomics</field>
+        <field name="full_dataset_link">http://massive.ucsd.edu/ProteoSAFe/result.jsp?task=10dfd85daa5c43c8b0957e3cb6eb53a7&amp;view=advanced_view</field>
+        <field name="repository">massive</field>
+        <field name="instrument_platform">LTQ FT</field>
+        <field name="species">Amycolatopsis meth</field>
+        <field name="species">Bacillus subtilis 3610</field>
+        <field name="species">Geotrichum candidum BW138A</field>
+        <field name="species">Geotrichum candidum BW237D</field>
+        <field name="species">Geotrichum candidum BW242A</field>
+        <field name="species">Photobacterium halotolerans S2753</field>
+        <field name="species">Pseudoalteromonas rubra S2471</field>
+        <field name="species">Pseudoalteromonas ruthenica S2756</field>
+        <field name="species">Pseudomonas aeruginosa PAnmFLR01</field>
+        <field name="species">Pseudomonas breneri</field>
+        <field name="species">Rothia mucilaginosa RmFLR01</field>
+        <field name="species">Pseudomonas sp. (P13)</field>
+        <field name="species">Serratia liquefaciens (P17)</field>
+        <field name="species">Serratia liquefaciens (P27)</field>
+        <field name="species">Serratia liquefaciens (P47)</field>
+        <field name="species">Stenotrophomonas maltophilia SmFLR01</field>
+        <field name="species">Streptomyce sp. MS100128</field>
+        <field name="species">Streptomyces coelicolor A3(2)</field>
+        <field name="species">Streptomyces roseosporus NRRL15998</field>
+        <field name="species">Streptomyces sp. DSM5940</field>
+        <field name="species">Verrucosispora sp. MS100137</field>
+        <field name="species">Verrucosispora sp. MS100141</field>
+        <field name="species">Verrucosispora sp. SY10</field>
+        <field name="species">Vibrio coralliilyticus S2052</field>
+        <field name="species">Vibrio nigripulchritudo S2604</field>
+        <field name="modification">Not available</field>
+        <field name="technology_type">Not available</field>
+        <field name="submitter">Pieter C Dorrestein</field>
+      </additional_fields>
+    </entry>
+  </entries>
+</database>

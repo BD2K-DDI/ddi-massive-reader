@@ -1,0 +1,34 @@
+<database>
+  <name>massive</name>
+  <description>The Massive Database contains information about all the proteomics/metabolomics datasets in massive</description>
+  <release>1.0</release>
+  <release_date>15-11-10</release_date>
+  <entry_count>1</entry_count>
+  <entries>
+    <entry id="MSV000078490">
+      <name>Alkylation Damage by Lipid Electrophiles Targets Functional Protein Systems</name>
+      <description>These data correspond to "Alkylation Damage by Lipid Electrophiles Targets Functional Protein Systems," a paper from Codreanu, Liebler, et al, published at the journal _Molecular and Cellular Proteomics_ in 2013.&#13;
+&#13;
+Modifications also include:&#13;
+4-hydroxynonenal (HNE) (UniMod #53), H(16) C(9) O(2), Monoisotopic mass 156.115030&#13;
+4-Oxononenal (ONE) (UniMod #721), H(14) C(9) O(2), Monoisotopic mass 154.099380&#13;
+Modifications may be observed in both reduced and oxidized forms (a mass shift of two Da).</description>
+      <cross_references>
+        <ref dbkey="9606" dbname="TAXONOMY"/>
+        <ref dbkey="24429493" dbname="pubmed"/>
+      </cross_references>
+      <dates>
+        <date type="submission" value="13-11-18"/>
+      </dates>
+      <additional_fields>
+        <field name="omics_type">Proteomics</field>
+        <field name="full_dataset_link">http://massive.ucsd.edu/ProteoSAFe/result.jsp?task=58c21b6e8fbc4922abf2cabf15ded4a0&amp;view=advanced_view</field>
+        <field name="repository">massive</field>
+        <field name="instrument_platform">LTQ</field>
+        <field name="modification">Not available</field>
+        <field name="technology_type">Not available</field>
+        <field name="submitter">Daniel C. Liebler</field>
+      </additional_fields>
+    </entry>
+  </entries>
+</database>

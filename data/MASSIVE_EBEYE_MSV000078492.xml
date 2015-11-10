@@ -1,0 +1,28 @@
+<database>
+  <name>massive</name>
+  <description>The Massive Database contains information about all the proteomics/metabolomics datasets in massive</description>
+  <release>1.0</release>
+  <release_date>15-11-10</release_date>
+  <entry_count>1</entry_count>
+  <entries>
+    <entry id="MSV000078492">
+      <name>iPRG 2012: A Study on Detecting Modified Peptides in a Complex Mixture</name>
+      <description>This is the data and results associated with the 2012 study organized by the proteome informatics research group of the Association of Biomolecular Resource Facilities, which investigated participants' ability to identify a range of post-translationally modified peptides spiked into a yeast lysate background. Results and analysis of this study were published in Molecular and Cellular Proteomics:
+Chalkley RJ, Bandeira N, Chambers MC, Clauser K, Cottrell J, Deutsch EW, Kapp EA, Lam HH, McDonald WH, Neubert TA, Sun RX Mol Cell Proteomics 2013 [Epub Oct 31]
+</description>
+      <cross_references/>
+      <dates>
+        <date type="submission" value="13-11-19"/>
+      </dates>
+      <additional_fields>
+        <field name="omics_type">Proteomics</field>
+        <field name="full_dataset_link">http://massive.ucsd.edu/ProteoSAFe/result.jsp?task=48e9a924f0394d6d8d1ed04a1716e73b&amp;view=advanced_view</field>
+        <field name="repository">massive</field>
+        <field name="instrument_platform">Not available</field>
+        <field name="modification">Not available</field>
+        <field name="technology_type">Not available</field>
+        <field name="submitter">null</field>
+      </additional_fields>
+    </entry>
+  </entries>
+</database>

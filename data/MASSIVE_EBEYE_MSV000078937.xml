@@ -1,0 +1,32 @@
+<database>
+  <name>massive</name>
+  <description>The Massive Database contains information about all the proteomics/metabolomics datasets in massive</description>
+  <release>1.0</release>
+  <release_date>15-11-10</release_date>
+  <entry_count>1</entry_count>
+  <entries>
+    <entry id="MSV000078937">
+      <name>GNPS_1000Actinomycetes-Butanol</name>
+      <description>Butanol extractions of small scale growths of 1000 Marine Actinomycete Strains from the Jensen-Fenical Culture Collection. The method file contains a brief description of protocols and LCMS methods as well as a list of the filenames and a .csv (open in Excel) that pair each filename with the strain and all annotations from the Jensen lab HUB server.
+</description>
+      <cross_references>
+        <ref dbkey="1760" dbname="TAXONOMY"/>
+      </cross_references>
+      <dates>
+        <date type="submission" value="14-11-12"/>
+      </dates>
+      <additional_fields>
+        <field name="omics_type">Metabolomics</field>
+        <field name="full_dataset_link">http://massive.ucsd.edu/ProteoSAFe/result.jsp?task=0e53b01a394743c191b516bf2cb96cc5&amp;view=advanced_view</field>
+        <field name="repository">massive</field>
+        <field name="instrument_platform">micrOTOF-Q II</field>
+        <field name="modification">Not available</field>
+        <field name="technology_type">Not available</field>
+        <field name="curator_keywords">Actinomyces</field>
+        <field name="curator_keywords">Streptomyces</field>
+        <field name="curator_keywords">Marine Natural Products</field>
+        <field name="submitter">P. Dorrestein</field>
+      </additional_fields>
+    </entry>
+  </entries>
+</database>

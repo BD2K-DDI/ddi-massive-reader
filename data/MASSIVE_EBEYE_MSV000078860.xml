@@ -1,0 +1,27 @@
+<database>
+  <name>massive</name>
+  <description>The Massive Database contains information about all the proteomics/metabolomics datasets in massive</description>
+  <release>1.0</release>
+  <release_date>15-11-10</release_date>
+  <entry_count>1</entry_count>
+  <entries>
+    <entry id="MSV000078860">
+      <name>GNPS Bacteria CB0028 associated to Acromyrmex sp. </name>
+      <description>Bacteria CB0028 associated to Acromyrmex sp. </description>
+      <cross_references/>
+      <dates>
+        <date type="submission" value="14-09-12"/>
+      </dates>
+      <additional_fields>
+        <field name="omics_type">Metabolomics</field>
+        <field name="full_dataset_link">http://massive.ucsd.edu/ProteoSAFe/result.jsp?task=dd14bf3313b64ebab1309078bfb291d8&amp;view=advanced_view</field>
+        <field name="repository">massive</field>
+        <field name="instrument_platform">Thermo Finnigan LTQ-FT-ICR</field>
+        <field name="species">Bacteria CB0028</field>
+        <field name="modification">Not available</field>
+        <field name="technology_type">Not available</field>
+        <field name="submitter">Marcelino Gutierrez / Pieter Dorrestein</field>
+      </additional_fields>
+    </entry>
+  </entries>
+</database>

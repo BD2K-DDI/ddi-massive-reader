@@ -1,0 +1,51 @@
+<database>
+  <name>massive</name>
+  <description>The Massive Database contains information about all the proteomics/metabolomics datasets in massive</description>
+  <release>1.0</release>
+  <release_date>15-11-10</release_date>
+  <entry_count>1</entry_count>
+  <entries>
+    <entry id="MSV000078931">
+      <name>GNPS_Psychotria_Plant_Extracts</name>
+      <description>null</description>
+      <cross_references>
+        <ref dbkey="681427" dbname="TAXONOMY"/>
+        <ref dbkey="60050" dbname="TAXONOMY"/>
+        <ref dbkey="59596" dbname="TAXONOMY"/>
+        <ref dbkey="96273" dbname="TAXONOMY"/>
+        <ref dbkey="77867" dbname="TAXONOMY"/>
+        <ref dbkey="1129519" dbname="TAXONOMY"/>
+        <ref dbkey="77871" dbname="TAXONOMY"/>
+        <ref dbkey="77872" dbname="TAXONOMY"/>
+        <ref dbkey="59588" dbname="TAXONOMY"/>
+        <ref dbkey="96295" dbname="TAXONOMY"/>
+        <ref dbkey="77903" dbname="TAXONOMY"/>
+        <ref dbkey="189164" dbname="TAXONOMY"/>
+        <ref dbkey="77879" dbname="TAXONOMY"/>
+        <ref dbkey="77880" dbname="TAXONOMY"/>
+        <ref dbkey="77882" dbname="TAXONOMY"/>
+        <ref dbkey="77886" dbname="TAXONOMY"/>
+        <ref dbkey="77887" dbname="TAXONOMY"/>
+        <ref dbkey="681483" dbname="TAXONOMY"/>
+        <ref dbkey="58385" dbname="TAXONOMY"/>
+        <ref dbkey="564598" dbname="TAXONOMY"/>
+        <ref dbkey="77892" dbname="TAXONOMY"/>
+        <ref dbkey="77893" dbname="TAXONOMY"/>
+      </cross_references>
+      <dates>
+        <date type="submission" value="14-11-06"/>
+      </dates>
+      <additional_fields>
+        <field name="omics_type">Metabolomics</field>
+        <field name="full_dataset_link">http://massive.ucsd.edu/ProteoSAFe/result.jsp?task=0641f4065812407594c611e4791e65f0&amp;view=advanced_view</field>
+        <field name="repository">massive</field>
+        <field name="instrument_platform">impact</field>
+        <field name="modification">Not available</field>
+        <field name="technology_type">Not available</field>
+        <field name="curator_keywords">Psychotria</field>
+        <field name="curator_keywords">Plant</field>
+        <field name="submitter">Brian Sedio</field>
+      </additional_fields>
+    </entry>
+  </entries>
+</database>

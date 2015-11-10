@@ -1,0 +1,29 @@
+<database>
+  <name>massive</name>
+  <description>The Massive Database contains information about all the proteomics/metabolomics datasets in massive</description>
+  <release>1.0</release>
+  <release_date>15-11-10</release_date>
+  <entry_count>1</entry_count>
+  <entries>
+    <entry id="MSV000078929">
+      <name>GNPS - SIO Pierwater Marine DOM extract by PPL Resin</name>
+      <description>PPL Extracts of SIO Pierwater (October 2013 and July 2014)</description>
+      <cross_references>
+        <ref dbkey="100272" dbname="TAXONOMY"/>
+      </cross_references>
+      <dates>
+        <date type="submission" value="14-11-05"/>
+      </dates>
+      <additional_fields>
+        <field name="omics_type">Metabolomics</field>
+        <field name="full_dataset_link">http://massive.ucsd.edu/ProteoSAFe/result.jsp?task=2a32e0483b044b6daddd5de7f50d0c11&amp;view=advanced_view</field>
+        <field name="repository">massive</field>
+        <field name="instrument_platform">LTQ XL</field>
+        <field name="modification">Not available</field>
+        <field name="technology_type">Not available</field>
+        <field name="curator_keywords">Marine DOM</field>
+        <field name="submitter">Lihini Aluwihare</field>
+      </additional_fields>
+    </entry>
+  </entries>
+</database>

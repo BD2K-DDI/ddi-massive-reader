@@ -1,0 +1,30 @@
+<database>
+  <name>massive</name>
+  <description>The Massive Database contains information about all the proteomics/metabolomics datasets in massive</description>
+  <release>1.0</release>
+  <release_date>15-11-10</release_date>
+  <entry_count>1</entry_count>
+  <entries>
+    <entry id="MSV000078963">
+      <name>GNPS - Metabolomics analysis of &gt;3800 Escherichia coli single gene deletions strains</name>
+      <description>Profile data for &gt; 34'000 analyses of about 3800 E. coli single gene deletion mutants from the KEIO collection by flow injection - time-of-flight analysis in positive and negative mode. Each injection was recalibrated and flattened to a single profile. Profiles are stored as [m/z intensities] pairs in plain text. Files are described in the excel workbooks. </description>
+      <cross_references>
+        <ref dbkey="562" dbname="TAXONOMY"/>
+      </cross_references>
+      <dates>
+        <date type="submission" value="14-12-10"/>
+      </dates>
+      <additional_fields>
+        <field name="omics_type">Metabolomics</field>
+        <field name="full_dataset_link">http://massive.ucsd.edu/ProteoSAFe/result.jsp?task=004a1fdf66844779838d203fbe767182&amp;view=advanced_view</field>
+        <field name="repository">massive</field>
+        <field name="instrument_platform">6520 Quadrupole Time-of-Flight LC/MS</field>
+        <field name="modification">Not available</field>
+        <field name="technology_type">Not available</field>
+        <field name="curator_keywords">gwas</field>
+        <field name="curator_keywords">metabolomics</field>
+        <field name="submitter">Nicola Zamboni</field>
+      </additional_fields>
+    </entry>
+  </entries>
+</database>

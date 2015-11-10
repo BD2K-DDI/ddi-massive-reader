@@ -1,0 +1,30 @@
+<database>
+  <name>massive</name>
+  <description>The Massive Database contains information about all the proteomics/metabolomics datasets in massive</description>
+  <release>1.0</release>
+  <release_date>15-11-10</release_date>
+  <entry_count>1</entry_count>
+  <entries>
+    <entry id="MSV000078547">
+      <name>GNPS - Molecular networking as a dereplication strategy -Figure 4</name>
+      <description>Molecular networking as a dereplication strategy. Yang JY, Sanchez LM, Rath CM, Liu X, Boudreau PD, Bruns N, Glukhov E, Wodtke A, de Felicio R, Fenner A, Wong WR, Linington RG, Zhang L, Debonsi HM, Gerwick WH, Dorrestein PC. J Nat Prod. 2013 Sep 27;76(9):1686-99. doi: 10.1021/np400413s PubMedID: 24025162 RAW Files used to generate Figure 4. Bacterial network with a cosine similarity score cutoff of 0.65. This network was generated from direct infusion of extracts or direct nanoDESI-MS/MS sampling of eight bacteria, 14 known compounds</description>
+      <cross_references>
+        <ref dbkey="24025162" dbname="pubmed"/>
+      </cross_references>
+      <dates>
+        <date type="submission" value="14-02-11"/>
+      </dates>
+      <additional_fields>
+        <field name="omics_type">Metabolomics</field>
+        <field name="full_dataset_link">http://massive.ucsd.edu/ProteoSAFe/result.jsp?task=ee21d1b9bca04a908d231e4048e6a14a&amp;view=advanced_view</field>
+        <field name="repository">massive</field>
+        <field name="instrument_platform">LTQ FT</field>
+        <field name="species">Data from multiple bacteria</field>
+        <field name="modification">Not available</field>
+        <field name="technology_type">Not available</field>
+        <field name="submitter">Dorrestein</field>
+        <field name="submitter">Gerwick</field>
+      </additional_fields>
+    </entry>
+  </entries>
+</database>

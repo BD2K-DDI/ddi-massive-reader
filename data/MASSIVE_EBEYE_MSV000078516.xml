@@ -1,0 +1,28 @@
+<database>
+  <name>massive</name>
+  <description>The Massive Database contains information about all the proteomics/metabolomics datasets in massive</description>
+  <release>1.0</release>
+  <release_date>15-11-10</release_date>
+  <entry_count>1</entry_count>
+  <entries>
+    <entry id="MSV000078516">
+      <name>alpha-lytic proteases</name>
+      <description>S. pombe proteome digested separately by four proteases and analyzed with an LTQ-Orbitrap Velos with a data-dependent decision tree method.</description>
+      <cross_references>
+        <ref dbkey="24425750" dbname="pubmed"/>
+      </cross_references>
+      <dates>
+        <date type="submission" value="13-12-23"/>
+      </dates>
+      <additional_fields>
+        <field name="omics_type">Proteomics</field>
+        <field name="full_dataset_link">http://massive.ucsd.edu/ProteoSAFe/result.jsp?task=440a53aa82d94c5da5bc94d0339e1b01&amp;view=advanced_view</field>
+        <field name="repository">massive</field>
+        <field name="instrument_platform">Not available</field>
+        <field name="modification">Not available</field>
+        <field name="technology_type">Not available</field>
+        <field name="submitter">null</field>
+      </additional_fields>
+    </entry>
+  </entries>
+</database>

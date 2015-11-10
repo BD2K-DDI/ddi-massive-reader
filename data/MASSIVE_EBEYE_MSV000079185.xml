@@ -1,0 +1,31 @@
+<database>
+  <name>massive</name>
+  <description>The Massive Database contains information about all the proteomics/metabolomics datasets in massive</description>
+  <release>1.0</release>
+  <release_date>15-11-10</release_date>
+  <entry_count>1</entry_count>
+  <entries>
+    <entry id="MSV000079185">
+      <name>Type 1 Diabetes DNA Damage Checkpoint Pathway Quantitation</name>
+      <description>iTRAQ-based quantitative proteomics and phosphoproteomics analyses of induced pluripotent stem cells (iPSC) from patients with longstanding type 1 diabetes.  "Preserved DNA Damage Checkpoint Pathway Protects From Complications in Long-standing Type 1 Diabetes", Cell Metabolism, in press.</description>
+      <cross_references>
+        <ref dbkey="9606" dbname="TAXONOMY"/>
+      </cross_references>
+      <dates>
+        <date type="submission" value="15-07-08"/>
+      </dates>
+      <additional_fields>
+        <field name="omics_type">Proteomics</field>
+        <field name="full_dataset_link">http://massive.ucsd.edu/ProteoSAFe/result.jsp?task=4650ba98234a4f02a828b0cc5dc8f8e0&amp;view=advanced_view</field>
+        <field name="repository">massive</field>
+        <field name="instrument_platform">LTQ Orbitrap Velos</field>
+        <field name="modification">Oxidation or Hydroxylation.</field>
+        <field name="modification">Representative mass and accurate mass for 116 &amp; 117.</field>
+        <field name="technology_type">Not available</field>
+        <field name="curator_keywords">diabetes</field>
+        <field name="curator_keywords">stem cells</field>
+        <field name="submitter">Rohit Kulkarni</field>
+      </additional_fields>
+    </entry>
+  </entries>
+</database>

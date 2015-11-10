@@ -1,0 +1,28 @@
+<database>
+  <name>massive</name>
+  <description>The Massive Database contains information about all the proteomics/metabolomics datasets in massive</description>
+  <release>1.0</release>
+  <release_date>15-11-10</release_date>
+  <entry_count>1</entry_count>
+  <entries>
+    <entry id="MSV000078816">
+      <name>GNPS - Trace detection of skin molecules on objects_Volunteer 6. MS/MS Data</name>
+      <description>MS/MS spectra have been collected from skin samples (hands, arms, head) and objects (laptop, mouse, cellular device) used by volunteer 6. MS/MS spectra collected from beauty products used by the subject have been also included. </description>
+      <cross_references>
+        <ref dbkey="9606" dbname="TAXONOMY"/>
+      </cross_references>
+      <dates>
+        <date type="submission" value="14-08-22"/>
+      </dates>
+      <additional_fields>
+        <field name="omics_type">Metabolomics</field>
+        <field name="full_dataset_link">http://massive.ucsd.edu/ProteoSAFe/result.jsp?task=4ec04beb9fb144a1b3febfc36ea77038&amp;view=advanced_view</field>
+        <field name="repository">massive</field>
+        <field name="instrument_platform">maXis</field>
+        <field name="modification">Not available</field>
+        <field name="technology_type">Not available</field>
+        <field name="submitter">Pieter Dorrestein</field>
+      </additional_fields>
+    </entry>
+  </entries>
+</database>

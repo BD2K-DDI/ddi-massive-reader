@@ -1,0 +1,30 @@
+<database>
+  <name>massive</name>
+  <description>The Massive Database contains information about all the proteomics/metabolomics datasets in massive</description>
+  <release>1.0</release>
+  <release_date>15-11-10</release_date>
+  <entry_count>1</entry_count>
+  <entries>
+    <entry id="MSV000078782">
+      <name>Lambert_P82_VS4_Chromatin_BioID_APMS_12JUL2014</name>
+      <description>This submission contains the mass spectrometry files for the manuscript by Lambert et al. that describes the use of BioID for chromatin associated protein complexes. A detail comparison to a chromatin optimized AP-MS protocol was also performed. This submission contains 39 IDA files for the following baits: empty 3XFLAG control, GFP-BirA-FLAG control, NLS-BirA-FLAG control, H2B-BirA-FLAG, H3.1-BirA-FLAG, 3XFLAG-MED4, BirA-FLAG-MED4, MED20-3XFLAG, MED20-BirA-FLAG, 3XFLAG-MED23 and BirA-FLAG-MED23. Two biological replicates for every bait were analyzed by the standard Gingras lab BioID protocol and by a protocol optimized for chromatin associated baits (AP-MS).  See the README file within "Methods and Protocols" and the accompanying File description.  Additional details and files are found on prohits-web.lunenfeld.ca.  </description>
+      <cross_references>
+        <ref dbkey="9606" dbname="TAXONOMY"/>
+        <ref dbkey="25281560" dbname="pubmed"/>
+      </cross_references>
+      <dates>
+        <date type="submission" value="14-07-17"/>
+      </dates>
+      <additional_fields>
+        <field name="omics_type">Proteomics</field>
+        <field name="full_dataset_link">http://massive.ucsd.edu/ProteoSAFe/result.jsp?task=3e4c7efd6da945d0a3fa7960f8a05df0&amp;view=advanced_view</field>
+        <field name="repository">massive</field>
+        <field name="instrument_platform">TripleTOF 5600</field>
+        <field name="modification">A protein modification that effectively replaces a carboxamido group with a carboxyl group, with both a gain of oxygen and loss of a nitrogen and a hydrogen.</field>
+        <field name="modification">A protein modification that effectively replaces one hydrogen atom with a hydroxyl group.</field>
+        <field name="technology_type">Not available</field>
+        <field name="submitter">Anne-Claude Gingras</field>
+      </additional_fields>
+    </entry>
+  </entries>
+</database>

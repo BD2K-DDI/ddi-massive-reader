@@ -1,0 +1,28 @@
+<database>
+  <name>massive</name>
+  <description>The Massive Database contains information about all the proteomics/metabolomics datasets in massive</description>
+  <release>1.0</release>
+  <release_date>15-11-10</release_date>
+  <entry_count>1</entry_count>
+  <entries>
+    <entry id="MSV000078618">
+      <name>GNPS Ferrioxamines and producing organism Micromonospora sp FI1001</name>
+      <description>Extracts from FI1001 found to produce ferrioxamine derivatives previously reported by Sidebottom et al (ACS Chem Biol 2013, PMID: 23777274), compounds verified based on reported MS/MS patterns in SI. FI1001 extracts and strain information reported by Sanchez et al (Plos ONE 2012, PMID: 22574119). </description>
+      <cross_references/>
+      <dates>
+        <date type="submission" value="14-04-28"/>
+      </dates>
+      <additional_fields>
+        <field name="omics_type">Metabolomics</field>
+        <field name="full_dataset_link">http://massive.ucsd.edu/ProteoSAFe/result.jsp?task=127440ebd8ca485db9c79c072a215e85&amp;view=advanced_view</field>
+        <field name="repository">massive</field>
+        <field name="instrument_platform">LTQ FT</field>
+        <field name="species">Micromonospora sp FI1001</field>
+        <field name="modification">Not available</field>
+        <field name="technology_type">Not available</field>
+        <field name="submitter">Dorrestein</field>
+        <field name="submitter">Linington</field>
+      </additional_fields>
+    </entry>
+  </entries>
+</database>

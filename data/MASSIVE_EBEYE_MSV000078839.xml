@@ -1,0 +1,66 @@
+<database>
+  <name>massive</name>
+  <description>The Massive Database contains information about all the proteomics/metabolomics datasets in massive</description>
+  <release>1.0</release>
+  <release_date>15-11-10</release_date>
+  <entry_count>1</entry_count>
+  <entries>
+    <entry id="MSV000078839">
+      <name>GNPS - Streptomyces on A1, MS and R5 agar</name>
+      <description>These strains of Streptomyces were grown on A1, MS and R5 agar and extract sequentially with ethyl acetate, butanol and methanol. </description>
+      <cross_references>
+        <ref dbkey="1169156" dbname="TAXONOMY"/>
+        <ref dbkey="1169155" dbname="TAXONOMY"/>
+        <ref dbkey="1289387" dbname="TAXONOMY"/>
+        <ref dbkey="1169159" dbname="TAXONOMY"/>
+        <ref dbkey="1169161" dbname="TAXONOMY"/>
+        <ref dbkey="1169154" dbname="TAXONOMY"/>
+        <ref dbkey="1298880" dbname="TAXONOMY"/>
+        <ref dbkey="1288083" dbname="TAXONOMY"/>
+        <ref dbkey="1169160" dbname="TAXONOMY"/>
+        <ref dbkey="1288079" dbname="TAXONOMY"/>
+        <ref dbkey="1206101" dbname="TAXONOMY"/>
+        <ref dbkey="1169158" dbname="TAXONOMY"/>
+        <ref dbkey="1408316" dbname="TAXONOMY"/>
+        <ref dbkey="1305837" dbname="TAXONOMY"/>
+        <ref dbkey="1288081" dbname="TAXONOMY"/>
+        <ref dbkey="1298879" dbname="TAXONOMY"/>
+        <ref dbkey="1136432" dbname="TAXONOMY"/>
+        <ref dbkey="1169157" dbname="TAXONOMY"/>
+        <ref dbkey="1288080" dbname="TAXONOMY"/>
+        <ref dbkey="1137270" dbname="TAXONOMY"/>
+        <ref dbkey="445602" dbname="TAXONOMY"/>
+        <ref dbkey="1136433" dbname="TAXONOMY"/>
+        <ref dbkey="1506995" dbname="TAXONOMY"/>
+        <ref dbkey="566461" dbname="TAXONOMY"/>
+        <ref dbkey="465541" dbname="TAXONOMY"/>
+        <ref dbkey="467200" dbname="TAXONOMY"/>
+        <ref dbkey="355249" dbname="TAXONOMY"/>
+        <ref dbkey="457428" dbname="TAXONOMY"/>
+        <ref dbkey="457430" dbname="TAXONOMY"/>
+        <ref dbkey="455632" dbname="TAXONOMY"/>
+        <ref dbkey="66865" dbname="TAXONOMY"/>
+        <ref dbkey="29303" dbname="TAXONOMY"/>
+        <ref dbkey="457425" dbname="TAXONOMY"/>
+        <ref dbkey="68042" dbname="TAXONOMY"/>
+        <ref dbkey="1288082" dbname="TAXONOMY"/>
+        <ref dbkey="1137269" dbname="TAXONOMY"/>
+      </cross_references>
+      <dates>
+        <date type="submission" value="14-09-04"/>
+      </dates>
+      <additional_fields>
+        <field name="omics_type">Metabolomics</field>
+        <field name="full_dataset_link">http://massive.ucsd.edu/ProteoSAFe/result.jsp?task=a507232a787243a5afd69a6c6fa1e508&amp;view=advanced_view</field>
+        <field name="repository">massive</field>
+        <field name="instrument_platform">6520 Quadrupole Time-of-Flight LC/MS</field>
+        <field name="species">Streptomyces sp. CNQ149</field>
+        <field name="species">Streptomyces coelicolor A3(2)</field>
+        <field name="species">Streptomyces  sp. CNS580</field>
+        <field name="modification">Not available</field>
+        <field name="technology_type">Not available</field>
+        <field name="submitter">Bradley Moore</field>
+      </additional_fields>
+    </entry>
+  </entries>
+</database>

@@ -1,0 +1,27 @@
+<database>
+  <name>massive</name>
+  <description>The Massive Database contains information about all the proteomics/metabolomics datasets in massive</description>
+  <release>1.0</release>
+  <release_date>15-11-10</release_date>
+  <entry_count>1</entry_count>
+  <entries>
+    <entry id="MSV000078789">
+      <name>GNPS Sidebottom 6 227 mzXML</name>
+      <description>Streptomyces spp. crude secondary metabolites have been chemoselectively tagged. Metabolites have non-native structure and should not be used for other comparative studies. </description>
+      <cross_references/>
+      <dates>
+        <date type="submission" value="14-07-30"/>
+      </dates>
+      <additional_fields>
+        <field name="omics_type">Metabolomics</field>
+        <field name="full_dataset_link">http://massive.ucsd.edu/ProteoSAFe/result.jsp?task=24c427854bf345cca58835a8c0806d57&amp;view=advanced_view</field>
+        <field name="repository">massive</field>
+        <field name="instrument_platform">LTQ</field>
+        <field name="species">Streptomyces spp.</field>
+        <field name="modification">Not available</field>
+        <field name="technology_type">Not available</field>
+        <field name="submitter">Dr. Erin E. Carlson</field>
+      </additional_fields>
+    </entry>
+  </entries>
+</database>

@@ -1,0 +1,28 @@
+<database>
+  <name>massive</name>
+  <description>The Massive Database contains information about all the proteomics/metabolomics datasets in massive</description>
+  <release>1.0</release>
+  <release_date>15-11-10</release_date>
+  <entry_count>1</entry_count>
+  <entries>
+    <entry id="MSV000078593">
+      <name>GNPS_LapTop</name>
+      <description>null</description>
+      <cross_references>
+        <ref dbkey="9606" dbname="TAXONOMY"/>
+      </cross_references>
+      <dates>
+        <date type="submission" value="14-04-16"/>
+      </dates>
+      <additional_fields>
+        <field name="omics_type">Metabolomics</field>
+        <field name="full_dataset_link">http://massive.ucsd.edu/ProteoSAFe/result.jsp?task=ab156d54812f42729fc75c7e91dc3393&amp;view=advanced_view</field>
+        <field name="repository">massive</field>
+        <field name="instrument_platform">6520 Quadrupole Time-of-Flight LC/MS</field>
+        <field name="modification">Not available</field>
+        <field name="technology_type">Not available</field>
+        <field name="submitter">P.Dorrestein</field>
+      </additional_fields>
+    </entry>
+  </entries>
+</database>

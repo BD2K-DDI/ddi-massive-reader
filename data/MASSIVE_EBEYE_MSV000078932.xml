@@ -1,0 +1,29 @@
+<database>
+  <name>massive</name>
+  <description>The Massive Database contains information about all the proteomics/metabolomics datasets in massive</description>
+  <release>1.0</release>
+  <release_date>15-11-10</release_date>
+  <entry_count>1</entry_count>
+  <entries>
+    <entry id="MSV000078932">
+      <name>GNPS_CAICE_CARB_C18_Aerosol_Headspace_Samples_Maxis_Impact_LCMS_Runs</name>
+      <description>null</description>
+      <cross_references>
+        <ref dbkey="32644" dbname="TAXONOMY"/>
+      </cross_references>
+      <dates>
+        <date type="submission" value="14-11-06"/>
+      </dates>
+      <additional_fields>
+        <field name="omics_type">Metabolomics</field>
+        <field name="full_dataset_link">http://massive.ucsd.edu/ProteoSAFe/result.jsp?task=0896a600d3e9494cbfc68535eebb7987&amp;view=advanced_view</field>
+        <field name="repository">massive</field>
+        <field name="instrument_platform">impact</field>
+        <field name="modification">Not available</field>
+        <field name="technology_type">Not available</field>
+        <field name="curator_keywords">CAICE</field>
+        <field name="submitter">Kim Prather</field>
+      </additional_fields>
+    </entry>
+  </entries>
+</database>

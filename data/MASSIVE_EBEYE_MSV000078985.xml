@@ -1,0 +1,32 @@
+<database>
+  <name>massive</name>
+  <description>The Massive Database contains information about all the proteomics/metabolomics datasets in massive</description>
+  <release>1.0</release>
+  <release_date>15-11-10</release_date>
+  <entry_count>1</entry_count>
+  <entries>
+    <entry id="MSV000078985">
+      <name>Q-Exactive HCD data for FFPE colon tissues (five replicate RPLC experiments)</name>
+      <description>These five raw files represent five technical replicate RPLC data-dependent acquisition analyses of the peptides produced through trypsin digestion and DTT/iodoacetamide reduction/alkylation of an FFPE human colon tumor.  The data, collected on a Q-Exactive, offer high resolution for both precursor and fragment ions.  Lisa Zimmerman collected these data.</description>
+      <cross_references>
+        <ref dbkey="9606" dbname="TAXONOMY"/>
+      </cross_references>
+      <dates>
+        <date type="submission" value="15-01-05"/>
+      </dates>
+      <additional_fields>
+        <field name="omics_type">Proteomics</field>
+        <field name="full_dataset_link">http://massive.ucsd.edu/ProteoSAFe/result.jsp?task=cc367d57b81840a38e27d0bc155f8339&amp;view=advanced_view</field>
+        <field name="repository">massive</field>
+        <field name="instrument_platform">Q Exactive</field>
+        <field name="modification">Not available</field>
+        <field name="technology_type">Not available</field>
+        <field name="curator_keywords">FFPE</field>
+        <field name="curator_keywords">Clinical sample</field>
+        <field name="curator_keywords">Colon tumor</field>
+        <field name="curator_keywords">HCD</field>
+        <field name="submitter">Daniel C. Liebler</field>
+      </additional_fields>
+    </entry>
+  </entries>
+</database>

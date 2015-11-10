@@ -1,0 +1,27 @@
+<database>
+  <name>massive</name>
+  <description>The Massive Database contains information about all the proteomics/metabolomics datasets in massive</description>
+  <release>1.0</release>
+  <release_date>15-11-10</release_date>
+  <entry_count>1</entry_count>
+  <entries>
+    <entry id="MSV000078825">
+      <name>ProteoWizard Signal Processing Evaluation: ABSCIEX Triple TOF 5600 QqToF, Rat Liver</name>
+      <description>3 replicates collected in profile mode (MS and MS/MS) for evaluation of ProteoWizard signal processing.</description>
+      <cross_references/>
+      <dates>
+        <date type="submission" value="14-08-24"/>
+      </dates>
+      <additional_fields>
+        <field name="omics_type">Proteomics</field>
+        <field name="full_dataset_link">http://massive.ucsd.edu/ProteoSAFe/result.jsp?task=c5ab02705d6643029a80a6f6bb09c945&amp;view=advanced_view</field>
+        <field name="repository">massive</field>
+        <field name="instrument_platform">TripleTOF 5600</field>
+        <field name="species">Rat Liver</field>
+        <field name="modification">Not available</field>
+        <field name="technology_type">Not available</field>
+        <field name="submitter">David Tabb</field>
+      </additional_fields>
+    </entry>
+  </entries>
+</database>

@@ -1,0 +1,34 @@
+<database>
+  <name>massive</name>
+  <description>The Massive Database contains information about all the proteomics/metabolomics datasets in massive</description>
+  <release>1.0</release>
+  <release_date>15-11-10</release_date>
+  <entry_count>1</entry_count>
+  <entries>
+    <entry id="MSV000078960">
+      <name>GNPS_Sorangium cellulosum So ce38 and So ceGT47, various media, auto-MS2 and SPL-MS2</name>
+      <description>MS2 data set resulting from the SPL-MS2 method development as described in the publication mentioned below. The data set is based on triplicate measurements (technical) of various extracts. Extracts are mixtures of three biological replicates (see publication for explanation). In addition, blank extracts of complex cultivation medium were prepared and measured.&#13;
+For each extract auto-MS2 data and SPL-MS2 data is available. </description>
+      <cross_references>
+        <ref dbkey="25280058" dbname="pubmed"/>
+      </cross_references>
+      <dates>
+        <date type="submission" value="14-12-07"/>
+      </dates>
+      <additional_fields>
+        <field name="omics_type">Metabolomics</field>
+        <field name="full_dataset_link">http://massive.ucsd.edu/ProteoSAFe/result.jsp?task=534f4de52be541fc8c8dc42d64564831&amp;view=advanced_view</field>
+        <field name="repository">massive</field>
+        <field name="instrument_platform">maXis 4G</field>
+        <field name="species">Sorangium cellulosum So ceGT47</field>
+        <field name="species">Sorangium cellulosum So ce38</field>
+        <field name="modification">Not available</field>
+        <field name="technology_type">Not available</field>
+        <field name="curator_keywords">myxobacteria</field>
+        <field name="curator_keywords">Sorangium cellulosum</field>
+        <field name="curator_keywords">SPL-MS2</field>
+        <field name="submitter">Rolf Mueller</field>
+      </additional_fields>
+    </entry>
+  </entries>
+</database>

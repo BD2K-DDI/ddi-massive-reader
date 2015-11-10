@@ -1,0 +1,30 @@
+<database>
+  <name>massive</name>
+  <description>The Massive Database contains information about all the proteomics/metabolomics datasets in massive</description>
+  <release>1.0</release>
+  <release_date>15-11-10</release_date>
+  <entry_count>1</entry_count>
+  <entries>
+    <entry id="MSV000078978">
+      <name>Potato Aphid Salivary Proteome: Identification of Aphid Phosphoproteins and Tomato Host Proteins</name>
+      <description>Aphids deliver saliva into plants and acquire plant sap for their nourishment using a specialized mouthpart or stylets. Aphid saliva is of great importance as it contains effectors that are involved in modulating host defense and metabolism. Although profiling aphid salivary glands and identifying secreted proteins have been successfully used, success in direct profiling of aphid saliva have been limited due to scarcity of saliva collected in artificial diets. Here we present the use of a neurostimulant, resorcinol, for inducing aphid salivation. Saliva of potato aphids (Macrosiphum euphorbiae), maintained on tomato, was collected in resorcinol diet, used in mass spectrometry and compared to the salivary proteome collected in water. Great majority of the proteins identified in the resorcinol diet were also present in the water diet and represented proteins with plethora of functions in addition to a large number of unknowns. About half of the salivary proteins were not predicted for secretion or had canonical secretion signal peptides. To further characterize M. euphorbiae saliva and identify effectors, salivary phosphoproteins were detected. Among these phosphorylated proteins were three known aphid effectors, Me_WB01635 /Mp1, Me10/Mp58 and Me23. In addition to insect proteins, tomato host proteins were also identified in aphid saliva. Our results indicate that aphid saliva is complex and provides a rich resource for functional characterization of effectors.</description>
+      <cross_references>
+        <ref dbkey="13131" dbname="TAXONOMY"/>
+        <ref dbkey="25722084" dbname="pubmed"/>
+      </cross_references>
+      <dates>
+        <date type="submission" value="14-12-15"/>
+      </dates>
+      <additional_fields>
+        <field name="omics_type">Proteomics</field>
+        <field name="full_dataset_link">http://massive.ucsd.edu/ProteoSAFe/result.jsp?task=1a2b12b424a9445985e4ac0002f95a93&amp;view=advanced_view</field>
+        <field name="repository">massive</field>
+        <field name="instrument_platform">LTQ</field>
+        <field name="modification">Phosphorylation.</field>
+        <field name="technology_type">Not available</field>
+        <field name="curator_keywords">aphids, effectors, Macrosiphum euphorbiae, phloem proteins, phosphoproteins, saliva</field>
+        <field name="submitter">Isgouhi Kaloshian</field>
+      </additional_fields>
+    </entry>
+  </entries>
+</database>

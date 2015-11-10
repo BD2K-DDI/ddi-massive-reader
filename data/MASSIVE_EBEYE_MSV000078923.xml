@@ -1,0 +1,31 @@
+<database>
+  <name>massive</name>
+  <description>The Massive Database contains information about all the proteomics/metabolomics datasets in massive</description>
+  <release>1.0</release>
+  <release_date>15-11-10</release_date>
+  <entry_count>1</entry_count>
+  <entries>
+    <entry id="MSV000078923">
+      <name>GNPS_Lamellodysidea herbacea</name>
+      <description>Sponge was collected at Anae Island in Guam by scuba.</description>
+      <cross_references>
+        <ref dbkey="279619" dbname="TAXONOMY"/>
+        <ref dbkey="25061970" dbname="pubmed"/>
+        <ref dbkey="24974229" dbname="pubmed"/>
+      </cross_references>
+      <dates>
+        <date type="submission" value="14-11-05"/>
+      </dates>
+      <additional_fields>
+        <field name="omics_type">Metabolomics</field>
+        <field name="full_dataset_link">http://massive.ucsd.edu/ProteoSAFe/result.jsp?task=a43f9a4ca3614be08ae6277dd8229363&amp;view=advanced_view</field>
+        <field name="repository">massive</field>
+        <field name="instrument_platform">6530 Quadrupole Time of Flight MS (Agilent Instrument)</field>
+        <field name="modification">Not available</field>
+        <field name="technology_type">Not available</field>
+        <field name="curator_keywords">sponge, Polybrominated diphenyl ethers (PBDE)</field>
+        <field name="submitter">Bradley S. Moore</field>
+      </additional_fields>
+    </entry>
+  </entries>
+</database>

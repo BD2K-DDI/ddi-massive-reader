@@ -1,0 +1,30 @@
+<database>
+  <name>massive</name>
+  <description>The Massive Database contains information about all the proteomics/metabolomics datasets in massive</description>
+  <release>1.0</release>
+  <release_date>15-11-10</release_date>
+  <entry_count>1</entry_count>
+  <entries>
+    <entry id="MSV000078941">
+      <name>GNPS_1000Actinomycetes-EtAcMediaControls</name>
+      <description>Media controls and solvent blanks from the solid ISP2 growth of 1000 Marine Actinomycetes from the Jensen-Fenical culture collection.  For bacterial samples see MSV000078936.</description>
+      <cross_references/>
+      <dates>
+        <date type="submission" value="14-11-17"/>
+      </dates>
+      <additional_fields>
+        <field name="omics_type">Metabolomics</field>
+        <field name="full_dataset_link">http://massive.ucsd.edu/ProteoSAFe/result.jsp?task=dbbc9457e5884117b4c6d9a8d97a5584&amp;view=advanced_view</field>
+        <field name="repository">massive</field>
+        <field name="instrument_platform">micrOTOF-Q II</field>
+        <field name="modification">Not available</field>
+        <field name="technology_type">Not available</field>
+        <field name="curator_keywords">ISP2</field>
+        <field name="curator_keywords">media</field>
+        <field name="curator_keywords">Ethyl Acetate</field>
+        <field name="curator_keywords">Controls</field>
+        <field name="submitter">P. Dorrestein</field>
+      </additional_fields>
+    </entry>
+  </entries>
+</database>

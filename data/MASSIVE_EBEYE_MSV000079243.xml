@@ -1,0 +1,30 @@
+<database>
+  <name>massive</name>
+  <description>The Massive Database contains information about all the proteomics/metabolomics datasets in massive</description>
+  <release>1.0</release>
+  <release_date>15-11-10</release_date>
+  <entry_count>1</entry_count>
+  <entries>
+    <entry id="MSV000079243">
+      <name>GNPS - Potato Metabolites - C18-LC-MS/MS - Positive Polarity</name>
+      <description>Potato metabolites.  Data acquired using Bruker Daltonics maXis Impact and C18 RP-UHPLC.  Positive polarity acquisition of LC-MS/MS.</description>
+      <cross_references>
+        <ref dbkey="4113" dbname="TAXONOMY"/>
+      </cross_references>
+      <dates>
+        <date type="submission" value="15-08-16"/>
+      </dates>
+      <additional_fields>
+        <field name="omics_type">Metabolomics</field>
+        <field name="full_dataset_link">http://massive.ucsd.edu/ProteoSAFe/result.jsp?task=3df8229fdf38456dbd708e187efcdcee&amp;view=advanced_view</field>
+        <field name="repository">massive</field>
+        <field name="instrument_platform">maXis Impact</field>
+        <field name="modification">Not available</field>
+        <field name="technology_type">Not available</field>
+        <field name="curator_keywords">Potato metabolites</field>
+        <field name="submitter">Jairam KP Vanamala</field>
+        <field name="submitter"/>
+      </additional_fields>
+    </entry>
+  </entries>
+</database>

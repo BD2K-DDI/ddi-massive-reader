@@ -1,0 +1,34 @@
+<database>
+  <name>massive</name>
+  <description>The Massive Database contains information about all the proteomics/metabolomics datasets in massive</description>
+  <release>1.0</release>
+  <release_date>15-11-10</release_date>
+  <entry_count>1</entry_count>
+  <entries>
+    <entry id="MSV000078780">
+      <name>GNPS_Lipidomics charactarization of SARS infected 2B4 cells positive ionization</name>
+      <description>This submission corresponds to lipidomics analysis of 2B4 cells infected with SARS (icSARS CoV and icSARS CoV delta ORF 6 mutant) virus. Cells were mock-infected or infected with virus (n = 3 each) at an MOI of 5 and harvested at 0, 12, 24, 36, 48, 60, and 72 h post-infection. The lipids were analyzed with positive ionization.</description>
+      <cross_references>
+        <ref dbkey="9606" dbname="TAXONOMY"/>
+      </cross_references>
+      <dates>
+        <date type="submission" value="14-07-16"/>
+      </dates>
+      <additional_fields>
+        <field name="omics_type">Metabolomics</field>
+        <field name="full_dataset_link">http://massive.ucsd.edu/ProteoSAFe/result.jsp?task=e0e85c45ccfc4709bbe7b2ec7b323782&amp;view=advanced_view</field>
+        <field name="repository">massive</field>
+        <field name="instrument_platform">LTQ Orbitrap Velos</field>
+        <field name="modification">Not available</field>
+        <field name="technology_type">Not available</field>
+        <field name="submitter">Michael Katze</field>
+        <field name="submitter">Ralph Baric</field>
+        <field name="submitter">Amy Sims</field>
+        <field name="submitter">Katrina Waters</field>
+        <field name="submitter">Dick Smith</field>
+        <field name="submitter"/>
+        <field name="submitter">Thomas Metz</field>
+      </additional_fields>
+    </entry>
+  </entries>
+</database>
