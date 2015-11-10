@@ -16,6 +16,7 @@ import javax.xml.transform.dom.DOMSource;
 import javax.xml.transform.stream.StreamResult;
 import java.io.File;
 import java.text.SimpleDateFormat;
+import java.util.Calendar;
 import java.util.Date;
 
 /**
@@ -142,8 +143,6 @@ public class WriterEBeyeXML {
                     }
                 }
             }
-
-
 
             Element dates = document.createElement("dates");
             entry.appendChild(dates);
@@ -313,6 +312,18 @@ public class WriterEBeyeXML {
                     }
                 }
 
+            }
+
+            //Add original link to the files
+            if(project.getDataFiles() != null && !project.getDataFiles().isEmpty()){
+                for(String file: project.getDataFiles()){
+                    if(file != null && !file.isEmpty()){
+                        Element dataset_link = document.createElement("field");
+                        dataset_link.setAttribute("name", "dataset_file");
+                        dataset_link.appendChild(document.createTextNode(file));
+                        additionalFields.appendChild(dataset_link);
+                    }
+                }
             }
 
             entries.appendChild(entry);

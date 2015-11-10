@@ -68,7 +68,16 @@ public class ReaderMassiveProject {
 
         proj.setSubmitter(transformSubmitter(dataset.getPrincipalInvestigator()));
 
+        proj.setDataFiles(transformDatsetFiles(dataset.getFtp()));
+
         return proj;
+    }
+
+    private static List<String> transformDatsetFiles(String ftp) {
+        List<String> datsetFTP = new ArrayList<>();
+        if(ftp != null && !ftp.isEmpty())
+            datsetFTP.add(ftp);
+        return datsetFTP;
     }
 
     private static List<CvParam> transformModifications(String modification) {

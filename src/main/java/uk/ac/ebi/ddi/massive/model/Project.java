@@ -44,6 +44,8 @@ public class Project {
 
     private List<CvParam> modifications;
 
+    private List<String> dataFiles;
+
     /**
      * Default constructor create a List of every list-based attribute
      */
@@ -190,5 +192,13 @@ public class Project {
 
     public void setModifications(List<CvParam> modifications) {
         this.modifications = modifications;
+    }
+
+    public List<String> getDataFiles() {
+        return dataFiles;
+    }
+
+    public void setDataFiles(List<String> dataFiles) {
+        this.dataFiles = dataFiles;
     }
 }
