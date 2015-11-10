@@ -106,6 +106,12 @@ public class ReaderMassiveProject {
 
     }
 
+    /**
+     * Get the omicsType from each description and metadata, The GNPS is a shortcut becuase we know that all of this
+     * datasets are metabolomics datasets
+     * @param dataset MAssive dataset
+     * @return List of OmicsDI Types
+     */
     private static List<String> transformToOmicsType(DatasetDetail dataset) {
         List<String> types = new ArrayList<>();
         types.add(Constants.PROTEOMICS_TYPE);

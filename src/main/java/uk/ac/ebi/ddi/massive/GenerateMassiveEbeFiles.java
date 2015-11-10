@@ -13,6 +13,7 @@ import uk.ac.ebi.ddi.massive.extws.massive.client.DatasetWsClient;
 import uk.ac.ebi.ddi.massive.extws.massive.client.ISODetasetsWsClient;
 import uk.ac.ebi.ddi.massive.extws.massive.config.MassiveWsConfigProd;
 import uk.ac.ebi.ddi.massive.extws.massive.filters.DatasetSummarySizeFilter;
+import uk.ac.ebi.ddi.massive.extws.massive.filters.DatasetSummaryTrancheFilter;
 import uk.ac.ebi.ddi.massive.extws.massive.filters.DatasetSummaryUserFilter;
 import uk.ac.ebi.ddi.massive.extws.massive.model.*;
 import uk.ac.ebi.ddi.massive.model.Project;
@@ -86,7 +87,8 @@ public class GenerateMassiveEbeFiles {
                             && new DatasetSummarySizeFilter(10).apply(dataset)
                             && new DatasetSummarySizeFilter(1).apply(dataset)
                             && !(new DatasetSummaryUserFilter("tranche_mbraga").apply(dataset))
-                            && (dataset.getTitle() != null && !dataset.getTitle().isEmpty())){
+                            && (dataset.getTitle() != null && !dataset.getTitle().isEmpty())
+                            && new DatasetSummaryTrancheFilter<>().apply(dataset)){
 
                         if(dataset.getCreated() != null)
                             datasetDetail.setCreated(dataset.getCreated());

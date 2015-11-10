@@ -6,6 +6,6 @@ package uk.ac.ebi.ddi.massive.extws.massive.filters;
  */
 public interface IPredicate<T> {
 
-    boolean apply(T type);
+    boolean apply(T object);
 
 }
