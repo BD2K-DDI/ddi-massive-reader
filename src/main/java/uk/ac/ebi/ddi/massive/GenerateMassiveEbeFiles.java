@@ -88,6 +88,9 @@ public class GenerateMassiveEbeFiles {
                             && !(new DatasetSummaryUserFilter("tranche_mbraga").apply(dataset))
                             && (dataset.getTitle() != null && !dataset.getTitle().isEmpty())){
 
+                        if(dataset.getCreated() != null)
+                            datasetDetail.setCreated(dataset.getCreated());
+
                         if(datasetDetail != null && datasetDetail.getSpecies() != null){
                             String[] species = datasetDetail.getSpecies().split(Constants.MASSIVE_SEPARATOR);
                             List<Specie> taxonomies = new ArrayList<Specie>();

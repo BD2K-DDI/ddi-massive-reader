@@ -112,7 +112,7 @@ public class ReaderMassiveProject {
         if(dataset != null && dataset.getKeywords() != null){
             if(dataset.getKeywords().toLowerCase().contains(Constants.METABOLOMICS_PATTERN) ||
                     dataset.getKeywords().toLowerCase().contains(Constants.METABOLITE_PATTERN) ||
-                    (dataset.getTitle() != null && dataset.getTitle().toLowerCase().contains("GNPS"))){
+                    (dataset.getTitle() != null && dataset.getTitle().toUpperCase().contains("GNPS"))){
                 types.add(Constants.METABOLOMICS_TYPE);
                 types.remove(Constants.PROTEOMICS_TYPE);
             }
@@ -141,6 +141,12 @@ public class ReaderMassiveProject {
         return null;
     }
 
+    /**
+     * Converts each Principal investigator into a submitter.
+     *
+     * @param principalInvestigator Principal investigator
+     * @return A List of submitters
+     */
     private static List<Submitter> transformSubmitter(String principalInvestigator) {
         List<Submitter> submitters = new ArrayList<>();
         if(principalInvestigator != null && !principalInvestigator.isEmpty()){
@@ -160,7 +166,7 @@ public class ReaderMassiveProject {
      */
     private static Date transformDate(String created) {
         if(created != null && !created.isEmpty()){
-            DateFormat df1 = new SimpleDateFormat("yyyy-MM-dd'T'HH:mm:ss.SSSZ");
+            DateFormat df1 = new SimpleDateFormat("MMM. d, yyyy, h:mm a");
             try {
                 return df1.parse(created);
             } catch (ParseException e) {
