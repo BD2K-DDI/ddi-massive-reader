@@ -13,6 +13,7 @@ import uk.ac.ebi.ddi.massive.extws.massive.client.DatasetWsClient;
 import uk.ac.ebi.ddi.massive.extws.massive.client.ISODetasetsWsClient;
 import uk.ac.ebi.ddi.massive.extws.massive.config.MassiveWsConfigProd;
 import uk.ac.ebi.ddi.massive.extws.massive.filters.DatasetSummarySizeFilter;
+import uk.ac.ebi.ddi.massive.extws.massive.filters.DatasetSummaryUserFilter;
 import uk.ac.ebi.ddi.massive.extws.massive.model.*;
 import uk.ac.ebi.ddi.massive.model.Project;
 
@@ -83,7 +84,9 @@ public class GenerateMassiveEbeFiles {
 
                     if(datasetDetail != null && datasetDetail.getId() != null
                             && new DatasetSummarySizeFilter(10).apply(dataset)
-                            && new DatasetSummarySizeFilter(1).apply(dataset)){
+                            && new DatasetSummarySizeFilter(1).apply(dataset)
+                            && !(new DatasetSummaryUserFilter("tranche_mbraga").apply(dataset))
+                            && (dataset.getTitle() != null && !dataset.getTitle().isEmpty())){
 
                         if(datasetDetail != null && datasetDetail.getSpecies() != null){
                             String[] species = datasetDetail.getSpecies().split(Constants.MASSIVE_SEPARATOR);

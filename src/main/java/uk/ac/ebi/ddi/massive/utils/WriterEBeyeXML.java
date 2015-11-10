@@ -304,24 +304,15 @@ public class WriterEBeyeXML {
 
             //Add submitter information
             if(project.getSubmitter() != null){
-                if(project.getSubmitter().getName() != null){
-                    Element submitter = document.createElement("field");
-                    submitter.setAttribute("name", "submitter");
-                    submitter.appendChild(document.createTextNode(project.getSubmitter().getName()));
-                    additionalFields.appendChild(submitter);
+                for(Submitter submitter: project.getSubmitter()){
+                    if(submitter.getFullName() != null){
+                        Element submitterElement = document.createElement("field");
+                        submitterElement.setAttribute("name", "submitter");
+                        submitterElement.appendChild(document.createTextNode(submitter.getFullName()));
+                        additionalFields.appendChild(submitterElement);
+                    }
                 }
-                if(project.getSubmitter().getEmail() != null){
-                    Element submitterMail = document.createElement("field");
-                    submitterMail.setAttribute("name", "submitter_mail");
-                    submitterMail.appendChild(document.createTextNode(project.getSubmitter().getEmail()));
-                    additionalFields.appendChild(submitterMail);
-                }
-                if(project.getSubmitter().getAffiliation() != null){
-                    Element submitterAffiliation = document.createElement("field");
-                    submitterAffiliation.setAttribute("name", "submitter_affiliation");
-                    submitterAffiliation.appendChild(document.createTextNode(project.getSubmitter().getAffiliation()));
-                    additionalFields.appendChild(submitterAffiliation);
-                }
+
             }
 
             entries.appendChild(entry);

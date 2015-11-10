@@ -30,7 +30,7 @@ public class Project {
 
     private List<String> projectTags;
 
-    private Submitter submitter;
+    private List<Submitter> submitter;
 
     private String datasetLink;
 
@@ -92,7 +92,7 @@ public class Project {
         return projectTags;
     }
 
-    public Submitter getSubmitter() {
+    public List<Submitter> getSubmitter() {
         return submitter;
     }
 
@@ -132,7 +132,7 @@ public class Project {
         this.experimentTypes = experimentTypes;
     }
 
-    public void setSubmitter(Submitter submitter) {
+    public void setSubmitter(List<Submitter> submitter) {
         this.submitter = submitter;
     }
 
