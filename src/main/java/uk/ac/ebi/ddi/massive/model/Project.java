@@ -107,11 +107,13 @@ public class Project {
     }
 
     public void setTitle(String title) {
+        if(title != null && !title.equalsIgnoreCase("null"))
         this.title = title;
     }
 
     public void setProjectDescription(String projectDescription) {
-        this.projectDescription = projectDescription;
+        if(projectDescription != null && !projectDescription.equalsIgnoreCase("null"))
+            this.projectDescription = projectDescription;
     }
 
     public void setSpecies(List<Specie> species) {

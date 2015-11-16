@@ -99,7 +99,12 @@ public class GenerateMassiveEbeFiles {
                             if(species.length > 1){
                                 for(String specie: species){
                                     specie = new String(specie.getBytes(), "UTF-8");
-                                    NCBITaxResult texId = taxonomyWsClient.getNCBITax(specie);
+                                    NCBITaxResult texId = null;
+                                    try{
+                                        texId = taxonomyWsClient.getNCBITax(specie);
+                                    }catch(Exception e){
+                                        logger.info("Errors with the webservices on NCBI: " + e.getMessage());
+                                    }
                                     if(texId != null && texId.getNCBITaxonomy() != null && texId.getNCBITaxonomy().length > 0 && texId.getNCBITaxonomy()[0] != null)
                                         taxonomies.add(new Specie(specie, texId.getNCBITaxonomy()[0]));
                                     else
