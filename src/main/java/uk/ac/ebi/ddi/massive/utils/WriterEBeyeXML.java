@@ -149,7 +149,7 @@ public class WriterEBeyeXML {
 
             if(project.getSubmissionDate() != null){
                 Element dateSubmitted = document.createElement("date");
-                dateSubmitted.setAttribute("value", new SimpleDateFormat("yy-MM-dd").format(project.getSubmissionDate()));
+                dateSubmitted.setAttribute("value", new SimpleDateFormat("yyyy-MM-dd").format(project.getSubmissionDate()));
                 dateSubmitted.setAttribute("type", "submission");
                 dates.appendChild(dateSubmitted);
             }

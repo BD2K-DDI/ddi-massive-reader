@@ -26,6 +26,7 @@ import uk.ac.ebi.ddi.massive.utils.WriterEBeyeXML;
 
 import java.io.File;
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 
 
@@ -39,12 +40,14 @@ public class GenerateMassiveEbeFiles {
 
     private static final Logger logger = LoggerFactory.getLogger(GenerateMassiveEbeFiles.class);
 
+    private static List<String> databases = Arrays.asList("MassIVE", "GNPS");
+
   /**
-     * This program take an output folder as a parameter an create different EBE eyes files for
-     * all the project in ProteomeXchange. It loop all the project in MetabolomeWorkbench and print them to the give output
-     *
-     * @param args
-     */
+   * This program generate the massive files in two different type of files MASSIVE and GNPS Files. The MASSIVE
+   * files correspond to proteomics datasets and the GNPS correspond to metabolomics datasets.
+   *
+   * @param args
+   */
     public static void main(String[] args) {
 
         String outputFolder = null;
@@ -111,7 +114,14 @@ public class GenerateMassiveEbeFiles {
                                         taxonomies.add(new Specie(specie, null));
                                 }
                             }else{
-                                NCBITaxResult texId = taxonomyWsClient.getNCBITax(datasetDetail.getSpecies());
+                                NCBITaxResult texId = null;
+
+                                try{
+                                    texId = taxonomyWsClient.getNCBITax(datasetDetail.getSpecies());
+                                }catch(Exception e){
+                                    logger.info("Errors with the webservices on NCBI: " + e.getMessage());
+                                }
+
                                 if(texId != null && texId.getNCBITaxonomy() != null && texId.getNCBITaxonomy().length > 0 && texId.getNCBITaxonomy()[0] != null)
                                     taxonomies.add(new Specie(datasetDetail.getSpecies(), texId.getNCBITaxonomy()[0]));
                                 else

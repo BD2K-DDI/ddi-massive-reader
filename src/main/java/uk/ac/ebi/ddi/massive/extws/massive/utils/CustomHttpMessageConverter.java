@@ -18,6 +18,7 @@ public class CustomHttpMessageConverter extends MappingJackson2HttpMessageConver
     public CustomHttpMessageConverter() {
         List<MediaType> types = Arrays.asList(
                 new MediaType("text", "html", DEFAULT_CHARSET),
+                new MediaType("text", "plain", DEFAULT_CHARSET),
                 new MediaType("application", "json", DEFAULT_CHARSET),
                 new MediaType("application", "*+json", DEFAULT_CHARSET),
                 new MediaType("application", "octet-stream", DEFAULT_CHARSET),
