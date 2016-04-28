@@ -21,7 +21,9 @@ public class ReaderMassiveProject {
 
     private static final Logger logger = LoggerFactory.getLogger(ReaderMassiveProject.class);
 
-    private static final String MASSIVE = "massive";
+    private static final String MASSIVE = "MassIVE";
+
+    private static final String GNPS    = "GNPS";
 
     private static final String MASSIVE_LINK = "http://massive.ucsd.edu/ProteoSAFe/result.jsp?task=";
 
@@ -36,8 +38,6 @@ public class ReaderMassiveProject {
 
         proj.setAccession(dataset.getId());
         
-        proj.setRepositoryName(MASSIVE);
-
         proj.setTitle(dataset.getTitle());
 
         proj.setProjectDescription(dataset.getDescription());
@@ -58,6 +58,8 @@ public class ReaderMassiveProject {
 
         proj.setOmicsType(transformToOmicsType(dataset));
 
+        proj.setRepositoryName(transformRepositoryTypes(proj.getOmicsType()));
+
         proj.setHash(dataset.getTask());
 
         proj.setDatasetLink(MASSIVE_LINK+dataset.getTask()+"&view=advanced_view");
@@ -71,6 +73,22 @@ public class ReaderMassiveProject {
         proj.setDataFiles(transformDatsetFiles(dataset.getFtp()));
 
         return proj;
+    }
+
+    /**
+     * This function select the name of the repository depending of the omics type provided
+     * if the dataset contains metabolomics data, the database is GNPS, if not the database is MASSIVE (Default)
+     *
+     * @param omicsType
+     * @return
+     */
+    private static String transformRepositoryTypes(List<String> omicsType) {
+        if(omicsType != null && !omicsType.isEmpty()){
+            for(String omics: omicsType)
+                if(omics.equalsIgnoreCase(Constants.METABOLOMICS_TYPE))
+                    return GNPS;
+        }
+        return MASSIVE;
     }
 
     private static List<String> transformDatsetFiles(String ftp) {
@@ -116,14 +134,15 @@ public class ReaderMassiveProject {
     }
 
     /**
-     * Get the omicsType from each description and metadata, The GNPS is a shortcut becuase we know that all of this
-     * datasets are metabolomics datasets
+     * Get the omicsType from each description and metadata, The GNPS is a shortcut because we know that all of this
+     * datasets are metabolomics datasets. In this function we also set the Omics Respository
      * @param dataset MAssive dataset
      * @return List of OmicsDI Types
      */
     private static List<String> transformToOmicsType(DatasetDetail dataset) {
         List<String> types = new ArrayList<>();
         types.add(Constants.PROTEOMICS_TYPE);
+
         if(dataset != null && dataset.getKeywords() != null){
             if(dataset.getKeywords().toLowerCase().contains(Constants.METABOLOMICS_PATTERN) ||
                     dataset.getKeywords().toLowerCase().contains(Constants.METABOLITE_PATTERN) ||
