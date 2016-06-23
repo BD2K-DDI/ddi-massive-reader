@@ -3,9 +3,10 @@ package uk.ac.ebi.ddi.massive.extws.massive.client;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
+import org.springframework.http.client.ClientHttpRequestFactory;
+import org.springframework.http.client.HttpComponentsClientHttpRequestFactory;
 import uk.ac.ebi.ddi.massive.extws.massive.config.AbstractMassiveWsConfig;
 import uk.ac.ebi.ddi.massive.extws.massive.model.*;
-import uk.ac.ebi.ddi.massive.extws.massive.utils.CharsetPostProcessor;
 import uk.ac.ebi.ddi.massive.extws.massive.utils.CustomHttpMessageConverter;
 
 
@@ -24,8 +25,8 @@ public class DatasetWsClient extends MassiveClient {
     public DatasetWsClient(AbstractMassiveWsConfig config) {
         super(config);
         this.restTemplate.getMessageConverters().add(new CustomHttpMessageConverter());
-
     }
+
 
     /**
      * This function provides a way to retrieve the information of a dataset from Massive

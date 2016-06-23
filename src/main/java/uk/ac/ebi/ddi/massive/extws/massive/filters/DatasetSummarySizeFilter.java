@@ -1,11 +1,6 @@
 package uk.ac.ebi.ddi.massive.extws.massive.filters;
 
 import uk.ac.ebi.ddi.massive.extws.massive.model.DataSetSummary;
-import uk.ac.ebi.ddi.massive.extws.massive.model.DatasetDetail;
-
-import java.util.ArrayList;
-import java.util.Collection;
-import java.util.regex.Pattern;
 
 /**
  * @author Yasset Perez-Riverol (ypriverol@gmail.com)

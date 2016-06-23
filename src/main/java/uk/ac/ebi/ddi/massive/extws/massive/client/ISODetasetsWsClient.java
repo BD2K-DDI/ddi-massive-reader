@@ -1,7 +1,6 @@
 package uk.ac.ebi.ddi.massive.extws.massive.client;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
-import org.springframework.web.client.RestTemplate;
 import uk.ac.ebi.ddi.massive.extws.massive.config.AbstractMassiveWsConfig;
 import uk.ac.ebi.ddi.massive.extws.massive.model.DatasetList;
 import uk.ac.ebi.ddi.massive.extws.massive.utils.HttpDownload;

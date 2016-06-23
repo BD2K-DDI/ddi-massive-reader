@@ -13,11 +13,8 @@ public class DatasetSummaryTrancheFilter<T> implements IPredicate {
     public boolean apply(Object object) {
         DataSetSummary dataSetSummary = (DataSetSummary) object;
         if(dataSetSummary.getTask().toUpperCase().contains("TRANCHE")){
-            if((dataSetSummary.getTitle() != null && !dataSetSummary.getTitle().toUpperCase().contains("TITLE HIDDEN") &&
-                    dataSetSummary.getInstrument() != null && !dataSetSummary.getInstrument().isEmpty()))
-                return true;
-            else
-                return false;
+            return (dataSetSummary.getTitle() != null && !dataSetSummary.getTitle().toUpperCase().contains("TITLE HIDDEN") &&
+                    dataSetSummary.getInstrument() != null && !dataSetSummary.getInstrument().isEmpty());
         }
         return true;
     }

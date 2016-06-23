@@ -7,8 +7,5 @@
     <bean id="massiveWsConfig" class="uk.ac.ebi.ddi.massive.extws.massive.config.MassiveWsConfigProd">
     </bean>
 
-    <bean id="taxWsConfig" class="uk.ac.ebi.ddi.massive.extws.entrez.config.TaxWsConfigProd">
-    </bean>
-
 </beans>
 

@@ -16,7 +16,6 @@ import javax.xml.transform.dom.DOMSource;
 import javax.xml.transform.stream.StreamResult;
 import java.io.File;
 import java.text.SimpleDateFormat;
-import java.util.Calendar;
 import java.util.Date;
 
 /**
@@ -32,8 +31,6 @@ public class WriterEBeyeXML {
     private static final Logger logger = LoggerFactory.getLogger(WriterEBeyeXML.class);
 
     private static final String NOT_AVAILABLE = "Not available";
-
-    private static final String DEFAULT_EXPERIMENT_TYPE = "Mass Spectrometry";
 
     private static final String MASSIVE_DESCRIPTION = "The Massive Database contains information about all the proteomics/metabolomics datasets in massive";
 
@@ -122,26 +119,22 @@ public class WriterEBeyeXML {
             entry.appendChild(crossReferences);
 
             if (project.getSpecies() != null && !project.getSpecies().isEmpty()) {
-                for(Specie specie: project.getSpecies()){
-                    if(specie.getTaxId() != null && !specie.getTaxId().isEmpty()){
-                        Element refSpecies = document.createElement("ref");
-                        refSpecies.setAttribute("dbkey", specie.getTaxId());
-                        refSpecies.setAttribute("dbname", "TAXONOMY");
-                        crossReferences.appendChild(refSpecies);
-                    }
-                }
+                project.getSpecies().stream().filter(specie -> specie.getTaxId() != null && !specie.getTaxId().isEmpty()).forEach(specie -> {
+                    Element refSpecies = document.createElement("ref");
+                    refSpecies.setAttribute("dbkey", specie.getTaxId());
+                    refSpecies.setAttribute("dbname", "TAXONOMY");
+                    crossReferences.appendChild(refSpecies);
+                });
 
             }
 
             if (project.getReferences() != null && !project.getReferences().isEmpty()) {
-                for(Reference reference: project.getReferences()){
-                    if(reference.getPubmedId() != null){
-                        Element citations = document.createElement("ref");
-                        citations.setAttribute("dbkey", reference.getPubmedId().toString());
-                        citations.setAttribute("dbname", "pubmed");
-                        crossReferences.appendChild(citations);
-                    }
-                }
+                project.getReferences().stream().filter(reference -> reference.getPubmedId() != null).forEach(reference -> {
+                    Element citations = document.createElement("ref");
+                    citations.setAttribute("dbkey", reference.getPubmedId().toString());
+                    citations.setAttribute("dbname", "pubmed");
+                    crossReferences.appendChild(citations);
+                });
             }
 
             Element dates = document.createElement("dates");
@@ -213,26 +206,22 @@ public class WriterEBeyeXML {
 
             //Add Study factors
             if (project.getFactors() != null && project.getFactors().size() > 0) {
-                for(String factor: project.getFactors()){
-                    if(factor != null){
-                        Element factorField = document.createElement("field");
-                        factorField.setAttribute("name", "study_factor");
-                        factorField.appendChild(document.createTextNode(factor));
-                        additionalFields.appendChild(factorField);
-                    }
-                }
+                project.getFactors().stream().filter(factor -> factor != null).forEach(factor -> {
+                    Element factorField = document.createElement("field");
+                    factorField.setAttribute("name", "study_factor");
+                    factorField.appendChild(document.createTextNode(factor));
+                    additionalFields.appendChild(factorField);
+                });
             }
 
             //We add all the species to as free text in case the information is not present
             if (project.getSpecies()!=null && !project.getSpecies().isEmpty()) {
-                for(Specie specie: project.getSpecies()){
-                    if(specie.getName() != null && !specie.getName().isEmpty() && specie.getTaxId() == null){
-                        Element refSpecies = document.createElement("field");
-                        refSpecies.setAttribute("name", "species");
-                        refSpecies.appendChild(document.createTextNode(specie.getName()));
-                        additionalFields.appendChild(refSpecies);
-                    }
-                }
+                project.getSpecies().stream().filter(specie -> specie.getName() != null && !specie.getName().isEmpty() && specie.getTaxId() == null).forEach(specie -> {
+                    Element refSpecies = document.createElement("field");
+                    refSpecies.setAttribute("name", "species");
+                    refSpecies.appendChild(document.createTextNode(specie.getName()));
+                    additionalFields.appendChild(refSpecies);
+                });
 
             } else {
                 Element refSpecies = document.createElement("field");
@@ -255,24 +244,6 @@ public class WriterEBeyeXML {
                 modification.appendChild(document.createTextNode(NOT_AVAILABLE));
                 additionalFields.appendChild(modification);
             }
-
-//
-//            if (project.getSpecies()!=null && !project.getSpecies().isEmpty()) {
-//                for(Specie specie: project.getSpecies()){
-//                    if(specie.getName() != null && !specie.getName().isEmpty() && specie.getTaxId() == null){
-//                        Element refSpecies = document.createElement("field");
-//                        refSpecies.setAttribute("name", "species");
-//                        refSpecies.appendChild(document.createTextNode(specie.getName()));
-//                        additionalFields.appendChild(refSpecies);
-//                    }
-//                }
-//
-//            } else {
-//                Element refSpecies = document.createElement("field");
-//                refSpecies.setAttribute("name", "species");
-//                refSpecies.appendChild(document.createTextNode(NOT_AVAILABLE));
-//                additionalFields.appendChild(refSpecies);
-//            }
 
 
              //Add information about experiment type
@@ -303,27 +274,23 @@ public class WriterEBeyeXML {
 
             //Add submitter information
             if(project.getSubmitter() != null){
-                for(Submitter submitter: project.getSubmitter()){
-                    if(submitter.getFullName() != null){
-                        Element submitterElement = document.createElement("field");
-                        submitterElement.setAttribute("name", "submitter");
-                        submitterElement.appendChild(document.createTextNode(submitter.getFullName()));
-                        additionalFields.appendChild(submitterElement);
-                    }
-                }
+                project.getSubmitter().stream().filter(submitter -> submitter.getFullName() != null).forEach(submitter -> {
+                    Element submitterElement = document.createElement("field");
+                    submitterElement.setAttribute("name", "submitter");
+                    submitterElement.appendChild(document.createTextNode(submitter.getFullName()));
+                    additionalFields.appendChild(submitterElement);
+                });
 
             }
 
             //Add original link to the files
             if(project.getDataFiles() != null && !project.getDataFiles().isEmpty()){
-                for(String file: project.getDataFiles()){
-                    if(file != null && !file.isEmpty()){
-                        Element dataset_link = document.createElement("field");
-                        dataset_link.setAttribute("name", "dataset_file");
-                        dataset_link.appendChild(document.createTextNode(file));
-                        additionalFields.appendChild(dataset_link);
-                    }
-                }
+                project.getDataFiles().stream().filter(file -> file != null && !file.isEmpty()).forEach(file -> {
+                    Element dataset_link = document.createElement("field");
+                    dataset_link.setAttribute("name", "dataset_file");
+                    dataset_link.appendChild(document.createTextNode(file));
+                    additionalFields.appendChild(dataset_link);
+                });
             }
 
             entries.appendChild(entry);
@@ -337,7 +304,7 @@ public class WriterEBeyeXML {
             File outputXML = new File(outputDirectory, project.getRepositoryName().trim().toUpperCase() + "_EBEYE_" + project.getAccession() + ".xml");
             StreamResult result = new StreamResult(outputXML.toURI().getPath());
             transformer.transform(source, result);
-            logger.info("Finished generating EB-eye XML file for: " + outputDirectory + File.separator + "MW_EBEYE_" + project.getAccession() + ".xml" );
+            logger.info("Finished generating EB-eye XML file for: " + outputDirectory + File.separator + "MASSIVE_EBEYE_" + project.getAccession() + ".xml" );
         }
 
     }

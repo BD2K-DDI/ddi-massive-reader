@@ -5,9 +5,6 @@ import org.slf4j.LoggerFactory;
 
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
-import uk.ac.ebi.ddi.massive.extws.entrez.client.taxonomy.TaxonomyWsClient;
-import uk.ac.ebi.ddi.massive.extws.entrez.config.TaxWsConfigProd;
-import uk.ac.ebi.ddi.massive.extws.entrez.ncbiresult.NCBITaxResult;
 import uk.ac.ebi.ddi.massive.extws.massive.client.DatasetWsClient;
 
 import uk.ac.ebi.ddi.massive.extws.massive.client.ISODetasetsWsClient;
@@ -60,81 +57,68 @@ public class GenerateMassiveEbeFiles {
 
         ApplicationContext ctx = new ClassPathXmlApplicationContext("spring/app-context.xml");
         MassiveWsConfigProd mwWsConfigProd = (MassiveWsConfigProd) ctx.getBean("mwWsConfig");
-        TaxWsConfigProd taxWsConfigProd = (TaxWsConfigProd) ctx.getBean("taxWsConfig");
 
         try {
-            GenerateMassiveEbeFiles.generateMWXMLfiles(mwWsConfigProd, taxWsConfigProd, outputFolder);
+            GenerateMassiveEbeFiles.generateMWXMLfiles(mwWsConfigProd, outputFolder);
         } catch (Exception e) {
             e.printStackTrace();
         }
     }
 
 
-    public static void generateMWXMLfiles(MassiveWsConfigProd configProd, TaxWsConfigProd taxonomyWsConfig, String outputFolder) throws Exception {
+    public static void generateMWXMLfiles(MassiveWsConfigProd configProd, String outputFolder) throws Exception {
 
         DatasetWsClient datasetWsClient = new DatasetWsClient(configProd);
 
         ISODetasetsWsClient isoClient = new ISODetasetsWsClient(configProd);
 
-        TaxonomyWsClient taxonomyWsClient = new TaxonomyWsClient(taxonomyWsConfig);
-
         DatasetList datasets = isoClient.getAllDatasets();
 
         if (datasets != null && datasets.datasets != null) {
 
-            for (DataSetSummary dataset : datasets.datasets) {
+            List<DataSetSummary> dataSetSummaries = new ArrayList<>(Arrays.asList(datasets.datasets));
+
+            logger.debug("number of datasets: " + dataSetSummaries.size());
+
+            dataSetSummaries.parallelStream().forEach( dataset -> {
                 if(dataset.getTask() != null){
-                    DatasetDetail datasetDetail = datasetWsClient.getDataset(dataset.getTask());
+                    try{
+                        DatasetDetail datasetDetail = datasetWsClient.getDataset(dataset.getTask());
 
-                    if(datasetDetail != null && datasetDetail.getId() != null
-                            && new DatasetSummarySizeFilter(10).apply(dataset)
-                            && new DatasetSummarySizeFilter(1).apply(dataset)
-                            && !(new DatasetSummaryUserFilter("tranche_mbraga").apply(dataset))
-                            && (dataset.getTitle() != null && !dataset.getTitle().isEmpty())
-                            && new DatasetSummaryTrancheFilter<>().apply(dataset)){
+                        if(datasetDetail != null && datasetDetail.getId() != null
+                                && new DatasetSummarySizeFilter(10).apply(dataset)
+                                && new DatasetSummarySizeFilter(1).apply(dataset)
+                                && !(new DatasetSummaryUserFilter("tranche_mbraga").apply(dataset))
+                                && (dataset.getTitle() != null && !dataset.getTitle().isEmpty())
+                                && new DatasetSummaryTrancheFilter<>().apply(dataset)){
 
-                        if(dataset.getCreated() != null)
-                            datasetDetail.setCreated(dataset.getCreated());
+                            if(dataset.getCreated() != null)
+                                datasetDetail.setCreated(dataset.getCreated());
 
-                        if(datasetDetail != null && datasetDetail.getSpecies() != null){
-                            String[] species = datasetDetail.getSpecies().split(Constants.MASSIVE_SEPARATOR);
-                            List<Specie> taxonomies = new ArrayList<Specie>();
-                            if(species.length > 1){
-                                for(String specie: species){
-                                    specie = new String(specie.getBytes(), "UTF-8");
-                                    NCBITaxResult texId = null;
-                                    try{
-                                        texId = taxonomyWsClient.getNCBITax(specie);
-                                    }catch(Exception e){
-                                        logger.info("Errors with the webservices on NCBI: " + e.getMessage());
-                                    }
-                                    if(texId != null && texId.getNCBITaxonomy() != null && texId.getNCBITaxonomy().length > 0 && texId.getNCBITaxonomy()[0] != null)
-                                        taxonomies.add(new Specie(specie, texId.getNCBITaxonomy()[0]));
-                                    else
+                            if(datasetDetail.getSpecies() != null){
+                                String[] species = datasetDetail.getSpecies().split(Constants.MASSIVE_SEPARATOR);
+                                List<Specie> taxonomies = new ArrayList<>();
+                                if(species.length > 1){
+                                    for(String specie: species){
+                                        specie = new String(specie.getBytes(), "UTF-8");
                                         taxonomies.add(new Specie(specie, null));
-                                }
-                            }else{
-                                NCBITaxResult texId = null;
-
-                                try{
-                                    texId = taxonomyWsClient.getNCBITax(datasetDetail.getSpecies());
-                                }catch(Exception e){
-                                    logger.info("Errors with the webservices on NCBI: " + e.getMessage());
-                                }
-
-                                if(texId != null && texId.getNCBITaxonomy() != null && texId.getNCBITaxonomy().length > 0 && texId.getNCBITaxonomy()[0] != null)
-                                    taxonomies.add(new Specie(datasetDetail.getSpecies(), texId.getNCBITaxonomy()[0]));
-                                else
+                                    }
+                                }else{
                                     taxonomies.add(new Specie(datasetDetail.getSpecies(), null));
-                            }
+                                }
 
-                            Project proj = ReaderMassiveProject.readProject(datasetDetail, taxonomies);
-                            WriterEBeyeXML writer = new WriterEBeyeXML(proj, new File(outputFolder));
-                            writer.generate();
+                                Project proj = ReaderMassiveProject.readProject(datasetDetail, taxonomies);
+                                WriterEBeyeXML writer = new WriterEBeyeXML(proj, new File(outputFolder));
+                                writer.generate();
+                            }
                         }
+                    }catch (Exception e){
+                        logger.debug(e.getMessage());
                     }
                 }
-            }
+                logger.info(dataset.getHash());
+            });
+
         }
     }
 }

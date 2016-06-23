@@ -1,5 +1,7 @@
 package uk.ac.ebi.ddi.massive.extws.massive.client;
 
+import org.springframework.http.client.ClientHttpRequestFactory;
+import org.springframework.http.client.HttpComponentsClientHttpRequestFactory;
 import org.springframework.web.client.RestTemplate;
 import uk.ac.ebi.ddi.massive.extws.massive.config.AbstractMassiveWsConfig;
 
@@ -20,7 +22,14 @@ public class MassiveClient {
      */
     public MassiveClient(AbstractMassiveWsConfig config){
         this.config = config;
-        this.restTemplate = new RestTemplate();
+        this.restTemplate = new RestTemplate(clientHttpRequestFactory());
+    }
+
+    private ClientHttpRequestFactory clientHttpRequestFactory() {
+        HttpComponentsClientHttpRequestFactory factory = new HttpComponentsClientHttpRequestFactory();
+        factory.setReadTimeout(2000);
+        factory.setConnectTimeout(2000);
+        return factory;
     }
 
     public RestTemplate getRestTemplate() {
