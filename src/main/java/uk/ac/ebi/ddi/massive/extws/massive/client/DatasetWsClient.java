@@ -3,8 +3,6 @@ package uk.ac.ebi.ddi.massive.extws.massive.client;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import org.springframework.http.client.ClientHttpRequestFactory;
-import org.springframework.http.client.HttpComponentsClientHttpRequestFactory;
 import uk.ac.ebi.ddi.massive.extws.massive.config.AbstractMassiveWsConfig;
 import uk.ac.ebi.ddi.massive.extws.massive.model.*;
 import uk.ac.ebi.ddi.massive.extws.massive.utils.CustomHttpMessageConverter;
