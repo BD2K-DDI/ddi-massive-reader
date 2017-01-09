@@ -12,6 +12,9 @@ import uk.ac.ebi.ddi.massive.extws.massive.model.DataSetSummary;
 import uk.ac.ebi.ddi.massive.extws.massive.model.DatasetDetail;
 import uk.ac.ebi.ddi.massive.extws.massive.model.DatasetList;
 
+import java.util.Arrays;
+import java.util.Random;
+
 /**
  * @author Yasset Perez-Riverol (ypriverol@gmail.com)
  * @date 09/11/15
@@ -44,7 +47,8 @@ public class WsClientCompleteTest {
         DatasetList list = datasetISOWsClient.getAllDatasets();
 
         if(list != null && list.datasets != null && list.datasets.length > 0){
-            for(DataSetSummary dataSetSummary: list.datasets){
+            DataSetSummary[] datasets = Arrays.copyOfRange(list.datasets, 0, (new Random().nextInt(50)));
+            for(DataSetSummary dataSetSummary: datasets){
                 System.out.println("Task: " + dataSetSummary.getTask());
                 DatasetDetail dataset = datasetWsClient.getDataset(dataSetSummary.getTask());
                 System.out.println(dataset.toString());

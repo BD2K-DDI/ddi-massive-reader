@@ -15,7 +15,7 @@ public class AbstractDataset {
     String title;
 
     @JsonProperty("pi")
-    String principalInvestigator;
+    PrincipalInvestigator[] principalInvestigator;
 
     @JsonProperty("instrument")
     String instrument;
@@ -49,11 +49,11 @@ public class AbstractDataset {
         this.title = title;
     }
 
-    public String getPrincipalInvestigator() {
+    public PrincipalInvestigator[] getPrincipalInvestigator() {
         return principalInvestigator;
     }
 
-    public void setPrincipalInvestigator(String principalInvestigator) {
+    public void setPrincipalInvestigator(PrincipalInvestigator[] principalInvestigator) {
         this.principalInvestigator = principalInvestigator;
     }
 

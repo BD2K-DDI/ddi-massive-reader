@@ -3,6 +3,7 @@ package uk.ac.ebi.ddi.massive.utils;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import uk.ac.ebi.ddi.massive.extws.massive.model.DatasetDetail;
+import uk.ac.ebi.ddi.massive.extws.massive.model.PrincipalInvestigator;
 import uk.ac.ebi.ddi.massive.extws.massive.model.Publication;
 import uk.ac.ebi.ddi.massive.model.*;
 
@@ -181,14 +182,16 @@ public class ReaderMassiveProject {
      * @param principalInvestigator Principal investigator
      * @return A List of submitters
      */
-    private static List<Submitter> transformSubmitter(String principalInvestigator) {
+    private static List<Submitter> transformSubmitter(PrincipalInvestigator[] principalInvestigator) {
         List<Submitter> submitters = new ArrayList<>();
-        if(principalInvestigator != null && !principalInvestigator.isEmpty()){
-            principalInvestigator = principalInvestigator.replace("PhD", ",").replace("and", ",");
-            String[] submitterArr = principalInvestigator.split(",");
-            for(String submitterString: submitterArr)
-            if(!submitterString.isEmpty())
-                submitters.add(new Submitter(submitterString.trim()));
+        if(principalInvestigator != null && principalInvestigator.length > 0){
+            for(int i = 0; i < principalInvestigator.length; i++){
+                String principalInvestigatorName = principalInvestigator[i].getName().replace("PhD", ",").replace("and", ",");
+                String[] submitterArr = principalInvestigatorName.split(",");
+                for(String submitterString: submitterArr)
+                    if(!submitterString.isEmpty())
+                        submitters.add(new Submitter(submitterString.trim(), principalInvestigator[i].getEmail(), principalInvestigator[i].getInstitution(), principalInvestigator[i].getCountry()));
+            }
         }
         return submitters;
     }
